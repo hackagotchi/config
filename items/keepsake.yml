@@ -53,3 +53,74 @@
         extra_time_ticks: 2070
     unlocks_land: null
     plant_effects: []
+
+- name: Land Deed
+  description: A thin piece of paper with enormous power. Entitles the holder to a new plot of land, if they have the experience to handle it, of course.
+  item_application_effect: null
+  unlocks_land:
+    requires_exp: true
+  plant_effects: []
+
+- name: Land Grant
+  description: This aged parchment is covered with ancient runes that allow anyone to summon more land plots, regardless of their experience.
+  item_application_effect: null
+  unlocks_land:
+    requires_exp: false
+  plant_effects: []
+
+- name: Land Deed Fragment
+  description: A wrinkled fragment of paper which has a surprisingly earthy smell. It yearns to be reunited with 998 fragments similar to itself.
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects: []
+
+- name: Cytrus Staff
+  description: >-
+    Energy overflows from this staff, with orange lightning arcing from Cyl to Cyl, sending them all into overdrive. 
+    These high energy Cyl can now produce yields 30% faster!
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects:
+    keep_plants:
+      - Coffea Cyl
+    advancement:
+      title: Crystal Shock
+      description: This Cytrus Staff''s magical might supercharges Cyl with powerful, precise bolts of orange electricity, increasing the yield speed of Coffea Cyl by 30%!
+      achiever_title: Cyl Sorceror
+      art: coffea_cyl_baby
+      kind:
+        YieldSpeed: 1.30
+  
+- name: Jungleboard
+  description: >-
+    Click clack. Clickity clack click. Upon hearing this sound, any Hacker Vibes Vines will become lost in the forest of their minds, 
+    releasing more vIbes with a 30% boost to yield speed.
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects:
+    keep_plants:
+      - Hacker Vibes Vine
+    advancement:
+      title: Brainforest Hacking
+      description: The light jungle sounds of this Jungleboard send Hacker Vibes Vines into a deep meditative state where they produce yields 30% more often!
+      achiever_title: Keyboard Hero
+      art: hacker_vibes_vine_baby
+      kind:
+        YieldSpeed: 1.30
+
+- name: Kingpin
+  description: >-
+    The majesty and might of this Rolling Pin has grown beyond mere bread, and the terror it causes within Bracti now gives them a 30% boost to yield speed.
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects:
+    keep_plants:
+      - Bractus
+    advancement:
+      title: Pin Pinnacle
+      description: The top tool of its kitchen college, the Kingpin orders Bracti to supply both bread and circus, still somehow increasing the frequency of Bractus yields by 30%.
+      achiever_title: Bractus Baron
+      art: bractus_loaf
+      kind:
+        YieldSpeed: 1.30
+
