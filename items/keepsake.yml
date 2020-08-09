@@ -88,6 +88,7 @@
       description: This Cytrus Staff''s magical might supercharges Cyl with powerful, precise bolts of orange electricity, increasing the yield speed of Coffea Cyl by 30%!
       achiever_title: Cyl Sorceror
       art: coffea_cyl_baby
+      xp: 0
       kind:
         YieldSpeed: 1.30
   
@@ -105,6 +106,7 @@
       description: The light jungle sounds of this Jungleboard send Hacker Vibes Vines into a deep meditative state where they produce yields 30% more often!
       achiever_title: Keyboard Hero
       art: hacker_vibes_vine_baby
+      xp: 0
       kind:
         YieldSpeed: 1.30
 
@@ -121,6 +123,7 @@
       description: The top tool of its kitchen college, the Kingpin orders Bracti to supply both bread and circus, still somehow increasing the frequency of Bractus yields by 30%.
       achiever_title: Bractus Baron
       art: bractus_loaf
+      xp: 0
       kind:
         YieldSpeed: 1.30
 
