@@ -1,0 +1,36 @@
+---
+gotchi:
+  - name: Art Gala Egg
+    description: A special egg for the Fine Arts Gala!
+    base_happiness: 0
+    plant_effects: []
+    hatch_table: []
+    welcome_gift: false
+
+  - name: Bob Ross Egg
+    description: A magical egg imbued with the talents of Bob Ross himself.
+    base_happiness: 0
+    plant_effects: []
+    hatch_table: []
+    welcome_gift: false
+  
+  - name: Art in the Dark Egg
+    description: ""
+    base_happiness: 0
+    plant_effects: []
+    hatch_table: []
+    welcome_gift: false
+  
+  - name: Orpheus Drawing Egg
+    description: ""
+    base_happiness: 0
+    plant_effects: []
+    hatch_table: []
+    welcome_gift: false
+  
+keepsake:
+  - name: Paintbrush
+    description: A plastic participation trophy for the Fine Arts Gala! It''s not recyclable.
+    item_application_effect: null
+    unlocks_land: null
+    plant_effects: []

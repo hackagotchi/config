@@ -1,0 +1,41 @@
+advancement_title: Hackstead
+  description: A freshly hacked together Hackstead is what you have here! I see exciting new adventures in the future of this - cuts off - Hackstead!
+  hackstead_title: Hackstead
+  xp: 0
+  art:
+  kind: Land
+  land_pieces: 0
+advancement_title: Housewarming
+  description: Your parents, ever thankful that you finally have moved out of their home, gift you with a credit card that allows you to redeem one more Land Deed!
+  hackstead_title: Newstead
+  xp: 1250
+  art:
+  kind: Land
+  land_pieces: 1
+advancement_title: This'll Do for Now
+  description: In a feat of unparalleled engineering prowess, you can duct tape up a new plot, as long as you have a Land Deed, that is.
+  hackstead_title: Bodgestead
+  xp: 4900
+  art:
+  kind: Land
+  land_pieces: 1
+advancement_title: Sew What Now?
+  description: Only true Hackers can sew yet another piece of land onto their Hackstead! You can now do that if you redeem one more Land Deed!
+  hackstead_title: Threadstead
+  xp: 14400
+  art:
+  kind: Land
+  land_pieces: 1
+advancement_title: North Korea
+  description: Now that you can redeem one more piece of land, you'll soon be approaching the size of everyone's favorite democracy!
+  hackstead_title: Dictatorstead
+  xp: 56000
+  art:
+  kind: Land
+  land_pieces: 1
+advancement_title: Stay a While...
+  description: Listen closely, and you'll hear two more pieces of land being summoned into your contract via demonic forces! More Land Deed redemption is in your future!
+  hackstead_title: Cainstead
+  xp: 210000
+
+

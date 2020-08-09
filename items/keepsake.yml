@@ -1,0 +1,55 @@
+---
+- name: Warp Powder
+  description: Sparkling, glittery, glowing blue powder that emits high-pitched squeaking noises, especially when excited. It has been known to accelerate time.
+  short_description: Grow this plant 2 extra hours in 6 minutes!
+  item_application_effect:
+    duration: 72
+    keep_plants:
+      - Not: Aloe Avanta
+    advancement:
+      title: Warped Away
+      description: This Powder flares up on contact with your plant, creating a small bubble of accelerated time around it.
+      achiever_title: Warp Whiffler
+      art: bractus_loaf
+      kind:
+        extra_time_ticks: 20
+  unlocks_land: null
+  plant_effects: []
+
+- name: Rift Powder
+  description: >-
+    A volatile compound that easily tears the fabric of spacetime. Its powerful time acceleration properties were last recorded in the ancient tomes of the Brognarks; 
+    no one has been able to acquire any more knowledge of this substance since then.
+  short_description: Grow this plant 20 extra hours in 5 minutes!
+  item_application_effect:
+    duration: 60
+    keep_plants:
+      - Not: Aloe Avanta
+    advancement:
+      title: Need a Rift?
+      description: Speeding up progress with Rift Powder is easy enough. Just toss it onto a plant and watch it grow!
+      achiever_title: Rift Roader
+      art: bractus_loaf
+      kind:
+        extra_time_ticks: 240
+    unlocks_land: null
+    plant_effects: []
+
+- name: Wormhole Powder
+  description: >-
+    The rarest, most pure time acceleration substance in the universe ... 
+    So rare, even the ancients only alluded to its existence ... Said to be able to call forth the ancient worm of time herself ...
+  short_description: Grow this plant 69 extra hours in 2 minutes!
+  item_application_effect:
+    duration: 24
+    keep_plants:
+      - Not: Aloe Avanta
+    advancement:
+      title: Relatively Fast
+      description: I AM SPEEEEED!
+      achiever_title: Wormhole Huffer
+      art: bractus_loaf
+      kind:
+        extra_time_ticks: 2070
+    unlocks_land: null
+    plant_effects: []
