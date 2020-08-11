@@ -271,7 +271,7 @@
         art: bractus_loaf
         xp: 0
         kind:
-          CraftReturnChance: 0.024
+          CraftReturnChance: 0.04
     
     - keep_plants:
         - Coffea Cyl
@@ -286,5 +286,243 @@
         art: bractus_loaf
         xp: 0
         kind:
-          CraftReturnChance: 0.024
+          CraftSpeed: 1.48
 
+- name: Tinkersledge
+  description: >-
+    A mushroom with a heavy-duty hammer? What? This springy tool takes precision and focus, 
+    and using it will allow a 1.2% chance at double the crafting yield!
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects:
+    keep_plants:
+      - Tinkerstool
+    advancement:
+      title: Looks like a Nail!
+      description: >-
+        Not much can''t be solved by a good whack with a hammer! 
+        This one somehow even gives a 1.2% chance that you get double the crafts!
+      achiever_title: Hammer Hero
+      art: bractus_loaf
+      xp: 0
+      kind:
+        DoubleCraftYield: 0.012
+
+- name: Tinkerdriver
+  description: >-
+    A carefully crafted tool that allows careful crafting. 
+    Having this tool available allows for a 2% chance to have some of your crafting resources returned.
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects:
+    keep_plants:
+      - Tinkerstool
+    advancement:
+      title: Screws Loose
+      description: The precision of this new new screwdriver is crazy! Just like you''d be without it''s 2% craft return chance!
+      achiever_title: Screw
+      art: bractus_loaf
+      xp: 0
+      kind:
+        CraftReturnChance: 0.02
+
+- name: Tinkerlight
+  description: >-
+    While this flashlight seems normal enough, it has the uncanny ability to filter light through artificial gills to refract light into an assortment of shapes and shades. 
+    It also has the unique ability of boosting crafting speed by 24%.
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects:
+    keep_plants:
+      - Tinkerstool
+    advancement:
+      title: Speed of Light
+      description: >-
+        Through it''s many lenses and filters, it''s hard not to be entranced by this tool''s fantastic lights. 
+        It somehow makes crafting 24% faster.
+      achiever_title: Lightweight
+      art: bractus_loaf
+      xp: 0
+      kind:
+        CraftSpeed: 1.24
+# Buzzwings
+- name: Crystalline Buzzwing Bagling
+  description: A curious flying bag which is sometimes tied to a goblin folk legend. Upon opening you can usually find quite a few treats.
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects: []
+
+- name: Spirited Buzzwing Bagling
+  description: Magical bags such as this are rumored to have been commonplace in a time long past. It is bound to have some magical items inside.
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects: []
+
+- name: Doughy Buzzwing Bagling
+  description: >-
+    The secret to the creation of these rare winged bags was supposedly lost, making their sudden return quite curious. 
+    Opening it may give way to fantastic rewards.
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects: []
+
+- name: Crystalline Buzzwing Boxling
+  description: A flightful box of amber with a nice shine to it. Other than being a decent mirror, it is sure to contain something of worth.
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects: []
+
+- name: Spirited Buzzwing Boxling
+  description: Infused with the might of duct tape, this box flies strong, wings flapping rhythmically. The box itself is worth trying to open for the hope of good loot.
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects: []
+
+- name: Doughy Buzzwing Boxling
+  description: For something made of dough, this box holds itself together well, while still being a bit malleable. Treasure is certain to be found within.
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects: []
+
+- name: Crystalline Buzzwing Boxlet
+  description: >-
+    At the correct angle, this box reflects lights that mesmerize those who see it. Though it''s telling that there is treasure to be discovered, 
+    the box itself seems to be a replica of an old goblin design.
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects: []
+
+- name: Spirited Buzzwing Boxlet
+  description: >-
+    The soft humming of this boxes wing is almost musical in nature, sounding like an ancient hymn of an old goblin tribe. 
+    Maybe inside you''ll find some of their legendary treasure.
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects: []
+
+- name: Doughy Buzzwing Boxlet
+  description: >-
+    From the corner of one''s eye, it seems that the dough on this box occasionally shifts and slides, as if it has been granted life by powerful magicks, known only to the ancients. 
+    One knows they can find valuable trinkets within this enchanted box.
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects: []
+
+- name: Crystalline Buzzwing Megabox
+  description: >-
+    This crystal-laden box lights up with strange magicks, similarly to a rumored piece of magitech made by the Brognarks. 
+    Bounty and wealth are promised to those who can access its contents.
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects: []
+
+- name: Spirited Buzzwing Megabox
+  description: >-
+    The melodious buzzings of this box remind of a song of the fabled and revered Brognark tribe. 
+    The song hints at a glorious treasure, which you may be holding now.
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects: []
+
+- name: Doughy Buzzwing Megabox
+  description: >-
+    The way in which this box''s outsides are animated emulate the magicks of the great Brognark civilization. 
+    The maker of this box has surely inserted items of much value.    
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects: []
+# Potions
+- name: Volatile Vial
+  description: A glass bottle which sizzles with magic. Some of this energy escapes into whatever it holds, limiting its number of uses.
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects: []
+
+- name: Cyllicizing Coffee Concoction
+  description: This chemical craze commits quite the catastrophic capabilities to Coffea Cyl plants, contributing a capacity to increase their neighbors'' yield speeds by 6% and their yield sizes by 3%.
+  item_application_effect:
+    short_description: Give this Coffea Cyl 6% neighbor speed and 3% neighbor size boosts!
+      - keep_plants:
+          - Coffea Cyl
+        advancement:
+          title: Concoction Collaboration
+          description: With the power of fermented sugar, this Cyl rouses its neighbors and gives them a 6% boost to yield speed along with a 3% boost to yield size.
+          achiever_title: Cyl Chugger
+          art: coffea_cyl_baby
+          kind:
+            Neighbor:
+              YieldSpeed: 1.06
+
+      - keep_plants:
+          - Coffea Cyl
+        advancement:
+          title: Concoction Collaboration
+          description: With the power of fermented sugar, this Cyl rouses its neighbors and gives them a 6% boost to yield speed along with a 3% boost to yield size.
+          achiever_title: Cyl Chugger
+          art: coffea_cyl_baby
+          kind:
+            Neighbor:
+              YieldSize: 1.06
+
+  unlocks_land: null
+  plant_effects: []
+
+- name: Vibefying Vinefying Elixir
+  description: Having a Hacker Vibes Vine quaff this potion has quite an effect on them, enabling them to boost the size of their neighbors'' yield speeds and sizes by 6% and 3% respectively.
+  item_application_effect:
+    short_description: Give this Hacker Vibes Vine 6% neighbor speed and 3% neighbor size boosts!
+      - keep_plants:
+          - Hacker Vibes Vine
+        advancement:
+          title: Vinedication and Dedication
+          description: A drunken Vine is faithful and loyal to its friends, who gain a 6% yield speed boost with a 3% boost to yield size.
+          achiever_title: Vibes Imbiber
+          art: hacker_vibes_vine_baby
+          kind:
+            Neighbor:
+              YieldSpeed: 1.06
+
+      - keep_plants:
+          - Hacker Vibes Vine
+        advancement:
+          title: Vinedication and Dedication
+          description: A drunken Vine is faithful and loyal to its friends, who gain a 6% yield speed boost with a 3% boost to yield size.
+          achiever_title: Vibes Imbiber
+          art: hacker_vibes_vine_baby
+          kind:
+            Neighbor:
+              YieldSize: 1.06
+
+  unlocks_land: null
+  plant_effects: []
+
+- name: Bractification Brew
+  description: >-
+    This beaut of a butt can be boozed in a bout on a boat or a butte ... or just about anywhere. 
+    Bracti that drink it increase the speed of neighboring Bracti''s yields by 6%, with their yield sizes being increased by 3%.
+  item_application_effect:
+    short_description: Give this Bractus 6% neighbor speed and 3% neighbor size boosts!
+      - keep_plants:
+          - Bractus
+        advancement:
+          title: Bolder and Better
+          description: This Bractus, having downed a fresh brew, inspires confidence in its pals, increasing their yield speeds by 6% and yield sizes by 3%.
+          achiever_title: Bractus Bottler
+          art: bractus_loaf
+          kind:
+            Neighbor:
+              YieldSpeed: 1.06
+
+      - keep_plants:
+          - Bractus
+        advancement:
+          title: Bolder and Better
+          description: This Bractus, having downed a fresh brew, inspires confidence in its pals, increasing their yield speeds by 6% and yield sizes by 3%.
+          achiever_title: Bractus Bottler
+          art: bractus_loaf
+          kind:
+            Neighbor:
+              YieldSize: 1.06
+
+  unlocks_land: null
+  plant_effects: []
