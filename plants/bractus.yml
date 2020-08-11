@@ -373,7 +373,7 @@ advancements:
       xp: 41500
       kind:
         Neighbor:
-          CraftSpeed: 1.1
+          craft_speed_multiplier: 1.1
     
     - title: Bready Beverages
       description: >-

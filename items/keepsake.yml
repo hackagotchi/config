@@ -256,7 +256,7 @@
         art: bractus_loaf
         xp: 0
         kind:
-          DoubleCraftYield: 0.024
+          double_craft_yield_chance: 0.024
     
     - keep_plants:
         - Coffea Cyl
@@ -271,7 +271,7 @@
         art: bractus_loaf
         xp: 0
         kind:
-          CraftReturnChance: 0.04
+          craft_return_chance: 0.04
     
     - keep_plants:
         - Coffea Cyl
@@ -286,7 +286,7 @@
         art: bractus_loaf
         xp: 0
         kind:
-          CraftSpeed: 1.48
+          craft_speed_multiplier: 1.48
 
 - name: Tinkersledge
   description: >-
@@ -306,7 +306,7 @@
       art: bractus_loaf
       xp: 0
       kind:
-        DoubleCraftYield: 0.012
+        double_craft_yield_chance: 0.012
 
 - name: Tinkerdriver
   description: >-
@@ -324,7 +324,7 @@
       art: bractus_loaf
       xp: 0
       kind:
-        CraftReturnChance: 0.02
+        craft_return_chance: 0.02
 
 - name: Tinkerlight
   description: >-
@@ -344,7 +344,7 @@
       art: bractus_loaf
       xp: 0
       kind:
-        CraftSpeed: 1.24
+        craft_speed_multiplier: 1.24
 # Buzzwings
 - name: Crystalline Buzzwing Bagling
   description: A curious flying bag which is sometimes tied to a goblin folk legend. Upon opening you can usually find quite a few treats.
@@ -537,7 +537,9 @@
       - Tinkerstool
       - Aloe Avanta
     kind:
-      turns_plant_into: Coffea Cyl
+      turns_plant_into: Coffea Cy
+  unlocks_land: null
+  plant_effects: []
 
 - name: Vivifying Vibefying Vinefying Elixir
   description: This curious tincture smells like a fresh rainstorm, and makes the air around it feel humid. It also has the power to make any plant into a Hacker Vibes Vine.
@@ -550,16 +552,100 @@
       - Aloe Avanta
     kind:
       turns_plant_into: Hacker Vibes Vine
+  unlocks_land: null
+  plant_effects: []
 
-- name: Scintillating Cyllicizing Coffee Concoction
-  description: An aromatic potion emanating a warm aura. As well as being able to wake up a dead elephant, it can magically change a plant into a Coffea Cyl.
+- name: Bold Bractification Brew
+  description: As this golden liquid seems to be silky and smooth, it''s quite strange to find the potion as dry as it is. Pouring it upon a plant transforms it into a Bractus.
   item_application_effect:
-    short_description: Turn this plant into a Coffea Cyl!
+    short_description: Turn this plant into a Bractus!
     keep_plants:
+      - Hacker Vibes Vine
+      - Coffea Cyl
+      - Tinkerstool
+      - Aloe Avanta
+    kind:
+      turns_plant_into: Bractus
+  unlocks_land: null
+  plant_effects: []
+
+- name: Tinker Tincture
+  description: A nanobot mixture filled to the brim with craft beer. The nanobots inside can enhance any plant''s dexterity, allowing them to craft 8% faster.
+  item_application_effect:
+    short_description: Increase this plant's crafting speed by 8%!
+    keep_plants:
+      - Coffea Cyl
       - Hacker Vibes Vine
       - Bractus
       - Tinkerstool
       - Aloe Avanta
-    kind:
-      turns_plant_into: Coffea Cyl
+    advancement:
+      title: Alcoholically Apt
+      description: Filled with energy, and tiny robots, this plant gets a 8% boost to the speed of any craft!
+      achiever_title: Biomech Maker
+      art: bractus_loaf
+      kind:
+        craft_speed_multiplier: 1.08
+    unlocks_land: null
+    plant_effects: []
 
+- name: Terrific Tinker Tincture
+  description: After some software updates, as well as some additives for flavor, this mechanical mixture can improve crafting speed by 24%.
+  item_application_effect:
+    short_description: Increase this plant's crafting speed by 24%!
+    keep_plants:
+      - Coffea Cyl
+      - Hacker Vibes Vine
+      - Bractus
+      - Tinkerstool
+      - Aloe Avanta
+    advancement:
+      title: Drunkenly Proficient
+      description: More alcohol obviously makes things better, as do more nanobots. With their powers combined, this plant gets a 24% boost to crafting speed!
+      achiever_title: Cybercyte Crafter
+      art: bractus_loaf
+      kind:
+        craft_speed_multiplier: 1.24
+    unlocks_land: null
+    plant_effects: []
+
+- name: Powder Keg
+  description: A bottle of brew with only minor explosive properties. It has enough latent energy to boost the effect of Powders on plants by 10%.
+  item_application_effect:
+    short_description: Boost the effect of Powders on this plant by 10%!
+    keep_plants:
+      - Coffea Cyl
+      - Hacker Vibes VIne
+      - Bractus
+      - Tinkerstool
+    advancement:
+      title: High and Dry
+      description: Everyone knows alcohol isn''t a substitute for water, but using this flammable fluid has given a 10% increse to the effect of Powders on your plant!
+      achiever_title: Light Drinker # previously empty string
+      art: bractus_loaf
+      kind:
+        time_ticks_multiplier: 1.10
+    unlocks_land: null
+    plant_effects: []
+
+- name: Portent Powder Keg
+  description: >-
+    Handle with caution. Upgrading this potion has has caused it to become more than just a bit explosive. 
+    Though keeping the fabric of reality safe is a concern, 
+    the risk is worth it when making powders 28% as effective for neighbors.
+  item_application_effect:
+    short_description: Boost the effect of Powders on this plant's neighbors by 28%!
+    keep_plants:
+      - Coffea Cyl
+      - Hacker Vibes VIne
+      - Bractus
+      - Tinkerstool
+    advancement:
+      title: Powder Proficient
+      description: Everyone knows alcohol isn''t a substitute for water, but using this flammable fluid has given a 10% increse to the effect of Powders on your plant!
+      achiever_title: Dense Drinker
+      art: bractus_loaf
+      kind:
+        time_ticks_multiplier: 1.28
+    unlocks_land: null
+    plant_effects: []
