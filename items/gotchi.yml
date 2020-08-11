@@ -14,7 +14,7 @@
       art: bractus_loaf
       xp: 0
       kind:
-        YieldSize: 1.16
+        yield_size_multiplier: 1.16
   hatch_table: null
   welcome_gift: false
 
@@ -33,7 +33,7 @@
       art: bractus_loaf
       xp: 0
       kind:
-        YieldSize: 1.16
+        yield_size_multiplier: 1.16
   hatch_table: null
   welcome_gift: false
 
@@ -52,7 +52,7 @@
       art: bractus_loaf
       xp: 0
       kind:
-        YieldSize: 1.16
+        yield_size_multiplier: 1.16
   hatch_table: null
   welcome_gift: false
 

@@ -92,7 +92,7 @@
       art: coffea_cyl_baby
       xp: 0
       kind:
-        YieldSpeed: 1.10
+        yield_speed_multiplier: 1.10
 
 - name: Vine Keyboard
   description: >-
@@ -112,7 +112,7 @@
       art: hacker_vibes_vine_baby
       xp: 0
       kind:
-        YieldSpeed: 1.10
+        yield_speed_multiplier: 1.10
 
 - name: Rolling Pin
   description: >-
@@ -131,7 +131,7 @@
       art: bractus_loaf
       xp: 0
       kind:
-        YieldSpeed: 1.10
+        yield_speed_multiplier: 1.10
 
 - name: Cytrus Staff
   description: >-
@@ -149,7 +149,7 @@
       art: coffea_cyl_baby
       xp: 0
       kind:
-        YieldSpeed: 1.30
+        yield_speed_multiplier: 1.30
   
 - name: Jungleboard
   description: >-
@@ -167,7 +167,7 @@
       art: hacker_vibes_vine_baby
       xp: 0
       kind:
-        YieldSpeed: 1.30
+        yield_speed_multiplier: 1.30
 
 - name: Kingpin
   description: >-
@@ -184,7 +184,7 @@
       art: bractus_loaf
       xp: 0
       kind:
-        YieldSpeed: 1.30
+        yield_speed_multiplier: 1.30
 # Compressed Materials
 - name: crystcyl
   description: >-
@@ -451,7 +451,7 @@
           art: coffea_cyl_baby
           kind:
             Neighbor:
-              YieldSpeed: 1.06
+              yield_speed_multiplier: 1.06
 
       - keep_plants:
           - Coffea Cyl
@@ -462,7 +462,7 @@
           art: coffea_cyl_baby
           kind:
             Neighbor:
-              YieldSize: 1.06
+              yield_size_multiplier: 1.06
 
   unlocks_land: null
   plant_effects: []
@@ -480,7 +480,7 @@
           art: hacker_vibes_vine_baby
           kind:
             Neighbor:
-              YieldSpeed: 1.06
+              yield_speed_multiplier: 1.06
 
       - keep_plants:
           - Hacker Vibes Vine
@@ -491,7 +491,7 @@
           art: hacker_vibes_vine_baby
           kind:
             Neighbor:
-              YieldSize: 1.06
+              yield_size_multiplier: 1.06
 
   unlocks_land: null
   plant_effects: []
@@ -511,7 +511,7 @@
           art: bractus_loaf
           kind:
             Neighbor:
-              YieldSpeed: 1.06
+              yield_speed_multiplier: 1.06
 
       - keep_plants:
           - Bractus
@@ -522,7 +522,44 @@
           art: bractus_loaf
           kind:
             Neighbor:
-              YieldSize: 1.06
+              yield_size_multiplier: 1.06
 
   unlocks_land: null
   plant_effects: []
+
+- name: Scintillating Cyllicizing Coffee Concoction
+  description: An aromatic potion emanating a warm aura. As well as being able to wake up a dead elephant, it can magically change a plant into a Coffea Cyl.
+  item_application_effect:
+    short_description: Turn this plant into a Coffea Cyl!
+    keep_plants:
+      - Hacker Vibes Vine
+      - Bractus
+      - Tinkerstool
+      - Aloe Avanta
+    kind:
+      turns_plant_into: Coffea Cyl
+
+- name: Vivifying Vibefying Vinefying Elixir
+  description: This curious tincture smells like a fresh rainstorm, and makes the air around it feel humid. It also has the power to make any plant into a Hacker Vibes Vine.
+  item_application_effect:
+    short_description: Turn this plant into a Hacker Vibes Vine!
+    keep_plants:
+      - Coffea Cyl
+      - Bractus
+      - Tinkerstool
+      - Aloe Avanta
+    kind:
+      turns_plant_into: Hacker Vibes Vine
+
+- name: Scintillating Cyllicizing Coffee Concoction
+  description: An aromatic potion emanating a warm aura. As well as being able to wake up a dead elephant, it can magically change a plant into a Coffea Cyl.
+  item_application_effect:
+    short_description: Turn this plant into a Coffea Cyl!
+    keep_plants:
+      - Hacker Vibes Vine
+      - Bractus
+      - Tinkerstool
+      - Aloe Avanta
+    kind:
+      turns_plant_into: Coffea Cyl
+
