@@ -1,4 +1,4 @@
----
+--- # Keepsakes
 - name: Warp Powder
   description: Sparkling, glittery, glowing blue powder that emits high-pitched squeaking noises, especially when excited. It has been known to accelerate time.
   short_description: Grow this plant 2 extra hours in 6 minutes!
@@ -53,7 +53,7 @@
         extra_time_ticks: 2070
     unlocks_land: null
     plant_effects: []
-
+# Land Stuff
 - name: Land Deed
   description: A thin piece of paper with enormous power. Entitles the holder to a new plot of land, if they have the experience to handle it, of course.
   item_application_effect: null
@@ -73,6 +73,65 @@
   item_application_effect: null
   unlocks_land: null
   plant_effects: []
+# Passive Boost Items
+- name: Cyl Wand
+  description: >-
+    Once your run-of-the-mill stick, this wand has been lined with gems that occasionally light and spark, 
+    the energy giving Coffea Cyl plants a 10% boost to yield speed.
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects:
+    keep_plants:
+      - Coffea Cyl
+    advancement:
+      title: Static Calling
+      description: >-
+        The occasional static discharged from this Wand allows Cyl plants to recharge, 
+        allowing them to produce yields 10% faster.
+      achiever_title: Cyl Mage
+      art: coffea_cyl_baby
+      xp: 0
+      kind:
+        YieldSpeed: 1.10
+
+- name: Vine Keyboard
+  description: >-
+    The loud clacking of this keyboard''s keys enchant Hacker Vibes Vines, 
+    sending those who hear it into a trancelike state where they work on their yields at a 10% faster rate.
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects:
+    keep_plants:
+      - Hacker Vibes Vine
+    advancement:
+      title: Vine Keyboard Bonus
+      description: >-
+        With the pen being mightier than the sword, arming yourself with a nice Keyboard is never a bad idea. 
+        This one even gives Hacker Vibes Vines a 10% boost to yield speed.
+      achiever_title: Keyboard Warrior
+      art: hacker_vibes_vine_baby
+      xp: 0
+      kind:
+        YieldSpeed: 1.10
+
+- name: Rolling Pin
+  description: >-
+    Bracti fear the Rolling Pin more than almost any other tool, and in the hands of the correct wielder, 
+    it will inspire them to work harder with a 10% boost to the speed of yields.
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects:
+    keep_plants:
+      - Bractus
+    advancement:
+      title: Rolling in Dough
+      description: >-
+        It may be better to be loved than feared, but the unease Rolling Pins generate among the Bractus crowds increase their yield speeds by 10%!
+      achiever_title: Bractus Baker
+      art: bractus_loaf
+      xp: 0
+      kind:
+        YieldSpeed: 1.10
 
 - name: Cytrus Staff
   description: >-
@@ -126,4 +185,5 @@
       xp: 0
       kind:
         YieldSpeed: 1.30
+
 
