@@ -185,5 +185,106 @@
       xp: 0
       kind:
         YieldSpeed: 1.30
+# Compressed Materials
+- name: crystcyl
+  description: >-
+    The humming noise coming from this crystcyl is powerful enough to roast marshmallows. I'm not kidding! 
+    The marshmallows glow orange and discharge static on your tongue, but have a delicious coffee flavor!
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects: []
 
+- name: hacksprit
+  description: >-
+    Dude, I'm seriously kind of amazed at the power of duct tape. 
+    There's no way that these Hacker Spirits should be able to stick together like this. It's mind blowing.
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects: []
+
+- name: bressence
+  description: >-
+    Seriously. Don't eat bressence. It might sound like a quick way to get five meals in the time it takes to get one. 
+    It's not. Just don't. The last guy to try it was on the toilet for - well, I'll spare you the details.
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects: []
+
+# Raw Materials
+- name: Cyl Crystal
+  description: This Crystal pops, buzzes, and warps the space around it. Soft, warm lights dance within the Crystal's facets.
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects: []
+
+- name: Hacker Spirit
+  description: >-
+    It does not, as a matter of fact, smell like teen spirit. Except for when it does. 
+    The air becomes ripe around it whenever new things are being created.
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects: []
+
+- name: Bread Essence
+  description: >-
+    It may be whole wheat, but don't hold that against it. Its rich, 
+    freshly-baked aroma triggers an overwhelming nostalgia and a thoughtful sense of calm.
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects: []
+
+# Tinkerstool stuff
+- name: Tinkerpart
+  description: A mysterious, mechanical scrap that can only be handled by the most masterful craftsmen. It smells and feels a bit damp.
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects: []
+
+- name: Tinkermultitool
+  description: >-
+    A wieldly tool for only the finest craftsmen, this is the trade tool of a Tinkerstool. 
+    With the power of all three tools combined, this tool takes on the abilities of all its predecessors doubled.
+  item_application_effect: null
+  unlocks_land: null
+  plant_effects:
+    - keep_plants:
+        - Tinkerstool
+      advancement:
+        title: Tremendous Tinkering
+        description: The tinkertool trio that this tool comes from gives it the abilities of all three - doubled, in fact!
+        achiever_title: 'True Tinker'
+        art: bractus_loaf
+        xp: 0
+        kind:
+          DoubleCraftYield: 0.024
+    
+    - keep_plants:
+        - Coffea Cyl
+        - Hacker Vibes Vine
+        - Bractus
+        - Tinkerstool
+        - Aloe Avanta
+      advancement: 
+        title: Tremendous Tinkering
+        description: The tinkertool trio that this tool comes from gives it the abilities of all three - doubled, in fact!
+        achiever_title: 'True Tinker'
+        art: bractus_loaf
+        xp: 0
+        kind:
+          CraftReturnChance: 0.024
+    
+    - keep_plants:
+        - Coffea Cyl
+        - Hacker Vibes Vine
+        - Bractus
+        - Tinkerstool
+        - Aloe Avanta
+      advancement:
+        title: Tremendous Tinkering
+        description: The tinkertool trio that this tool comes from gives it the abilities of all three - doubled, in fact!
+        achiever_title: 'True Tinker'
+        art: bractus_loaf
+        xp: 0
+        kind:
+          CraftReturnChance: 0.024
 
