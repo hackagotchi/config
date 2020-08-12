@@ -1,5 +1,5 @@
 --- # Hackstead Advancements
-profile_archetype:
+advancements:
   base:
     - advancement_title: Hackstead
       description: A freshly hacked together Hackstead is what you have here! I see exciting new adventures in the future of this - cuts off - Hackstead!
