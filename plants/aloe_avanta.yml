@@ -1,1 +1,92 @@
 ---
+name: Aloe Avanta
+base_yield_duration: null
+advancements:
+  base:
+    - title: In the Dust
+      description: >-
+        Out of the dust, a wonderful little plant has materialized. 
+        It''s not much right now, but your baby Aloe will soon grow, 
+        gathering XP from the blue ashes it continues to produce.
+      achiever_title: Aloe Seedling
+      art: aloe_avanta_baby
+      xp: 0
+      kind:
+        Xp: 1.0
+  
+  rest:
+    - title: Wading In
+      description: >-
+        Your young Aloe is already trying to summon Warp Powder - how determined! 
+        Your plant has a 70% chance of obtaining Warp Powder.
+      achiever_title: Shallow Aloe
+      art: aloe_avanta_baby
+      xp: 300
+      kind:
+        Yield:
+          chance: 0.8
+          amount: [1.4, 7.4]
+          dropoff: 1.9
+          xp: [800, 1200]
+          yields: Warp Powder
+    
+    - title: Aloe Alone
+      description: >-
+        Introverted and quiet, your mysterious plant is a singularity in solidarity and has started working more efficiently. 
+        Their yield size has experienced a 1.05 size boost.
+      achiever_title: Lonely Aloe
+      art: aloe_avanta_baby
+      xp: 750
+      kind:
+        yield_size_multiplier: 1.05
+    
+    - title: Why So Blue?
+      description: >-
+        This plant seems to have become existential, being extremely intelligent. 
+        We might need to introduce them to some friends. Yield size has increased by 7%.
+      achiever_title: Blue Aloe
+      art: aloe_avanta_baby
+      xp: 1350
+      kind:
+        yield_size_multiplier: 1.07
+      
+    - title: Smooth Tunes
+      description: >-
+        A little music while you work can really get things moving. 
+        This holds especially true for this plant, who gets a 7% bonus to yield speed.
+      achiever_title: LoFi Aloe
+      art: aloe_avanta_baby
+      xp: 2100
+      kind:
+        yield_speed_multiplier: 1.07
+      
+    - title: Dust Smites
+      description: >-
+        This plant can't stand any dust that isn't its own. 
+        It periodically shoots out waves of powder that clear up those nasty Dust Bunnies of Caerbannog, 
+        giving its neighbors a 1.1 times speed boost.
+      achiever_title: Friendly Aloe
+      art: aloe_avanta_kid
+      xp: 4000
+      kind:
+        Neighbor:
+          yield_speed_multiplier: 1.1
+    
+    - title: Purple Haze
+      description: >-
+        The groovy succulent has sped up productivity after listening to some Jimi Hendrix. 
+        Far out, your speed has seen a 10% swell!
+      achiever_title: Groovy Aloe
+      art: aloe_avanta_kid
+      kind:
+        yield_speed_multiplier: 1.1
+    
+    - title: Vera Nice to See You
+      description: >-
+        Conversing with their neighbors has improved the Aloe''s spirits! 
+        The joy from this lighthearted interaction has increased their neighobr's yield speed by 15%.
+      achiever_title: Energized Aloe
+      art: aloe_avanta_kid
+      kind:
+        Neighbor:
+          yield_speed_multiplier: 1.15
