@@ -442,27 +442,24 @@
   description: This chemical craze commits quite the catastrophic capabilities to Coffea Cyl plants, contributing a capacity to increase their neighbors'' yield speeds by 6% and their yield sizes by 3%.
   item_application_effect:
     short_description: Give this Coffea Cyl 6% neighbor speed and 3% neighbor size boosts!
-      - keep_plants:
-          - Coffea Cyl
-        advancement:
-          title: Concoction Collaboration
-          description: With the power of fermented sugar, this Cyl rouses its neighbors and gives them a 6% boost to yield speed along with a 3% boost to yield size.
-          achiever_title: Cyl Chugger
-          art: coffea_cyl_baby
-          kind:
-            Neighbor:
-              yield_speed_multiplier: 1.06
+    keep_plants:
+      - Coffea Cyl
+    advancement:
+      - title: Concoction Collaboration
+        description: With the power of fermented sugar, this Cyl rouses its neighbors and gives them a 6% boost to yield speed along with a 3% boost to yield size.
+        achiever_title: Cyl Chugger
+        art: coffea_cyl_baby
+        kind:
+          Neighbor:
+            yield_speed_multiplier: 1.06
 
-      - keep_plants:
-          - Coffea Cyl
-        advancement:
-          title: Concoction Collaboration
-          description: With the power of fermented sugar, this Cyl rouses its neighbors and gives them a 6% boost to yield speed along with a 3% boost to yield size.
-          achiever_title: Cyl Chugger
-          art: coffea_cyl_baby
-          kind:
-            Neighbor:
-              yield_size_multiplier: 1.06
+      - title: Concoction Collaboration
+        description: With the power of fermented sugar, this Cyl rouses its neighbors and gives them a 6% boost to yield speed along with a 3% boost to yield size.
+        achiever_title: Cyl Chugger
+        art: coffea_cyl_baby
+        kind:
+          Neighbor:
+            yield_size_multiplier: 1.06
 
   unlocks_land: null
   plant_effects: []
@@ -471,27 +468,24 @@
   description: Having a Hacker Vibes Vine quaff this potion has quite an effect on them, enabling them to boost the size of their neighbors'' yield speeds and sizes by 6% and 3% respectively.
   item_application_effect:
     short_description: Give this Hacker Vibes Vine 6% neighbor speed and 3% neighbor size boosts!
-      - keep_plants:
-          - Hacker Vibes Vine
-        advancement:
-          title: Vinedication and Dedication
-          description: A drunken Vine is faithful and loyal to its friends, who gain a 6% yield speed boost with a 3% boost to yield size.
-          achiever_title: Vibes Imbiber
-          art: hacker_vibes_vine_baby
-          kind:
-            Neighbor:
-              yield_speed_multiplier: 1.06
+    keep_plants:
+      - Hacker Vibes Vine
+    advancement:
+      - title: Vinedication and Dedication
+        description: A drunken Vine is faithful and loyal to its friends, who gain a 6% yield speed boost with a 3% boost to yield size.
+        achiever_title: Vibes Imbiber
+        art: hacker_vibes_vine_baby
+        kind:
+          Neighbor:
+            yield_speed_multiplier: 1.06
 
-      - keep_plants:
-          - Hacker Vibes Vine
-        advancement:
-          title: Vinedication and Dedication
-          description: A drunken Vine is faithful and loyal to its friends, who gain a 6% yield speed boost with a 3% boost to yield size.
-          achiever_title: Vibes Imbiber
-          art: hacker_vibes_vine_baby
-          kind:
-            Neighbor:
-              yield_size_multiplier: 1.06
+      - title: Vinedication and Dedication
+        description: A drunken Vine is faithful and loyal to its friends, who gain a 6% yield speed boost with a 3% boost to yield size.
+        achiever_title: Vibes Imbiber
+        art: hacker_vibes_vine_baby
+        kind:
+          Neighbor:
+            yield_size_multiplier: 1.06
 
   unlocks_land: null
   plant_effects: []
@@ -502,27 +496,24 @@
     Bracti that drink it increase the speed of neighboring Bracti''s yields by 6%, with their yield sizes being increased by 3%.
   item_application_effect:
     short_description: Give this Bractus 6% neighbor speed and 3% neighbor size boosts!
-      - keep_plants:
-          - Bractus
-        advancement:
-          title: Bolder and Better
-          description: This Bractus, having downed a fresh brew, inspires confidence in its pals, increasing their yield speeds by 6% and yield sizes by 3%.
-          achiever_title: Bractus Bottler
-          art: bractus_loaf
-          kind:
-            Neighbor:
-              yield_speed_multiplier: 1.06
+    keep_plants:
+      - Bractus
+    advancement:
+      - title: Bolder and Better
+        description: This Bractus, having downed a fresh brew, inspires confidence in its pals, increasing their yield speeds by 6% and yield sizes by 3%.
+        achiever_title: Bractus Bottler
+        art: bractus_loaf
+        kind:
+          Neighbor:
+            yield_speed_multiplier: 1.06
 
-      - keep_plants:
-          - Bractus
-        advancement:
-          title: Bolder and Better
-          description: This Bractus, having downed a fresh brew, inspires confidence in its pals, increasing their yield speeds by 6% and yield sizes by 3%.
-          achiever_title: Bractus Bottler
-          art: bractus_loaf
-          kind:
-            Neighbor:
-              yield_size_multiplier: 1.06
+      - title: Bolder and Better
+        description: This Bractus, having downed a fresh brew, inspires confidence in its pals, increasing their yield speeds by 6% and yield sizes by 3%.
+        achiever_title: Bractus Bottler
+        art: bractus_loaf
+        kind:
+          Neighbor:
+            yield_size_multiplier: 1.06
 
   unlocks_land: null
   plant_effects: []
