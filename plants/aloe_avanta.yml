@@ -62,7 +62,7 @@ advancements:
       
     - title: Dust Smites
       description: >-
-        This plant can't stand any dust that isn't its own. 
+        This plant can''t stand any dust that isn''t its own. 
         It periodically shoots out waves of powder that clear up those nasty Dust Bunnies of Caerbannog, 
         giving its neighbors a 1.1 times speed boost.
       achiever_title: Friendly Aloe
@@ -78,15 +78,184 @@ advancements:
         Far out, your speed has seen a 10% swell!
       achiever_title: Groovy Aloe
       art: aloe_avanta_kid
+      xp: 4900
       kind:
         yield_speed_multiplier: 1.1
     
     - title: Vera Nice to See You
       description: >-
         Conversing with their neighbors has improved the Aloe''s spirits! 
-        The joy from this lighthearted interaction has increased their neighobr's yield speed by 15%.
+        The joy from this lighthearted interaction has increased their neighobr''s yield speed by 15%.
       achiever_title: Energized Aloe
       art: aloe_avanta_kid
+      xp: 6100
       kind:
         Neighbor:
           yield_speed_multiplier: 1.15
+  
+    - title: Aloewance
+      description: >-
+        Your plant pal has prayed to their astronomical Aloe ancestors for greater yields - and they provided! 
+        Your plant has gained an Aloe aura that boosts the yield sizes of nearby Aloe 1.1 times!
+      achiever_title: Energized Aloe
+      art: aloe_avanta_kid
+      xp: 7500
+      kind:
+        Neighbor:
+          yield_size_multiplier: 1.1
+    
+    - title: Avanta Garde
+      description: >-
+        Novelty strikes very rarely, but when an inspired Aloe has an idea, 
+        it usually lets them compress and dissect Powders into another, 
+        as this idea does. Along with it comes the abillity to use excess Aloe Seeds for Powder!
+      achiever_title: Inventive Aloe
+      art: aloe_avanta_teen
+      xp: 14000
+      kind:
+        Craft:
+
+          - needs:
+              amount: 11
+              item: Warp Powder
+            makes:
+              Just:
+                amount: 1
+                item: Rift Powder
+            time: 75
+            xp: [2480, 3280]
+            destroys_plant: false
+
+          - needs:
+              amount: 1
+              item: Rift Powder
+            makes:
+              Just:
+                amount: 9
+                item: Warp Powder
+            time: 75
+            xp: [4960, 6560]
+            destroys_plant: false
+
+          - needs:
+              - amount: 3
+                item: Rift Powder
+              - amount: 8
+                item: Warp Powder
+            makes:
+              Just:
+                amount: 1
+                item: Wormhole Powder
+            time: 75
+            xp: [8160, 12000]
+            destroys_plant: false
+
+          - needs:
+              amount: 38
+              item: Warp Powder
+            makes:
+              Just:
+                amount: 1
+                item: Wormhole Powder
+            time: 75
+            xp: [8160, 12000]
+            destroys_plant: false
+
+          - needs:
+              amount: 1
+              item: Wormhole Powder
+            makes:
+              AllOf:
+                - amount: 3
+                  item: Rift Powder
+                - amount: 2
+                  item: Warp Powder
+            time: 75
+            xp: [6500, 7900]
+            destroys_plant: false
+
+          - needs:
+              amount: 1
+              item: Aloe Avanta Seed
+            makes:
+              AllOf:
+                - amount: 20
+                  item: Wormhole Powder
+                - amount: 60
+                  item: Rift Powder
+                - amount: 500
+                  item: Warp Powder
+            time: 1
+            xp: [160000, 240000]
+            destroys_plant: false
+
+    - title: Aloe Advantage
+      description: >-
+        Ingesting Warp Powder has enlightened your plant, and they will now support their friends to help their species grow. 
+        Neighbor yield size has seen a 1.15 times increase! 
+      achiever_title: Advanced Avanta
+      art: aloe_avanta_teen
+      xp: 16400
+      kind:
+        Neighbor:
+          yield_size_multiplier: 1.15
+      
+    - title: Soothing Soot
+      description: >-
+        Working hard usually makes one feel hot and stuffy, 
+        but the natural coolant that this Aloe emits in its dust helps regulate their neighbor''s temperatures, 
+        boosting their overall production by 20%.
+      achiever_title: Chill Avanta
+      art: aloe_avanta_teen
+      xp: 19200
+      kind:
+        Neighbor:
+          yield_size_multiplier: 1.2
+      
+    - title: Nitroglycerin Nursery
+      description: >-
+        After some extensive testing - and a few fires - your Aloe Avanta has found itself able to make a gelatinous liquid substance that can improve the effectiveness of Powders. 
+        Just try not to let it catch fire; there''s some liquor in there.
+      achiever_title: Plastic Avanta
+      art: aloe_avanta_teen
+      xp: 22400
+      kind:
+        Craft:
+          title: ':powder_keg: Powered Potion'
+          explanation: >-
+            Powders are pretty potent on their own, but to truly bring out their potential, 
+            you can make a Powder Keg that boosts their effects by 10%. Craft with a 40% chance of success.
+          needs:
+            - amount: 5
+              item: Volatile Vial
+            - amount: 20
+              item: Warp Powder
+            - amount: 2
+              item: Rift Powder
+            - amount: 18
+              item: crystcyl
+            - amount: 18
+              item: hacksprit
+            - amount: 18
+              item: bressence
+          makes:
+            OneOf:
+              - AllOf:
+                  - amount: 1
+                    item: Volatile Vial
+                  - amount: 5
+                    item: Warp Powder
+                chance: 0.20
+              
+              - AllOf:
+                  - amount: 1
+                    item: Volatile Vial
+                  - amount: 2
+                    item: Warp Powder
+                chance: 0.40
+
+              - Just:
+                  amount: 1
+                  item: Powder Keg
+                chance: 0.40
+            destroys_plant: false
