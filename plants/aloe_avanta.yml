@@ -259,3 +259,105 @@ advancements:
                   item: Powder Keg
                 chance: 0.40
             destroys_plant: false
+
+    - title: Warp Speed
+      description: Having taken the plant equivalent of hard cocaine, this plant now yields 1.12 times faster.
+      achiever_title: Hyper Avanta
+      art: aloe_avanta_teen
+      xp: 26000
+      kind:
+        yield_speed_multiplier: 1.12
+    
+    - title: Powder Power
+      description: >-
+        With the power of this plant''s powder, we''ve started generating very potent material. 
+        There is now a base chance of 9% to get Rift Powder as a part of yields.
+      achiever_title: Mighty Avanta
+      art: aloe_avanta_grown
+      xp: 50000
+      kind:
+        Yield:
+          chance: 0.9
+          amount: [1.2, 2.3]
+          dropoff: 1.6
+          xp: [400, 600]
+          yields: Rift Powder
+      
+    - title: Gel Guru
+      description: Using the starry blue gel from one of it''s bountiful leaves, the Aloe has increased it''s yield size with a 15% enhancement. 
+      achiever_title: Enlightened Avanta
+      art: aloe_avanta_grown
+      xp: 54000
+      kind:
+        yield_size_multiplier: 1.15
+    
+    - title: Successful Succulent
+      description: >-
+        Your Aloe Avanta has become famous for their brilliant, galactic style. 
+        Along with newfound confidence comes the perk of having their yield size increased by 15%!
+      achiever_title: Celebritous Avanta
+      art: aloe_avanta_grown
+      xp: 60000
+      kind:
+        yield_size_multiplier: 1.15
+    
+    - title: Expedited Explosions
+      description: >-
+        Your Aloe has learned how to use quantum injectors to carefully place nanoparticles in Powder Kegs which greatly increase its explosive properties, 
+        but more importantly, its capability to boost Powder efficiency for neighboring plants.
+      achiever_title: Bombastic Avanta
+      art: aloe_avanta_grown
+      xp: 68000
+      kind:
+        Craft:
+          title: ':portent_powder_keg: Perfect Potion'
+          explanation: >-
+            Pouring copious amounts of Powder into an already powerful, 
+            powderful potion makes a Portent Powder Keg that boosts Powder power upon neighbors by 28%
+          needs:
+            - amount: 1
+              item: Powder Keg
+            - amount: 8
+              item: Volatile Vial
+            - amount: 6
+              item: Rift Powder
+            - amount: 3
+              item: Wormhole Powder
+            - amount: 36
+              item: crystcyl
+            - amount: 36
+              item: hacksprit
+            - amount: 36
+              item: bressence
+          makes:
+            amount: 1
+            item: Portent Powder Keg
+          time: 14400
+          xp: [15500, 19000]
+          destroys_plant: false
+
+    - title: Fate of the Stars
+      description: >-
+        The shine of your Aloe''s twinkling lights has dwarfed some of the galaxy''s greatest wonders. 
+        The intense sparkles are actually the effect of a process that boosts yield size by 1.2.
+      achiever_title: Galactic Avanta
+      art: aloe_avanta_grown
+      xp: 78000
+      kind:
+        yield_size_multiplier: 1.2
+    
+    - title: Aloe Savanta
+      description: >-
+        This Aloe has been designated a certified genius! They''ve started producing a mysterious, 
+        powerful powder with the uncanny ability to twist the fabric of space-time. 
+        There is now a 1% base chance of getting Wormhole Powder.
+      achiever_title: Genius Avanta
+      art: aloe_avanta_grown
+      xp: 55500
+      kind:
+        Yield:
+          chance: 0.01
+          amount: [1.00, 1.05]
+          dropoff: 1.1
+          xp: [1, 2]
+          yields: Wormhole Powder
