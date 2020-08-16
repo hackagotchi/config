@@ -15,8 +15,6 @@
       xp: 0
       kind:
         yield_size_multiplier: 1.16
-  hatch_table: null
-  welcome_gift: false
 
 - name: Hackpheus
   description: >-
@@ -34,8 +32,6 @@
       xp: 0
       kind:
         yield_size_multiplier: 1.16
-  hatch_table: null
-  welcome_gift: false
 
 - name: Chefpheus
   description: >-
@@ -53,8 +49,6 @@
       xp: 0
       kind:
         yield_size_multiplier: 1.16
-  hatch_table: null
-  welcome_gift: false
 
 - name: Cyl Egg
   description: Veins of pure arcane energy course throughout this egg, and holding it quickly makes your hands shaky and numb.
