@@ -1,2 +1,1 @@
-# hackagotchi-config
-Reworked configs
+# config
