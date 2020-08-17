@@ -58,6 +58,8 @@ advancements:
       xp: 1400
       kind:
         Craft:
+          title: ""
+          explanation: ""
           needs:
             amount: 5
             item: Bread Essence
@@ -459,3 +461,8 @@ advancements:
           time: 17280
           xp: [1, 2]
           destroys_plant: true
+skills:
+  - SkillOne:
+  - SkillTwo:
+  - SkillThree:
+  - SkillFour:
