@@ -12,8 +12,6 @@
         Buff:
           title: Warped Away
           description: This Powder flares up on contact with your plant, creating a small bubble of accelerated time around it.
-          achiever_title: Warp Whiffler
-          art: bractus_loaf
           kind:
             ExtraTimeTicks: 20
 
@@ -31,8 +29,6 @@
         Buff:
           title: Need a Rift?
           description: Speeding up progress with Rift Powder is easy enough. Just toss it onto a plant and watch it grow!
-          achiever_title: Rift Roader
-          art: bractus_loaf
           kind:
             ExtraTimeTicks: 240
 
@@ -50,8 +46,6 @@
         Buff:
           title: Relatively Fast
           description: I AM SPEEEEED!
-          achiever_title: Wormhole Huffer
-          art: bractus_loaf
           kind:
             ExtraTimeTicks: 2070
 
@@ -84,8 +78,6 @@
         Buff:
           title: Static Calling
           description: *desc
-          achiever_title: Cyl Mage
-          art: coffea_cyl_baby
           kind:
             YieldSpeedMultiplier: 1.10
 
@@ -104,8 +96,6 @@
         Buff:
           title: Vine Keyboard Bonus
           description: *desc
-          achiever_title: Keyboard Warrior
-          art: hacker_vibes_vine_baby
           kind:
             YieldSpeedMultiplier: 1.10
 
@@ -117,14 +107,13 @@
     -
       for_plants:
         Only: [ Bractus ]
-      advancement:
-        title: Rolling in Dough
-        description: >-
-          It may be better to be loved than feared, but the unease Rolling Pins generate among the Bractus crowds increase their yield speeds by 10%!
-        achiever_title: Bractus Baker
-        art: bractus_loaf
-        kind:
-          yield_speed_multiplier: 1.10
+      effect_description: &desc It may be better to be loved than feared, but the unease Rolling Pins generate among the Bractus crowds increase their yield speeds by 10%!
+      kind:
+        Buff:
+          title: Rolling in Dough
+          description: *desc
+          kind:
+            YieldSpeedMultiplier: 1.10
 
 - name: Cytrus Staff
   description: >-
@@ -134,13 +123,13 @@
     -
       for_plants:
         Only: [ Coffea Cyl ]
-      advancement:
-        title: Crystal Shock
-        description: This Cytrus Staff''s magical might supercharges Cyl with powerful, precise bolts of orange electricity, increasing the yield speed of Coffea Cyl by 30%!
-        achiever_title: Cyl Sorceror
-        art: coffea_cyl_baby
-        kind:
-          yield_speed_multiplier: 1.30
+      effect_description: &desc This Cytrus Staff''s magical might supercharges Cyl with powerful, precise bolts of orange electricity, increasing the yield speed of Coffea Cyl by 30%!
+      kind:
+        Buff:
+          title: Crystal Shock
+          description: *desc
+          kind:
+            YieldSpeedMultiplier: 1.30
   
 - name: Jungleboard
   description: >-
@@ -150,14 +139,13 @@
     -
       for_plants:
         Only: [ Hacker Vibes Vine ]
+      effect_description: &desc The light jungle sounds of this Jungleboard send Hacker Vibes Vines into a deep meditative state where they produce yields 30% more often!
       kind:
         Buff:
           title: Brainforest Hacking
-          description: The light jungle sounds of this Jungleboard send Hacker Vibes Vines into a deep meditative state where they produce yields 30% more often!
-          achiever_title: Keyboard Hero
-          art: hacker_vibes_vine_baby
+          description: *desc
           kind:
-            yield_speed_multiplier: 1.30
+            YieldSpeedMultiplier: 1.30
 
 - name: Kingpin
   description: >-
@@ -166,14 +154,13 @@
     -
       for_plants:
         Only: [ Bractus ]
+      effect_description: &desc The top tool of its kitchen college, the Kingpin orders Bracti to supply both bread and circus, still somehow increasing the frequency of Bractus yields by 30%.
       kind:
         Buff:
           title: Pin Pinnacle
-          description: The top tool of its kitchen college, the Kingpin orders Bracti to supply both bread and circus, still somehow increasing the frequency of Bractus yields by 30%.
-          achiever_title: Bractus Baron
-          art: bractus_loaf
+          description: *desc
           kind:
-            yield_speed_multiplier: 1.30
+            YieldSpeedMultiplier: 1.30
 
 # Compressed Materials
 - name: crystcyl
@@ -217,42 +204,31 @@
     -
       for_plants:
         Only: [ Tinkerstool ]
+      effect_description: &desc The tinkertool trio that this tool comes from gives it the abilities of all three - doubled, in fact!
       kind:
         Buff:
           title: Tremendous Tinkering
-          description: The tinkertool trio that this tool comes from gives it the abilities of all three - doubled, in fact!
-          achiever_title: 'True Tinker'
-          art: bractus_loaf
+          description: *desc
           kind:
-            double_craft_yield_chance: 0.024
+            DoubleCraftYield: 0.024
     
-    - for_plants:
-        - Coffea Cyl
-        - Hacker Vibes Vine
-        - Bractus
-        - Tinkerstool
-        - Aloe Avanta
-      advancement: 
-        title: Tremendous Tinkering
-        description: The tinkertool trio that this tool comes from gives it the abilities of all three - doubled, in fact!
-        achiever_title: 'True Tinker'
-        art: bractus_loaf
-        kind:
-          craft_return_chance: 0.04
+    - for_plants: All
+      effect_description: &desc The tinkertool trio that this tool comes from gives it the abilities of all three - doubled, in fact!
+      kind:
+        Buff: 
+          title: Tremendous Tinkering
+          description: *desc
+          kind:
+            CraftReturnChance: 0.04
     
-    - for_plants:
-        - Coffea Cyl
-        - Hacker Vibes Vine
-        - Bractus
-        - Tinkerstool
-        - Aloe Avanta
-      advancement:
-        title: Tremendous Tinkering
-        description: The tinkertool trio that this tool comes from gives it the abilities of all three - doubled, in fact!
-        achiever_title: 'True Tinker'
-        art: bractus_loaf
-        kind:
-          craft_speed_multiplier: 1.48
+    - for_plants: All
+      effect_description: &desc The tinkertool trio that this tool comes from gives it the abilities of all three - doubled, in fact!
+      kind:
+        Buff:
+          title: Tremendous Tinkering
+          description: *desc
+          kind:
+            CraftSpeedMultiplier: 1.48
 
 - name: Tinkersledge
   description: >-
@@ -262,15 +238,17 @@
     -
       for_plants:
         Only: [ Tinkerstool ]
-      advancement:
-        title: Looks like a Nail!
-        description: >-
-          Not much can''t be solved by a good whack with a hammer! 
-          This one somehow even gives a 1.2% chance that you get double the crafts!
-        achiever_title: Hammer Hero
-        art: bractus_loaf
-        kind:
-          double_craft_yield_chance: 0.012
+      effect_description: &desc >-
+        Not much can''t be solved by a good whack with a hammer! 
+        This one somehow even gives a 1.2% chance that you get double the crafts!
+      kind:
+        Buff:
+          title: Looks like a Nail!
+          description: *desc
+          achiever_title: Hammer Hero
+          art: bractus_loaf
+          kind:
+            DoubleCraftYield: 0.012
 
 - name: Tinkerdriver
   description: >-
@@ -280,13 +258,13 @@
     -
       for_plants:
         Only: [ Tinkerstool ]
-      advancement:
-        title: Screws Loose
-        description: The precision of this new new screwdriver is crazy! Just like you''d be without it''s 2% craft return chance!
-        achiever_title: Screw
-        art: bractus_loaf
-        kind:
-          craft_return_chance: 0.02
+      effect_description: &desc The precision of this new new screwdriver is crazy! Just like you''d be without it''s 2% craft return chance!
+      kind:
+        Buff:
+          title: Screws Loose
+          description: *desc
+          kind:
+            CraftReturnChance: 0.02
 
 - name: Tinkerlight
   description: >-
@@ -296,15 +274,16 @@
     -
       for_plants:
         Only: [ Tinkerstool ]
-      advancement:
-        title: Speed of Light
-        description: >-
-          Through it''s many lenses and filters, it''s hard not to be entranced by this tool''s fantastic lights. 
-          It somehow makes crafting 24% faster.
-        achiever_title: Lightweight
-        art: bractus_loaf
-        kind:
-          craft_speed_multiplier: 1.24
+      effect_description: &desc >-
+        Through it''s many lenses and filters, it''s hard not to be entranced by this tool''s fantastic lights. 
+        It somehow makes crafting 24% faster.
+        
+      kind:
+        Buff:
+          title: Speed of Light
+          description: *desc
+          kind:
+            CraftSpeedMultiplier: 1.24
 
 # Buzzwings
 - name: Crystalline Buzzwing Bagling
@@ -363,25 +342,24 @@
 - name: Cyllicizing Coffee Concoction
   description: This chemical craze commits quite the catastrophic capabilities to Coffea Cyl plants, contributing a capacity to increase their neighbors'' yield speeds by 6% and their yield sizes by 3%.
   plant_rub_effects:
-    short_description: Give this Coffea Cyl 6% neighbor speed and 3% neighbor size boosts!
-    for_plants:
-      - Coffea Cyl
-    advancement:
-      - title: Concoction Collaboration
-        description: With the power of fermented sugar, this Cyl rouses its neighbors and gives them a 6% boost to yield speed along with a 3% boost to yield size.
-        achiever_title: Cyl Chugger
-        art: coffea_cyl_baby
-        kind:
-          Neighbor:
-            yield_speed_multiplier: 1.06
-
-      - title: Concoction Collaboration
-        description: With the power of fermented sugar, this Cyl rouses its neighbors and gives them a 6% boost to yield speed along with a 3% boost to yield size.
-        achiever_title: Cyl Chugger
-        art: coffea_cyl_baby
-        kind:
-          Neighbor:
-            yield_size_multiplier: 1.06
+    - &buff
+      for_plants:
+        Only: [ Coffea Cyl ]
+      effect_description: &desc With the power of fermented sugar, this Cyl rouses its neighbors and gives them a 6% boost to yield speed along with a 3% boost to yield size.
+      kind:
+        Buff:
+          title: Concoction Collaboration
+          description: *desc
+          kind:
+            Neighbor:
+              YieldSpeedMultiplier: 1.06
+    - 
+      << : *buff
+      kind:
+        Buff:
+          kind:
+            Neighbor:
+              YieldSizeMultiplier: 1.06
 
 - name: Vibefying Vinefying Elixir
   description: Having a Hacker Vibes Vine quaff this potion has quite an effect on them, enabling them to boost the size of their neighbors'' yield speeds and sizes by 6% and 3% respectively.
@@ -389,22 +367,19 @@
     short_description: Give this Hacker Vibes Vine 6% neighbor speed and 3% neighbor size boosts!
     for_plants:
       - Hacker Vibes Vine
-    advancement:
-      - title: Vinedication and Dedication
-        description: A drunken Vine is faithful and loyal to its friends, who gain a 6% yield speed boost with a 3% boost to yield size.
-        achiever_title: Vibes Imbiber
-        art: hacker_vibes_vine_baby
-        kind:
-          Neighbor:
-            yield_speed_multiplier: 1.06
+    kind:
+      Buff:
+        - title: Vinedication and Dedication
+          description: A drunken Vine is faithful and loyal to its friends, who gain a 6% yield speed boost with a 3% boost to yield size.
+          kind:
+            Neighbor:
+              YieldSpeedMultiplier: 1.06
 
-      - title: Vinedication and Dedication
-        description: A drunken Vine is faithful and loyal to its friends, who gain a 6% yield speed boost with a 3% boost to yield size.
-        achiever_title: Vibes Imbiber
-        art: hacker_vibes_vine_baby
-        kind:
-          Neighbor:
-            yield_size_multiplier: 1.06
+        - title: Vinedication and Dedication
+          description: A drunken Vine is faithful and loyal to its friends, who gain a 6% yield speed boost with a 3% boost to yield size.
+          kind:
+            Neighbor:
+              YieldSizeMultiplier: 1.06
 
 - name: Bractification Brew
   description: >-
@@ -417,19 +392,15 @@
     advancement:
       - title: Bolder and Better
         description: This Bractus, having downed a fresh brew, inspires confidence in its pals, increasing their yield speeds by 6% and yield sizes by 3%.
-        achiever_title: Bractus Bottler
-        art: bractus_loaf
         kind:
           Neighbor:
-            yield_speed_multiplier: 1.06
+            YieldSpeedMultiplier: 1.06
 
       - title: Bolder and Better
         description: This Bractus, having downed a fresh brew, inspires confidence in its pals, increasing their yield speeds by 6% and yield sizes by 3%.
-        achiever_title: Bractus Bottler
-        art: bractus_loaf
         kind:
           Neighbor:
-            yield_size_multiplier: 1.06
+            YieldSizeMultiplier: 1.06
 
 - name: Scintillating Cyllicizing Coffee Concoction
   description: An aromatic potion emanating a warm aura. As well as being able to wake up a dead elephant, it can magically change a plant into a Coffea Cyl.
@@ -480,10 +451,8 @@
     advancement:
       title: Alcoholically Apt
       description: Filled with energy, and tiny robots, this plant gets a 8% boost to the speed of any craft!
-      achiever_title: Biomech Maker
-      art: bractus_loaf
       kind:
-        craft_speed_multiplier: 1.08
+        CraftSpeedMultiplier: 1.08
 
 - name: Terrific Tinker Tincture
   description: After some software updates, as well as some additives for flavor, this mechanical mixture can improve crafting speed by 24%.
@@ -498,10 +467,8 @@
     advancement:
       title: Drunkenly Proficient
       description: More alcohol obviously makes things better, as do more nanobots. With their powers combined, this plant gets a 24% boost to crafting speed!
-      achiever_title: Cybercyte Crafter
-      art: bractus_loaf
       kind:
-        craft_speed_multiplier: 1.24
+        CraftSpeedMultiplier: 1.24
 
 - name: Powder Keg
   description: A bottle of brew with only minor explosive properties. It has enough latent energy to boost the effect of Powders on plants by 10%.
@@ -515,8 +482,6 @@
     advancement:
       title: High and Dry
       description: Everyone knows alcohol isn''t a substitute for water, but using this flammable fluid has given a 10% increse to the effect of Powders on your plant!
-      achiever_title: Light Drinker # previously empty string
-      art: bractus_loaf
       kind:
         time_ticks_multiplier: 1.10
 
@@ -535,7 +500,5 @@
     advancement:
       title: Powder Proficient
       description: Everyone knows alcohol isn''t a substitute for water, but using this flammable fluid has given a 10% increse to the effect of Powders on your plant!
-      achiever_title: Dense Drinker
-      art: bractus_loaf
       kind:
         time_ticks_multiplier: 1.28

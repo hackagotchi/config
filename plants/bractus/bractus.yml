@@ -32,7 +32,7 @@ advancements:
       art: bractus_loaf
       xp: 280
       kind:
-        yield_size_multiplier: 1.05
+        YieldSizeMultiplier: 1.05
 
     - title: Journey to the Yeast
       description: The Bread Heavens part and a crisp, golden light shines down on this Bractus, blessing it with 10% faster resource production.
@@ -40,7 +40,7 @@ advancements:
       art: bractus_loaf
       xp: 480
       kind:
-        yield_speed_multiplier: 1.1
+        YieldSpeedMultiplier: 1.1
     
     - title: Rockin'' and Rollin''
       description: Standing tall and proud, and with the horizon extended, this Bractus now produces resources at a 10% higher rate.
@@ -48,7 +48,7 @@ advancements:
       art: bractus_loaf
       xp: 720
       kind:
-        yield_speed_multiplier: 1.1
+        YieldSpeedMultiplier: 1.1
     
     - title: Playdough
       description: >- 
@@ -78,7 +78,7 @@ advancements:
       art: bractus_kid
       xp: 1700
       kind:
-        yield_size_multiplier: 1.05
+        YieldSizeMultiplier: 1.05
     
     - title: Just Desserts
       description: >-
@@ -88,7 +88,7 @@ advancements:
       art: bractus_kid
       xp: 2100
       kind:
-        yield_size_multiplier: 1.1
+        YieldSizeMultiplier: 1.1
     
     - title: Biscuits ''n Gravy
       description: >-
@@ -99,7 +99,7 @@ advancements:
       xp: 2700
       kind:
         Neighbor:
-          yield_speed_multiplier: 1.05
+          YieldSpeedMultiplier: 1.05
     
     - title: Gravy ''n Biscuits
       description: Your Bractus has decided to start sharing the recipe for its illustrious Biscuits ''n Gravy with the Bracti nearby, their access to these secrets allowing them 10% faster yields.
@@ -108,7 +108,7 @@ advancements:
       xp: 3500
       kind:
         Neighbor:
-          yield_speed_multiplier: 1.1
+          YieldSpeedMultiplier: 1.1
     
     - title: New Baginnings
       description: News has been spreading of a mysterious goblin who has been sneaking little bags filled with treats to your plants. Be on the lookout for Baglings from this point on.
@@ -179,7 +179,7 @@ advancements:
       art: bractus_teen
       xp: 8800
       kind:
-        yield_speed_multiplier: 1.2
+        YieldSpeedMultiplier: 1.2
     
     - title: Butter My Biscuits
       description: >-
@@ -190,7 +190,7 @@ advancements:
       art: bractus_teen
       xp: 10100
       kind:
-        yield_size_multiplier: 1.15
+        YieldSizeMultiplier: 1.15
     
     - title: Bready Unboxing
       description: Boxlings can now be upgraded, transformed, or opened.
@@ -274,7 +274,7 @@ advancements:
       art: bractus_grown
       xp: 24000
       kind:
-        yield_size_multiplier: 1.2
+        YieldSizeMultiplier: 1.2
     
     - title: Potent Potables
       description: Watering this Bractus with alcohol has provided some strange results, as it has been processed into a golden fluid that can boost plant yield stats.
@@ -358,7 +358,7 @@ advancements:
       xp: 33000
       kind:
         Neighbor:
-          yield_size_multiplier: 1.1
+          YieldSizeMultiplier: 1.1
     
     - title: Bread Growers'' Guild
       description: Your Bractus''s Bread Growers'' Association is now complete with hazing, violent rioting, freemason connections, and 10% bigger yields for all neighboring Bracti!
@@ -367,7 +367,7 @@ advancements:
       xp: 37000
       kind:
         Neighbor:
-          yield_size_multiplier: 1.1
+          YieldSizeMultiplier: 1.1
     
     - title: Bread Growers'' Empire
       description: The Bread Growers'' Association''s influence has expanded unprecedentedly! Now supporting local Bractus artisans through a 1.1 times increase to crafting speed.
@@ -376,7 +376,7 @@ advancements:
       xp: 41500
       kind:
         Neighbor:
-          craft_speed_multiplier: 1.1
+          CraftSpeedMultiplier: 1.1
     
     - title: Bready Beverages
       description: >-

@@ -38,7 +38,7 @@ advancements:
       art: aloe_avanta_baby
       xp: 750
       kind:
-        yield_size_multiplier: 1.05
+        YieldSizeMultiplier: 1.05
     
     - title: Why So Blue?
       description: >-
@@ -48,7 +48,7 @@ advancements:
       art: aloe_avanta_baby
       xp: 1350
       kind:
-        yield_size_multiplier: 1.07
+        YieldSizeMultiplier: 1.07
       
     - title: Smooth Tunes
       description: >-
@@ -58,7 +58,7 @@ advancements:
       art: aloe_avanta_baby
       xp: 2100
       kind:
-        yield_speed_multiplier: 1.07
+        YieldSpeedMultiplier: 1.07
       
     - title: Dust Smites
       description: >-
@@ -70,7 +70,7 @@ advancements:
       xp: 4000
       kind:
         Neighbor:
-          yield_speed_multiplier: 1.1
+          YieldSpeedMultiplier: 1.1
     
     - title: Purple Haze
       description: >-
@@ -80,7 +80,7 @@ advancements:
       art: aloe_avanta_kid
       xp: 4900
       kind:
-        yield_speed_multiplier: 1.1
+        YieldSpeedMultiplier: 1.1
     
     - title: Vera Nice to See You
       description: >-
@@ -91,7 +91,7 @@ advancements:
       xp: 6100
       kind:
         Neighbor:
-          yield_speed_multiplier: 1.15
+          YieldSpeedMultiplier: 1.15
   
     - title: Aloewance
       description: >-
@@ -102,7 +102,7 @@ advancements:
       xp: 7500
       kind:
         Neighbor:
-          yield_size_multiplier: 1.1
+          YieldSizeMultiplier: 1.1
     
     - title: Avanta Garde
       description: >-
@@ -198,7 +198,7 @@ advancements:
       xp: 16400
       kind:
         Neighbor:
-          yield_size_multiplier: 1.15
+          YieldSizeMultiplier: 1.15
       
     - title: Soothing Soot
       description: >-
@@ -210,7 +210,7 @@ advancements:
       xp: 19200
       kind:
         Neighbor:
-          yield_size_multiplier: 1.2
+          YieldSizeMultiplier: 1.2
       
     - title: Nitroglycerin Nursery
       description: >-
@@ -266,7 +266,7 @@ advancements:
       art: aloe_avanta_teen
       xp: 26000
       kind:
-        yield_speed_multiplier: 1.12
+        YieldSpeedMultiplier: 1.12
     
     - title: Powder Power
       description: >-
@@ -289,7 +289,7 @@ advancements:
       art: aloe_avanta_grown
       xp: 54000
       kind:
-        yield_size_multiplier: 1.15
+        YieldSizeMultiplier: 1.15
     
     - title: Successful Succulent
       description: >-
@@ -299,7 +299,7 @@ advancements:
       art: aloe_avanta_grown
       xp: 60000
       kind:
-        yield_size_multiplier: 1.15
+        YieldSizeMultiplier: 1.15
     
     - title: Expedited Explosions
       description: >-
@@ -344,7 +344,7 @@ advancements:
       art: aloe_avanta_grown
       xp: 78000
       kind:
-        yield_size_multiplier: 1.2
+        YieldSizeMultiplier: 1.2
     
     - title: Aloe Savanta
       description: >-
