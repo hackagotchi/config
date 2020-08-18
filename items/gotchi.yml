@@ -14,8 +14,6 @@
         Buff:
           title: Hackagotchi Help!
           description: *desc
-          achiever_title: Hackagotchi Haver
-          art: bractus_loaf
           kind:
             YieldSizeMultiplier: 1.16
 
@@ -34,8 +32,6 @@
         Buff:
           title: Hackagotchi Help!
           description: *desc
-          achiever_title: Hackagotchi Haver
-          art: bractus_loaf
           kind:
             YieldSizeMultiplier: 1.16
 
@@ -54,7 +50,5 @@
         Buff:
           title: Hackagotchi Help!
           description: *desc
-          achiever_title: Hackagotchi Haver
-          art: bractus_loaf
           kind:
             YieldSizeMultiplier: 1.16

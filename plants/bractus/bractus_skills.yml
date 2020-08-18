@@ -1,1 +1,77 @@
 ---
+- title: Baked Like a Bractus
+  unlocks:
+    - Doughy Drought
+    - Bread Buddies
+  effects:
+    - description: Right now this Bractus can only produce XP, but he''s eager to do more!
+      buff: { Xp: 1.0 }
+    - description: OMG ADORRRRBS
+      buff:
+        Art:
+          file: bractus_loaf
+          precedence: 0
+
+- title: Doughy Drought
+  unlocks:
+    - Journey to the Yeast
+  effects:
+    - description: >-
+        In the pounding desert heat, this young Bractusonly has the
+        strength to yield one Bread Essence every six hours.
+      buff:
+        Yield: 
+          All:
+            - Xp: [ 150, 200 ]
+            - Amount: 
+              - [1.2, 1.4]
+              - All: [ Item: Bread Essence, Xp: 50 ]
+
+- title: Journey to the Yeast
+  unlocks:
+    - Rockin'' and Rollin''
+  effects:
+    - description: >-
+        The Bread Heavens part and a crisp, golden light shines down
+        on this Bractus, blessing it with 10% faster resource production.
+      buff: { YieldSpeedMultiplier: 1.1 }
+
+- title: Rockin'' and Rollin''
+  unlocks: []
+  effects:
+    - description: >-
+        Standing tall and proud, and with the horizon extended,
+        this Bractus now produces resources at a 10% higher rate.
+      buff: { YieldSpeedMultiplier: 1.1 }
+
+- title: Bread Buddies
+  unlocks:
+    - Playdough
+  effects:
+    - description: >-
+        This adorable Bractus is truly a man''s best friend.
+        It''s soft and squishy and even comes with a 5% yield boost!
+      buff: { YieldSizeMultiplier: 1.05 }
+
+- title: Playdough
+  unlocks: []
+  effects:
+    - description: >- 
+        Ever get yelled at as a kid for smushing your bread into tiny little balls?
+        No? Well that''s what your Bractus has been up to, 
+        except these compressed bread things seem exceptionally useful.
+      buff:
+        Craft:
+          - title: ":bressence: bressence!"
+            explanation: Compressing your bread makes it quite handy for crafting with!
+            needs:
+              - [5, Bread Essence]
+            makes:
+              All: [Item: Bressence, Xp: 144]
+            time: 240
+
+    - description: Bractus Kid!!!
+      buff:
+        Art:
+          file: bractus_kid
+          precedence: 1
