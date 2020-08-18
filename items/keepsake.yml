@@ -341,7 +341,7 @@
   description: This chemical craze commits quite the catastrophic capabilities to Coffea Cyl plants, contributing a capacity to increase their neighbors'' yield speeds by 6% and their yield sizes by 3%.
   plant_rub_effects:
     - 
-      &buff
+      &effect
       for_plants:
         Only: [ Coffea Cyl ]
       effect_description: &desc With the power of fermented sugar, this Cyl rouses its neighbors and gives them a 6% boost to yield speed along with a 3% boost to yield size.
@@ -353,7 +353,7 @@
             Neighbor:
               YieldSpeedMultiplier: 1.06
     - 
-      << : *buff
+      << : *effect
       kind:
         Buff:
           title: Concoction Collaboration
@@ -361,23 +361,29 @@
           kind:
             Neighbor:
               YieldSizeMultiplier: 1.06
-              
+
 - name: Vibefying Vinefying Elixir
   description: Having a Hacker Vibes Vine quaff this potion has quite an effect on them, enabling them to boost the size of their neighbors'' yield speeds and sizes by 6% and 3% respectively.
   plant_rub_effects:
-    short_description: Give this Hacker Vibes Vine 6% neighbor speed and 3% neighbor size boosts!
-    for_plants:
-      - Hacker Vibes Vine
-    kind:
-      Buff:
-        - title: Vinedication and Dedication
-          description: A drunken Vine is faithful and loyal to its friends, who gain a 6% yield speed boost with a 3% boost to yield size.
+    -
+      &effect
+      effect_description: &desc A drunken Vine is faithful and loyal to its friends, who gain a 6% yield speed boost with a 3% boost to yield size.
+      for_plants:
+        Only: [ Hacker Vibes Vine ]
+      kind:
+        Buff:
+          title: Vinedication and Dedication
+          description: *desc
           kind:
             Neighbor:
               YieldSpeedMultiplier: 1.06
 
-        - title: Vinedication and Dedication
-          description: A drunken Vine is faithful and loyal to its friends, who gain a 6% yield speed boost with a 3% boost to yield size.
+    - 
+      << : *effect
+      kind:
+        Buff:
+          title: Vinedication and Dedication
+          description: *desc
           kind:
             Neighbor:
               YieldSizeMultiplier: 1.06
@@ -387,21 +393,27 @@
     This beaut of a butt can be boozed in a bout on a boat or a butte ... or just about anywhere. 
     Bracti that drink it increase the speed of neighboring Bracti''s yields by 6%, with their yield sizes being increased by 3%.
   plant_rub_effects:
-    short_description: Give this Bractus 6% neighbor speed and 3% neighbor size boosts!
-    for_plants:
-      - Bractus
-    advancement:
-      - title: Bolder and Better
-        description: This Bractus, having downed a fresh brew, inspires confidence in its pals, increasing their yield speeds by 6% and yield sizes by 3%.
-        kind:
-          Neighbor:
-            YieldSpeedMultiplier: 1.06
-
-      - title: Bolder and Better
-        description: This Bractus, having downed a fresh brew, inspires confidence in its pals, increasing their yield speeds by 6% and yield sizes by 3%.
-        kind:
-          Neighbor:
-            YieldSizeMultiplier: 1.06
+    - 
+      &effect
+      effect_description: &desc This Bractus, having downed a fresh brew, inspires confidence in its pals, increasing their yield speeds by 6% and yield sizes by 3%.
+      for_plants:
+        Only: [ Bractus ]
+      kind:
+        Buff:
+          title: Bolder and Better
+          description: *desc
+          kind:
+            Neighbor:
+              YieldSpeedMultiplier: 1.06
+    - 
+      << : *effect
+      kind:
+        Buff:
+          title: Bolder and Better
+          description: *desc
+          kind:
+            Neighbor:
+              YieldSizeMultiplier: 1.06
 
 - name: Scintillating Cyllicizing Coffee Concoction
   description: An aromatic potion emanating a warm aura. As well as being able to wake up a dead elephant, it can magically change a plant into a Coffea Cyl.
