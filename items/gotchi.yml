@@ -3,49 +3,58 @@
   description: >-
     The boundless buzzing, crackling energy found in Cyl Crystals manifests itself in Gempheus''s personality! That is to say, 
     Gempheus early in the morning is a little more than most people can handle. At least this energy helps your Cyl plants have greater yields!
-  base_happiness: 3
-  plant_effects:
-    keep_plants:
-      Only: Coffea Cyl
-    advancement:
-      title: Hackagotchi Help!
-      description: Having a Gempheus increases the yield size of this Coffea Cyl 16%!
-      achiever_title: Hackagotchi Haver
-      art: bractus_loaf
-      xp: 0
+  gotchi:
+    base_happiness: 3
+  passive_plant_effects:
+    -
+      for_plants:
+        Only: [ Coffea Cyl ]
+      effect_description: &desc Having a Gempheus increases the yield size of this Coffea Cyl 16%!
       kind:
-        yield_size_multiplier: 1.16
+        Buff:
+          title: Hackagotchi Help!
+          description: *desc
+          achiever_title: Hackagotchi Haver
+          art: bractus_loaf
+          kind:
+            YieldSizeMultiplier: 1.16
 
 - name: Hackpheus
   description: >-
     Enjoys long hacks on the beach, and thinks that posting her dating profile bio here is somewhat inappropriate. 
     Thankfully, you hear much less profanity from this one, and hear instead bigger and better yields coming your way!
-  base_happiness: 3
-  plant_effects:
-    keep_plants:
-      Only: Hacker Vibes Vine
-    advancement:
-      title: Hackagotchi Help!
-      description: Having a Hackpheus increases the yield size of this Hacker Vibes Vine 16%!
-      achiever_title: Hackagotchi Haver
-      art: bractus_loaf
-      xp: 0
+  gotchi:
+    base_happiness: 3
+  passive_plant_effects:
+    -
+      for_plants:
+        Only: [ Hacker Vibes Vine ]
+      effect_description: &desc Having a Hackpheus increases the yield size of this Hacker Vibes Vine 16%!
       kind:
-        yield_size_multiplier: 1.16
+        Buff:
+          title: Hackagotchi Help!
+          description: *desc
+          achiever_title: Hackagotchi Haver
+          art: bractus_loaf
+          kind:
+            YieldSizeMultiplier: 1.16
 
 - name: Chefpheus
   description: >-
     A cute Hackagotchi who is into baking! She can actually only make bread, as we all know from the Great Cake Fire of ''19. 
     What she lacks in kitchen skills, however, doesn''t affect her ability to cook up a boost to yield size.
-  base_happiness: 3
-  plant_effects:
-    keep_plants:
-      Only: Bractus
-    advancement:
-      title: Hackagotchi Help!
-      description: Having a Chefpheus increases the yield size of this Bractus 16%!
-      achiever_title: Hackagotchi Haver
-      art: bractus_loaf
-      xp: 0
+  gotchi: 
+    base_happiness: 3
+  passive_plant_effects:
+    -
+      for_plants:
+        Only: [ Bractus ]
+      effect_description: &desc Having a Chefpheus increases the yield size of this Bractus 16%!
       kind:
-        yield_size_multiplier: 1.16
+        Buff:
+          title: Hackagotchi Help!
+          description: *desc
+          achiever_title: Hackagotchi Haver
+          art: bractus_loaf
+          kind:
+            YieldSizeMultiplier: 1.16
