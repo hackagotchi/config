@@ -1,186 +1,160 @@
 ---
 # -- Keepsakes
 - name: Warp Powder
-  description: Sparkling, glittery, glowing blue powder that emits high-pitched squeaking noises, especially when excited. It has been known to accelerate time.
+  description: >-
+    Sparkling, glittery, glowing blue powder that emits high-pitched squeaking noises,
+    especially when excited. It has been known to accelerate time.
   plant_rub_effects:
-    - 
-      effect_description: Grow this plant 2 extra hours in 6 minutes!
+    - description: Grow this plant 2 extra hours in 6 minutes!
       duration: 72
-      for_plants:
-        Not: [ Aloe Avanta ]
-      kind:
-        Buff:
-          title: Warped Away
-          description: This Powder flares up on contact with your plant, creating a small bubble of accelerated time around it.
-          kind:
-            ExtraTimeTicks: 20
+      for_plants: { Not: [ Aloe Avanta ] }
+      buff: { ExtraTimeTicks: 20 }
 
 - name: Rift Powder
   description: >-
-    A volatile compound that easily tears the fabric of spacetime. Its powerful time acceleration properties were last recorded in the ancient tomes of the Brognarks; 
+    A volatile compound that easily tears the fabric of spacetime.
+    Its powerful time acceleration properties were last recorded
+    in the ancient tomes of the Brognarks; 
     no one has been able to acquire any more knowledge of this substance since then.
   plant_rub_effects:
-    -
-      effect_description: Grow this plant 20 extra hours in 5 minutes!
+    - description: Grow this plant 20 extra hours in 5 minutes!
       duration: 60
-      for_plants:
-        Not: [ Aloe Avanta ]
-      kind:
-        Buff:
-          title: Need a Rift?
-          description: Speeding up progress with Rift Powder is easy enough. Just toss it onto a plant and watch it grow!
-          kind:
-            ExtraTimeTicks: 240
+      for_plants: { Not: [ Aloe Avanta ] }
+      buff: { ExtraTimeTicks: 240 }
 
 - name: Wormhole Powder
   description: >-
     The rarest, most pure time acceleration substance in the universe ... 
-    So rare, even the ancients only alluded to its existence ... Said to be able to call forth the ancient worm of time herself ...
+    So rare, even the ancients only alluded to its existence ...
+    Said to be able to call forth the ancient worm of time herself ...
   plant_rub_effects:
-    -
-      effect_description: Grow this plant 69 extra hours in 2 minutes!
+    - description: Grow this plant 69 extra hours in 2 minutes!
       duration: 24
-      for_plants:
-        Not: [ Aloe Avanta ]
-      kind:
-        Buff:
-          title: Relatively Fast
-          description: I AM SPEEEEED!
-          kind:
-            ExtraTimeTicks: 2070
+      for_plants: { Not: [ Aloe Avanta ] }
+      buff: { ExtraTimeTicks: 2070 }
 
 # -- Land Stuff
 - name: Land Deed
-  description: A thin piece of paper with enormous power. Entitles the holder to a new plot of land, if they have the experience to handle it, of course.
-  unlocks_land:
-    requires_xp: true
+  description: >-
+    A thin piece of paper with enormous power.
+    Entitles the holder to a new plot of land,
+    if they have the experience to handle it, of course.
+  unlocks_land: { requires_xp: true }
 
 - name: Land Grant
-  description: This aged parchment is covered with ancient runes that allow anyone to summon more land plots, regardless of their experience.
-  unlocks_land:
-    requires_xp: false
+  description: >-
+    This aged parchment is covered with ancient runes that
+    allow anyone to summon more land plots, regardless of their experience.
+  unlocks_land: { requires_xp: false }
 
 - name: Land Deed Fragment
-  description: A wrinkled fragment of paper which has a surprisingly earthy smell. It yearns to be reunited with 998 fragments similar to itself.
+  description: >-
+    A wrinkled fragment of paper which has a surprisingly earthy smell.
+    It yearns to be reunited with 998 fragments similar to itself.
+
 # Passive Boost Items
 - name: Cyl Wand
   description: >-
-    Once your run-of-the-mill stick, this wand has been lined with gems that occasionally light and spark, 
+    Once your run-of-the-mill stick,
+    this wand has been lined with gems that occasionally light and spark, 
     the energy giving Coffea Cyl plants a 10% boost to yield speed.
   passive_plant_effects:
-    -
-      for_plants:
-        Only: [ Coffea Cyl ]
-      effect_description: &desc >-
+    - description: >-
         The occasional static discharged from this Wand allows Cyl plants to recharge, 
         allowing them to produce yields 10% faster.
-      kind:
-        Buff:
-          title: Static Calling
-          description: *desc
-          kind:
-            YieldSpeedMultiplier: 1.10
+      for_plants: { Only: [ Coffea Cyl ] }
+      buff: { YieldSpeedMultiplier: 1.10 }
 
 - name: Vine Keyboard
   description: >-
     The loud clacking of this keyboard''s keys enchant Hacker Vibes Vines, 
-    sending those who hear it into a trancelike state where they work on their yields at a 10% faster rate.
+    sending those who hear it into a trancelike state where they work
+    on their yields at a 10% faster rate.
   passive_plant_effects:
-    -
-      for_plants:
-        Only: [ Hacker Vibes Vine ]
-      effect_description: &desc >-
-        With the pen being mightier than the sword, arming yourself with a nice Keyboard is never a bad idea. 
+    - description: >-
+        What with the pen being mightier than the sword,
+        arming yourself with a nice Keyboard is never a bad idea. 
         This one even gives Hacker Vibes Vines a 10% boost to yield speed.
-      kind:
-        Buff:
-          title: Vine Keyboard Bonus
-          description: *desc
-          kind:
-            YieldSpeedMultiplier: 1.10
+      for_plants: { Only: [ Hacker Vibes Vine ] }
+      buff: { YieldSpeedMultiplier: 1.10 }
 
 - name: Rolling Pin
   description: >-
-    Bracti fear the Rolling Pin more than almost any other tool, and in the hands of the correct wielder, 
+    Bracti fear the Rolling Pin more than almost any other tool,
+    and in the hands of the correct wielder, 
     it will inspire them to work harder with a 10% boost to the speed of yields.
   passive_plant_effects:
-    -
-      for_plants:
-        Only: [ Bractus ]
-      effect_description: &desc It may be better to be loved than feared, but the unease Rolling Pins generate among the Bractus crowds increase their yield speeds by 10%!
-      kind:
-        Buff:
-          title: Rolling in Dough
-          description: *desc
-          kind:
-            YieldSpeedMultiplier: 1.10
+    - description: >-
+        It may be better to be loved than feared,
+        but the unease Rolling Pins generate among the Bractus
+        crowds increase their yield speeds by 10%!
+      for_plants: { Only: [ Bractus ] }
+      buff: { YieldSpeedMultiplier: 1.10 }
 
 - name: Cytrus Staff
   description: >-
-    Energy overflows from this staff, with orange lightning arcing from Cyl to Cyl, sending them all into overdrive. 
+    Energy overflows from this staff,
+    with orange lightning arcing from Cyl to Cyl,
+    sending them all into overdrive. 
     These high energy Cyl can now produce yields 30% faster!
   passive_plant_effects:
-    -
-      for_plants:
-        Only: [ Coffea Cyl ]
-      effect_description: &desc This Cytrus Staff''s magical might supercharges Cyl with powerful, precise bolts of orange electricity, increasing the yield speed of Coffea Cyl by 30%!
-      kind:
-        Buff:
-          title: Crystal Shock
-          description: *desc
-          kind:
-            YieldSpeedMultiplier: 1.30
+    - description: >-
+        This Cytrus Staff''s magical might supercharges Cyl with powerful,
+        precise bolts of orange electricity,
+        increasing the yield speed of Coffea Cyl by 30%!
+      for_plants: { Only: [ Coffea Cyl ] }
+      buff: { YieldSpeedMultiplier: 1.30 }
   
 - name: Jungleboard
   description: >-
-    Click clack. Clickity clack click. Upon hearing this sound, any Hacker Vibes Vines will become lost in the forest of their minds, 
+    Click clack. Clickity clack click.
+    Upon hearing this sound, any Hacker Vibes Vines will become lost in the forest of their minds, 
     releasing more vIbes with a 30% boost to yield speed.
   passive_plant_effects:
-    -
-      for_plants:
-        Only: [ Hacker Vibes Vine ]
-      effect_description: &desc The light jungle sounds of this Jungleboard send Hacker Vibes Vines into a deep meditative state where they produce yields 30% more often!
-      kind:
-        Buff:
-          title: Brainforest Hacking
-          description: *desc
-          kind:
-            YieldSpeedMultiplier: 1.30
+    - description: >-
+        The light jungle sounds of this Jungleboard send Hacker Vibes Vines
+        into a deep meditative state where they produce yields 30% more often!
+      for_plants: { Only: [ Hacker Vibes Vine ] }
+      buff: { YieldSpeedMultiplier: 1.30 }
 
 - name: Kingpin
   description: >-
-    The majesty and might of this Rolling Pin has grown beyond mere bread, and the terror it causes within Bracti now gives them a 30% boost to yield speed.
+    The majesty and might of this Rolling Pin has grown beyond mere bread,
+    and the terror it causes within Bracti now gives them a 30% boost to yield speed.
   passive_plant_effects:
-    -
-      for_plants:
-        Only: [ Bractus ]
-      effect_description: &desc The top tool of its kitchen college, the Kingpin orders Bracti to supply both bread and circus, still somehow increasing the frequency of Bractus yields by 30%.
-      kind:
-        Buff:
-          title: Pin Pinnacle
-          description: *desc
-          kind:
-            YieldSpeedMultiplier: 1.30
+    - description: >-
+        The top tool of its kitchen college,
+        the Kingpin orders Bracti to supply both bread and circus,
+        still somehow increasing the frequency of Bractus yields by 30%.
+      for_plants: { Only: [ Bractus ] }
+      buff: { YieldSpeedMultiplier: 1.30 }
 
 # Compressed Materials
 - name: crystcyl
   description: >-
-    The humming noise coming from this crystcyl is powerful enough to roast marshmallows. I'm not kidding! 
-    The marshmallows glow orange and discharge static on your tongue, but have a delicious coffee flavor!
+    The humming noise coming from this crystcyl is powerful enough to roast marshmallows.
+    I'm not kidding! 
+    The marshmallows glow orange and discharge static on your tongue,
+    but have a delicious coffee flavor!
 
 - name: hacksprit
   description: >-
     Dude, I'm seriously kind of amazed at the power of duct tape. 
-    There's no way that these Hacker Spirits should be able to stick together like this. It's mind blowing.
+    There's no way that these Hacker Spirits should be able to stick together like this.
+    It's mind blowing.
 
 - name: bressence
   description: >-
-    Seriously. Don't eat bressence. It might sound like a quick way to get five meals in the time it takes to get one. 
-    It's not. Just don't. The last guy to try it was on the toilet for - well, I'll spare you the details.
+    Seriously. Don't eat bressence.
+    It might sound like a quick way to get five meals in the time it takes to get one. 
+    It's not. Just don't.
+    The last guy to try it was on the toilet for - well, I'll spare you the gory details.
 
 # Raw Materials
 - name: Cyl Crystal
-  description: This Crystal pops, buzzes, and warps the space around it. Soft, warm lights dance within the Crystal's facets.
+  description: >-
+    This Crystal pops, buzzes, and warps the space around it.
+    Soft, warm lights dance within the Crystal's facets.
 
 - name: Hacker Spirit
   description: >-
@@ -194,134 +168,121 @@
 
 # Tinkerstool stuff
 - name: Tinkerpart
-  description: A mysterious, mechanical scrap that can only be handled by the most masterful craftsmen. It smells and feels a bit damp.
+  description: >-
+    A mysterious, mechanical scrap that can only be handled by the most masterful craftsmen.
+    It smells and feels a bit damp.
 
 - name: Tinkermultitool
   description: >-
     A wieldly tool for only the finest craftsmen, this is the trade tool of a Tinkerstool. 
-    With the power of all three tools combined, this tool takes on the abilities of all its predecessors doubled.
+    With the power of all three tools combined,
+    this tool takes on the abilities of all its predecessors doubled.
   passive_plant_effects:
-    -
-      for_plants:
-        Only: [ Tinkerstool ]
-      effect_description: &desc The tinkertool trio that this tool comes from gives it the abilities of all three - doubled, in fact!
-      kind:
-        Buff:
-          title: Tremendous Tinkering
-          description: *desc
-          kind:
-            DoubleCraftYield: 0.024
+    - description: 2.4% chance of double craft yields!
+      for_plants: { Only: [ Tinkerstool ] }
+      buff: { DoubleCraftYield: 0.024 }
     
-    - for_plants: All
-      effect_description: &desc The tinkertool trio that this tool comes from gives it the abilities of all three - doubled, in fact!
-      kind:
-        Buff: 
-          title: Tremendous Tinkering
-          description: *desc
-          kind:
-            CraftReturnChance: 0.04
+    - description: 4% chance of craft return!
+      for_plants: { Only: [ Tinkerstool ] }
+      buff: { CraftReturnChance: 0.04 }
     
-    - for_plants: All
-      effect_description: &desc The tinkertool trio that this tool comes from gives it the abilities of all three - doubled, in fact!
-      kind:
-        Buff:
-          title: Tremendous Tinkering
-          description: *desc
-          kind:
-            CraftSpeedMultiplier: 1.48
+    - description: 48% faster crafts!
+      for_plants: { Only: [ Tinkerstool ] }
+      buff: { CraftSpeedMultiplier: 1.48 }
 
 - name: Tinkersledge
   description: >-
     A mushroom with a heavy-duty hammer? What? This springy tool takes precision and focus, 
     and using it will allow a 1.2% chance at double the crafting yield!
   passive_plant_effects:
-    -
-      for_plants:
-        Only: [ Tinkerstool ]
-      effect_description: &desc >-
+    - description: >-
         Not much can''t be solved by a good whack with a hammer! 
         This one somehow even gives a 1.2% chance that you get double the crafts!
-      kind:
-        Buff:
-          title: Looks like a Nail!
-          description: *desc
-          kind:
-            DoubleCraftYield: 0.012
+      for_plants: { Only: [ Tinkerstool ] }
+      buff: { DoubleCraftYield: 0.012 }
 
 - name: Tinkerdriver
   description: >-
     A carefully crafted tool that allows careful crafting. 
-    Having this tool available allows for a 2% chance to have some of your crafting resources returned.
+    Having this tool available allows for a 2% chance to
+    have some of your crafting resources returned.
   passive_plant_effects:
-    -
-      for_plants:
-        Only: [ Tinkerstool ]
-      effect_description: &desc The precision of this new new screwdriver is crazy! Just like you''d be without it''s 2% craft return chance!
-      kind:
-        Buff:
-          title: Screws Loose
-          description: *desc
-          kind:
-            CraftReturnChance: 0.02
+    - description: >-
+        The precision of this new new screwdriver is crazy!
+        Just like you''d be without it''s 2% craft return chance!
+      for_plants: { Only: [ Tinkerstool ] }
+      buff: { CraftReturnChance: 0.02 }
 
 - name: Tinkerlight
   description: >-
-    While this flashlight seems normal enough, it has the uncanny ability to filter light through artificial gills to refract light into an assortment of shapes and shades. 
+    While this flashlight seems normal enough,
+    it has the uncanny ability to filter light through artificial gills
+    to refract light into an assortment of shapes and shades. 
     It also has the unique ability of boosting crafting speed by 24%.
   passive_plant_effects:
-    -
-      for_plants:
-        Only: [ Tinkerstool ]
-      effect_description: &desc >-
-        Through it''s many lenses and filters, it''s hard not to be entranced by this tool''s fantastic lights. 
+    - description: >-
+        Through it''s many lenses and filters,
+        it''s hard not to be entranced by this tool''s fantastic lights. 
         It somehow makes crafting 24% faster.
-        
-      kind:
-        Buff:
-          title: Speed of Light
-          description: *desc
-          kind:
-            CraftSpeedMultiplier: 1.24
+      for_plants: { Only: [ Tinkerstool ] }
+      buff: { CraftSpeedMultiplier: 1.24 }
 
 # Buzzwings
 - name: Crystalline Buzzwing Bagling
-  description: A curious flying bag which is sometimes tied to a goblin folk legend. Upon opening you can usually find quite a few treats.
+  description: >-
+    A curious flying bag which is sometimes tied to a goblin folk legend.
+    Upon opening you can usually find quite a few treats.
 
 - name: Spirited Buzzwing Bagling
-  description: Magical bags such as this are rumored to have been commonplace in a time long past. It is bound to have some magical items inside.
+  description: >-
+    Magical bags such as this are rumored to have been commonplace in a time long past.
+    It is bound to have some magical items inside.
 
 - name: Doughy Buzzwing Bagling
   description: >-
-    The secret to the creation of these rare winged bags was supposedly lost, making their sudden return quite curious. 
+    The secret to the creation of these rare winged bags was supposedly lost,
+    making their sudden return quite curious. 
     Opening it may give way to fantastic rewards.
 
 - name: Crystalline Buzzwing Boxling
-  description: A flightful box of amber with a nice shine to it. Other than being a decent mirror, it is sure to contain something of worth.
+  description: >-
+    A flightful box of amber with a nice shine to it.
+    Other than being a decent mirror, it is sure to contain something of worth.
 
 - name: Spirited Buzzwing Boxling
-  description: Infused with the might of duct tape, this box flies strong, wings flapping rhythmically. The box itself is worth trying to open for the hope of good loot.
+  description: >-
+    Infused with the might of duct tape,
+    this box flies strong, wings flapping rhythmically.
+    The box itself is worth trying to open for the hope of good loot.
 
 - name: Doughy Buzzwing Boxling
-  description: For something made of dough, this box holds itself together well, while still being a bit malleable. Treasure is certain to be found within.
+  description: >-
+    For something made of dough,
+    this box holds itself together well, while still being a bit malleable.
+    Treasure is certain to be found within.
 
 - name: Crystalline Buzzwing Boxlet
   description: >-
-    At the correct angle, this box reflects lights that mesmerize those who see it. Though it''s telling that there is treasure to be discovered, 
+    At the correct angle, this box reflects lights that mesmerize those who see it.
+    Though it''s telling that there is treasure to be discovered, 
     the box itself seems to be a replica of an old goblin design.
 
 - name: Spirited Buzzwing Boxlet
   description: >-
-    The soft humming of this boxes wing is almost musical in nature, sounding like an ancient hymn of an old goblin tribe. 
+    The soft humming of this boxes wing is almost musical in nature,
+    sounding like an ancient hymn of an old goblin tribe. 
     Maybe inside you''ll find some of their legendary treasure.
 
 - name: Doughy Buzzwing Boxlet
   description: >-
-    From the corner of one''s eye, it seems that the dough on this box occasionally shifts and slides, as if it has been granted life by powerful magicks, known only to the ancients. 
+    From the corner of one''s eye, it seems that the dough on this box occasionally shifts and slides,
+    as if it has been granted life by powerful magicks, known only to the ancients. 
     One knows they can find valuable trinkets within this enchanted box.
 
 - name: Crystalline Buzzwing Megabox
   description: >-
-    This crystal-laden box lights up with strange magicks, similarly to a rumored piece of magitech made by the Brognarks. 
+    This crystal-laden box lights up with strange magicks,
+    similarly to a rumored piece of magitech made by the Brognarks. 
     Bounty and wealth are promised to those who can access its contents.
 
 - name: Spirited Buzzwing Megabox
@@ -331,187 +292,121 @@
 
 - name: Doughy Buzzwing Megabox
   description: >-
-    The way in which this box''s outsides are animated emulate the magicks of the great Brognark civilization. 
+    The way in which this box''s outsides are animated emulate the magicks
+    of the great Brognark civilization. 
     The maker of this box has surely inserted items of much value.    
 # Potions
 - name: Volatile Vial
-  description: A glass bottle which sizzles with magic. Some of this energy escapes into whatever it holds, limiting its number of uses.
+  description: >-
+    A glass bottle which sizzles with magic.
+    Some of this energy escapes into whatever it holds, limiting its number of uses.
 
 - name: Cyllicizing Coffee Concoction
-  description: This chemical craze commits quite the catastrophic capabilities to Coffea Cyl plants, contributing a capacity to increase their neighbors'' yield speeds by 6% and their yield sizes by 3%.
+  description: >-
+    This chemical craze commits quite the catastrophic capabilities to Coffea Cyl plants,
+    contributing a capacity to increase their neighbors'' yield speeds by 6%
+    and their yield sizes by 3%.
   plant_rub_effects:
-    - 
-      &effect
-      for_plants:
-        Only: [ Coffea Cyl ]
-      effect_description: &desc With the power of fermented sugar, this Cyl rouses its neighbors and gives them a 6% boost to yield speed along with a 3% boost to yield size.
-      kind:
-        Buff:
-          title: Concoction Collaboration
-          description: *desc
-          kind:
-            Neighbor:
-              YieldSpeedMultiplier: 1.06
-    - 
-      << : *effect
-      kind:
-        Buff:
-          title: Concoction Collaboration
-          description: *desc
-          kind:
-            Neighbor:
-              YieldSizeMultiplier: 1.06
+    - description: Crazy Coffee! + 6% Yield Speed!
+      for_plants: { Only: [ Coffea Cyl ] }
+      buff: { Neighbor: { YieldSpeedMultiplier: 1.06 } }
+    - description: Crazy Coffee! + 3% Yield Size!
+      for_plants: { Only: [ Coffea Cyl ] }
+      buff: { Neighbor: { YieldSizeMultiplier: 1.03 } }
 
 - name: Vibefying Vinefying Elixir
-  description: Having a Hacker Vibes Vine quaff this potion has quite an effect on them, enabling them to boost the size of their neighbors'' yield speeds and sizes by 6% and 3% respectively.
+  description: >-
+    Having a Hacker Vibes Vine quaff this potion has quite an effect on them,
+    enabling them to boost the size of their neighbors''
+    yield speeds and sizes by 6% and 3% respectively.
   plant_rub_effects:
-    -
-      &effect
-      effect_description: &desc A drunken Vine is faithful and loyal to its friends, who gain a 6% yield speed boost with a 3% boost to yield size.
-      for_plants:
-        Only: [ Hacker Vibes Vine ]
-      kind:
-        Buff:
-          title: Vinedication and Dedication
-          description: *desc
-          kind:
-            Neighbor:
-              YieldSpeedMultiplier: 1.06
+    - description: Vine Elixir! + 6% Yield Speed!
+      for_plants: { Only: [ Hacker Vibes Vine ] }
+      buff: { Neighbor: { YieldSpeedMultiplier: 1.06 } }
 
-    - 
-      << : *effect
-      kind:
-        Buff:
-          title: Vinedication and Dedication
-          description: *desc
-          kind:
-            Neighbor:
-              YieldSizeMultiplier: 1.06
+    - description: Vine Elixir! + 3% Yield Size!
+      for_plants: { Only: [ Hacker Vibes Vine ] }
+      buff: { Neighbor: { YieldSizeMultiplier: 1.03 } }
 
 - name: Bractification Brew
   description: >-
-    This beaut of a butt can be boozed in a bout on a boat or a butte ... or just about anywhere. 
-    Bracti that drink it increase the speed of neighboring Bracti''s yields by 6%, with their yield sizes being increased by 3%.
+    This beaut of a butt can be boozed in a bout on a boat or a butte ...
+    or just about anywhere. 
+    Bracti that drink it increase the speed of neighboring Bracti''s yields by 6%,
+    with their yield sizes being increased by 3%.
   plant_rub_effects:
-    - 
-      &effect
-      effect_description: &desc This Bractus, having downed a fresh brew, inspires confidence in its pals, increasing their yield speeds by 6% and yield sizes by 3%.
-      for_plants:
-        Only: [ Bractus ]
-      kind:
-        Buff:
-          title: Bolder and Better
-          description: *desc
-          kind:
-            Neighbor:
-              YieldSpeedMultiplier: 1.06
-    - 
-      << : *effect
-      kind:
-        Buff:
-          title: Bolder and Better
-          description: *desc
-          kind:
-            Neighbor:
-              YieldSizeMultiplier: 1.06
+    - description: Bractus Brew! + 6% Yield Speed!
+      for_plants: { Only: [ Bractus ] }
+      buff: { Neighbor: { YieldSpeedMultiplier: 1.06 } }
+
+    - description: Bractus Brew! + 3% Yield Size!
+      for_plants: { Only: [ Bractus ] }
+      buff: { Neighbor: { YieldSizeMultiplier: 1.03 } }
 
 - name: Scintillating Cyllicizing Coffee Concoction
-  description: An aromatic potion emanating a warm aura. As well as being able to wake up a dead elephant, it can magically change a plant into a Coffea Cyl.
+  description: >-
+    An aromatic potion emanating a warm aura.
+    As well as being able to wake up a dead elephant,
+    it can magically change a plant into a Coffea Cyl.
   plant_rub_effects:
-    short_description: Turn this plant into a Coffea Cyl!
-    for_plants:
-      - Hacker Vibes Vine
-      - Bractus
-      - Tinkerstool
-      - Aloe Avanta
-    kind:
-      turns_plant_into: Coffea Cy
+    - description: Turn this plant into a Coffea Cyl!
+      for_plants: { Not: Coffea Cyl }
+      transmogrification: Coffea Cyl
 
 - name: Vivifying Vibefying Vinefying Elixir
-  description: This curious tincture smells like a fresh rainstorm, and makes the air around it feel humid. It also has the power to make any plant into a Hacker Vibes Vine.
+  description: >-
+    This curious tincture smells like a fresh rainstorm,
+    and makes the air around it feel humid.
+    It also has the power to make any plant into a Hacker Vibes Vine.
   plant_rub_effects:
-    short_description: Turn this plant into a Hacker Vibes Vine!
-    for_plants:
-      - Coffea Cyl
-      - Bractus
-      - Tinkerstool
-      - Aloe Avanta
-    kind:
-      turns_plant_into: Hacker Vibes Vine
+    - description: Turn this plant into a Hacker Vibes Vine!
+      for_plants: { Not: Hacker Vibes Vine }
+      transmogrification: Hacker Vibes Vine
 
 - name: Bold Bractification Brew
-  description: As this golden liquid seems to be silky and smooth, it''s quite strange to find the potion as dry as it is. Pouring it upon a plant transforms it into a Bractus.
+  description: >-
+    As this golden liquid seems to be silky and smooth,
+    it''s quite strange to find the potion as dry as it is.
+    Pouring it upon a plant transforms it into a Bractus.
   plant_rub_effects:
-    short_description: Turn this plant into a Bractus!
-    for_plants:
-      - Hacker Vibes Vine
-      - Coffea Cyl
-      - Tinkerstool
-      - Aloe Avanta
-    kind:
-      turns_plant_into: Bractus
+    - description: Turn this plant into a Bractus!
+      for_plants: { Not: [ Bractus ] }
+      transmogrification: Bractus
 
 - name: Tinker Tincture
-  description: A nanobot mixture filled to the brim with craft beer. The nanobots inside can enhance any plant''s dexterity, allowing them to craft 8% faster.
+  description: >-
+    A nanobot mixture filled to the brim with craft beer.
+    The nanobots inside can enhance any plant''s dexterity,
+    allowing them to craft 8% faster.
   plant_rub_effects:
-    short_description: Increase this plant's crafting speed by 8%!
-    for_plants:
-      - Coffea Cyl
-      - Hacker Vibes Vine
-      - Bractus
-      - Tinkerstool
-      - Aloe Avanta
-    advancement:
-      title: Alcoholically Apt
-      description: Filled with energy, and tiny robots, this plant gets a 8% boost to the speed of any craft!
-      kind:
-        CraftSpeedMultiplier: 1.08
+    - description: Increase this plant's crafting speed by 8%!
+      buff: { CraftSpeedMultiplier: 1.08 }
 
 - name: Terrific Tinker Tincture
-  description: After some software updates, as well as some additives for flavor, this mechanical mixture can improve crafting speed by 24%.
+  description: >-
+    After some software updates,
+    as well as some additives for flavor,
+    this mechanical mixture can improve crafting speed by 24%.
   plant_rub_effects:
-    short_description: Increase this plant's crafting speed by 24%!
-    for_plants:
-      - Coffea Cyl
-      - Hacker Vibes Vine
-      - Bractus
-      - Tinkerstool
-      - Aloe Avanta
-    advancement:
-      title: Drunkenly Proficient
-      description: More alcohol obviously makes things better, as do more nanobots. With their powers combined, this plant gets a 24% boost to crafting speed!
-      kind:
-        CraftSpeedMultiplier: 1.24
+    - description: Increase this plant's crafting speed by 24%!
+      buff: { CraftSpeedMultiplier: 1.24 }
 
 - name: Powder Keg
-  description: A bottle of brew with only minor explosive properties. It has enough latent energy to boost the effect of Powders on plants by 10%.
+  description: >-
+    A bottle of brew with only minor explosive properties.
+    It has enough latent energy to boost the effect of Powders on plants by 10%.
   plant_rub_effects:
-    short_description: Boost the effect of Powders on this plant by 10%!
-    for_plants:
-      - Coffea Cyl
-      - Hacker Vibes VIne
-      - Bractus
-      - Tinkerstool
-    advancement:
-      title: High and Dry
-      description: Everyone knows alcohol isn''t a substitute for water, but using this flammable fluid has given a 10% increse to the effect of Powders on your plant!
-      kind:
-        time_ticks_multiplier: 1.10
+    - description: Boost the effect of Powders on this plant by 10%!
+      for_plants: { Not: Aloe Avanta }
+      buff: { TimeTicksMultiplier: 1.10 }
 
 - name: Portent Powder Keg
   description: >-
-    Handle with caution. Upgrading this potion has has caused it to become more than just a bit explosive. 
+    Handle with caution.
+    Upgrading this potion has has caused it to become more than just a bit explosive. 
     Though keeping the fabric of reality safe is a concern, 
     the risk is worth it when making powders 28% as effective for neighbors.
   plant_rub_effects:
-    short_description: Boost the effect of Powders on this plant's neighbors by 28%!
-    for_plants:
-      - Coffea Cyl
-      - Hacker Vibes VIne
-      - Bractus
-      - Tinkerstool
-    advancement:
-      title: Powder Proficient
-      description: Everyone knows alcohol isn''t a substitute for water, but using this flammable fluid has given a 10% increse to the effect of Powders on your plant!
-      kind:
-        time_ticks_multiplier: 1.28
+    - description: Boost the effect of Powders on this plant's neighbors by 28%!
+      for_plants: { Not: Aloe Avanta }
+      buff: { Neighbor: { TimeTicksMultiplier: 1.28 } }

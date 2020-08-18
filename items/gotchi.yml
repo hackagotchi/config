@@ -9,13 +9,8 @@
     -
       for_plants:
         Only: [ Coffea Cyl ]
-      effect_description: &desc Having a Gempheus increases the yield size of this Coffea Cyl 16%!
-      kind:
-        Buff:
-          title: Hackagotchi Help!
-          description: *desc
-          kind:
-            YieldSizeMultiplier: 1.16
+      description: &desc Having a Gempheus increases the yield size of this Coffea Cyl 16%!
+      buff: { YieldSizeMultiplier: 1.16 }
 
 - name: Hackpheus
   description: >-
@@ -27,13 +22,8 @@
     -
       for_plants:
         Only: [ Hacker Vibes Vine ]
-      effect_description: &desc Having a Hackpheus increases the yield size of this Hacker Vibes Vine 16%!
-      kind:
-        Buff:
-          title: Hackagotchi Help!
-          description: *desc
-          kind:
-            YieldSizeMultiplier: 1.16
+      description: &desc Having a Hackpheus increases the yield size of this Hacker Vibes Vine 16%!
+      buff: { YieldSizeMultiplier: 1.16 }
 
 - name: Chefpheus
   description: >-
@@ -45,10 +35,5 @@
     -
       for_plants:
         Only: [ Bractus ]
-      effect_description: &desc Having a Chefpheus increases the yield size of this Bractus 16%!
-      kind:
-        Buff:
-          title: Hackagotchi Help!
-          description: *desc
-          kind:
-            YieldSizeMultiplier: 1.16
+      description: &desc Having a Chefpheus increases the yield size of this Bractus 16%!
+      buff: { YieldSizeMultiplier: 1.16 }
