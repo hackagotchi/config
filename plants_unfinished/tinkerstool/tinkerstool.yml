@@ -1,0 +1,5 @@
+--- # Tinkerstool
+name: Tinkerstool
+base_yield_duration: null
+skillpoint_unlock_xps:
+  - 0
