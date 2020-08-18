@@ -245,8 +245,6 @@
         Buff:
           title: Looks like a Nail!
           description: *desc
-          achiever_title: Hammer Hero
-          art: bractus_loaf
           kind:
             DoubleCraftYield: 0.012
 
@@ -342,7 +340,8 @@
 - name: Cyllicizing Coffee Concoction
   description: This chemical craze commits quite the catastrophic capabilities to Coffea Cyl plants, contributing a capacity to increase their neighbors'' yield speeds by 6% and their yield sizes by 3%.
   plant_rub_effects:
-    - &buff
+    - 
+      &buff
       for_plants:
         Only: [ Coffea Cyl ]
       effect_description: &desc With the power of fermented sugar, this Cyl rouses its neighbors and gives them a 6% boost to yield speed along with a 3% boost to yield size.
@@ -357,10 +356,12 @@
       << : *buff
       kind:
         Buff:
+          title: Concoction Collaboration
+          description: *desc
           kind:
             Neighbor:
               YieldSizeMultiplier: 1.06
-
+              
 - name: Vibefying Vinefying Elixir
   description: Having a Hacker Vibes Vine quaff this potion has quite an effect on them, enabling them to boost the size of their neighbors'' yield speeds and sizes by 6% and 3% respectively.
   plant_rub_effects:
