@@ -350,7 +350,7 @@
     it can magically change a plant into a Coffea Cyl.
   plant_rub_effects:
     - description: Turn this plant into a Coffea Cyl!
-      for_plants: { Not: Coffea Cyl }
+      for_plants: { Not: [ Coffea Cyl ] }
       transmogrification: Coffea Cyl
 
 - name: Vivifying Vibefying Vinefying Elixir
@@ -360,7 +360,7 @@
     It also has the power to make any plant into a Hacker Vibes Vine.
   plant_rub_effects:
     - description: Turn this plant into a Hacker Vibes Vine!
-      for_plants: { Not: Hacker Vibes Vine }
+      for_plants: { Not: [ Hacker Vibes Vine ] }
       transmogrification: Hacker Vibes Vine
 
 - name: Bold Bractification Brew
@@ -397,7 +397,7 @@
     It has enough latent energy to boost the effect of Powders on plants by 10%.
   plant_rub_effects:
     - description: Boost the effect of Powders on this plant by 10%!
-      for_plants: { Not: Aloe Avanta }
+      for_plants: { Not: [ Aloe Avanta ] }
       buff: { TimeTicksMultiplier: 1.10 }
 
 - name: Portent Powder Keg
@@ -408,5 +408,5 @@
     the risk is worth it when making powders 28% as effective for neighbors.
   plant_rub_effects:
     - description: Boost the effect of Powders on this plant's neighbors by 28%!
-      for_plants: { Not: Aloe Avanta }
+      for_plants: { Not: [ Aloe Avanta ] }
       buff: { Neighbor: { TimeTicksMultiplier: 1.28 } }
