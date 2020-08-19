@@ -1,36 +1,36 @@
-- title: Agglutination
-  description: Some powerful compounds have started clumping together in your Bractus''s photoreceptor units, as well as in its kneading organs! It can now produce 5% larger yields!
-  achiever_title: Non Gluten-Free Bractus
-  art: bractus_kid
-  kind:
-    YieldSizeMultiplier: 1.05
+# - title: Agglutination
+#   description: Some powerful compounds have started clumping together in your Bractus''s photoreceptor units, as well as in its kneading organs! It can now produce 5% larger yields!
+#   achiever_title: Non Gluten-Free Bractus
+#   art: bractus_kid
+#   kind:
+#     YieldSizeMultiplier: 1.05
 
-- title: Just Desserts
-  description: >-
-    Desert, dessert, desert, deserted by your friends in this horrible desert with no dessert ... But what difference does it make when the sun has baked your brain to a nice, 
-    crispy golden brown? Your Bractus can now produce 10% larger yields!
-  achiever_title: Pastry Bractus
-  art: bractus_kid
-  kind:
-    YieldSizeMultiplier: 1.1
+# - title: Just Desserts
+#   description: >-
+#     Desert, dessert, desert, deserted by your friends in this horrible desert with no dessert ... But what difference does it make when the sun has baked your brain to a nice, 
+#     crispy golden brown? Your Bractus can now produce 10% larger yields!
+#   achiever_title: Pastry Bractus
+#   art: bractus_kid
+#   kind:
+#     YieldSizeMultiplier: 1.1
 
-- title: Biscuits ''n Gravy
-  description: >-
-    Your Bractus has decided to start preparing Biscuits ''n Gravy for all of the other Bracti nearby. They find this delicious concoction to be quite invigorating, 
-    and as a result they can produce yields 5% more often!
-  achiever_title: Breaktus
-  art: bractus_kid
-  kind:
-    Neighbor:
-      YieldSpeedMultiplier: 1.05
+# - title: Biscuits ''n Gravy
+#   description: >-
+#     Your Bractus has decided to start preparing Biscuits ''n Gravy for all of the other Bracti nearby. They find this delicious concoction to be quite invigorating, 
+#     and as a result they can produce yields 5% more often!
+#   achiever_title: Breaktus
+#   art: bractus_kid
+#   kind:
+#     Neighbor:
+#       YieldSpeedMultiplier: 1.05
 
-- title: Gravy ''n Biscuits
-  description: Your Bractus has decided to start sharing the recipe for its illustrious Biscuits ''n Gravy with the Bracti nearby, their access to these secrets allowing them 10% faster yields.
-  achiever_title: Breakfastus
-  art: bractus_kid
-  kind:
-    Neighbor:
-      YieldSpeedMultiplier: 1.1
+# - title: Gravy ''n Biscuits
+#   description: Your Bractus has decided to start sharing the recipe for its illustrious Biscuits ''n Gravy with the Bracti nearby, their access to these secrets allowing them 10% faster yields.
+#   achiever_title: Breakfastus
+#   art: bractus_kid
+#   kind:
+#     Neighbor:
+#       YieldSpeedMultiplier: 1.1
 
 - title: New Baginnings
   description: News has been spreading of a mysterious goblin who has been sneaking little bags filled with treats to your plants. Be on the lookout for Baglings from this point on.
