@@ -1,0 +1,11 @@
+---
+- title: Ivy Initiation
+  unlocks: []
+  effects:
+    - description: This Vine is at the bottom rung of the ladder for now, but it will soon climb to the very top, collecting experience along the way.
+      buff: { Xp: 1.0 }
+    - description: Vines
+      buff:
+        Art:
+          file: hacker_vibes_vine_baby
+          precedence: 0

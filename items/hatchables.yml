@@ -225,5 +225,5 @@
       - Chance: [ 0.0120, Amount: [ Between: [1.01, 1.15], Item: Bread Egg ] ]
       - Chance: [ 0.0080, Amount: [ Between: [1.02, 1.08], Item: Land Deed ] ]
       - Chance: [ 0.0005, Amount: [ Between: [1.00, 1.02], Item: Land Grant ] ]
-      - Chance: [ 0.4500, Amount: [ Between: [50.38, 90.48], Item: Land Grant Fragment ] ]
+      - Chance: [ 0.4500, Amount: [ Between: [50.38, 90.48], Item: Land Deed Fragment ] ]
       

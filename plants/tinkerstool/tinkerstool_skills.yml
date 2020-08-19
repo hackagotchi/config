@@ -1,0 +1,11 @@
+---
+- title: Tinkerer's Tools
+  unlocks: []
+  effects:
+    - description: The Tinkerstool is a strange plant gifted with the knowledge of crafting from birth, but unable to make resources for themselves.
+      buff: { Xp: 0 }
+    - description: hammer
+      buff:
+        Art:
+          file: tinkerstool_baby
+          precedence: 0

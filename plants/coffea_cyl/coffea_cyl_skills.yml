@@ -1,0 +1,11 @@
+---
+- title: Crystal-less Chrysalis
+  unlocks: []
+  effects:
+    - description: Born without a single gem to its name, this plant will only give you XP for the time being.
+      buff: { Xp: 1.0 }
+    - description: Coffea Cyl Bean
+      buff:
+        Art:
+          file: coffea_cyl_baby
+          precedence: 0

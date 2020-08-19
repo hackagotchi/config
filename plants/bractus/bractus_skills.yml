@@ -24,8 +24,8 @@
           All:
             - Xp: [ 150, 200 ]
             - Amount: 
-              - [1.2, 1.4]
-              - All: [ Item: Bread Essence, Xp: 50 ]
+                - [1.2, 1.4]
+                - All: [ Item: Bread Essence, Xp: 50 ]
 
 - title: Journey to the Yeast
   unlocks:
@@ -69,6 +69,7 @@
             makes:
               All: [Item: bressence, Xp: 144]
             time: 240
+            art: bressence
 
     - description: Bractus Kid!!!
       buff:
@@ -80,37 +81,37 @@
   unlocks:
     - Just Desserts
   effects:
-    description: >-
-      Some powerful compounds have started clumping together in your Bractus''s photoreceptor units, 
-      as well as in its kneading organs! It can now produce 5% larger yields!
-    buff: { YieldSizeMultiplier: 1.05 }
+    - description: >-
+        Some powerful compounds have started clumping together in your Bractus''s photoreceptor units, 
+        as well as in its kneading organs! It can now produce 5% larger yields!
+      buff: { YieldSizeMultiplier: 1.05 }
 
 - title: Just Desserts
   unlocks: []
   effects:
-    description: >-
-      Desert, dessert, desert, deserted by your friends in this horrible desert with no dessert ... 
-      But what difference does it make when the sun has baked your brain to a nice, 
-      crispy golden brown? Your Bractus can now produce 10% larger yields!
-    buff: { YieldSizeMultiplier: 1.1}
+    - description: >-
+        Desert, dessert, desert, deserted by your friends in this horrible desert with no dessert ... 
+        But what difference does it make when the sun has baked your brain to a nice, 
+        crispy golden brown? Your Bractus can now produce 10% larger yields!
+      buff: { YieldSizeMultiplier: 1.1 }
 
 - title: Biscuits ''n Gravy
   unlocks:
     - Gravy ''n Biscuits
   effects:
-    description: >-
-      Your Bractus has decided to start preparing Biscuits ''n Gravy for all of the other Bracti nearby. 
-      They find this delicious concoction to be quite invigorating, 
-      and as a result they can produce yields 5% more often!
-    buff: { Neighbor: { YieldSpeedMultiplier: 1.05 } }
+    - description: >-
+        Your Bractus has decided to start preparing Biscuits ''n Gravy for all of the other Bracti nearby. 
+        They find this delicious concoction to be quite invigorating, 
+        and as a result they can produce yields 5% more often!
+      buff: { Neighbor: { YieldSpeedMultiplier: 1.05 } }
 
 - title: Gravy ''n Biscuits
   unlocks: []
   effects:
-    description: >-
-      Your Bractus has decided to start sharing the recipe for its illustrious Biscuits ''n Gravy with the Bracti nearby, 
-      their access to these secrets allowing them 10% faster yields.
-    buff: { Neighbor: { YieldSpeedMultiplier: 1.1 } }
+    - description: >-
+        Your Bractus has decided to start sharing the recipe for its illustrious Biscuits ''n Gravy with the Bracti nearby, 
+        their access to these secrets allowing them 10% faster yields.
+      buff: { Neighbor: { YieldSpeedMultiplier: 1.1 } }
 
 - title: New Baginnings
   unlocks: []
@@ -120,10 +121,36 @@
         Be on the lookout for Baglings from this point on.
       buff: 
         Yield:
-          # OneOf? TODO
+      buff: 
+        Yield:
+          All:
+            - Chance:
+                - 0.003
+                - All: 
+                    - Xp: [ 200, 300 ]
+                    - Amount: 
+                        - [ 1.00, 1.05 ]
+                        - Item: Spirited Buzzwing Bagling
+            - Chance:
+                - 0.003
+                - All:
+                    - Xp: [ 200, 300 ]
+                    - Amount: 
+                        - [ 1.00, 1.05 ]
+                        - Item: Doughy Buzzwing Bagling          
+
     
     - description: Bractus Teen # change to flavortext as you like
       buff:
         Art:
           file: bractus_teen
           precedence: 2
+
+# - title: Breadbox
+#   unlocks: []
+#   effects:
+#     - description: >-
+#         Baglings can now be upgraded, transformed, or opened
+#       buff:
+#         Craft:
+#           - title: 
