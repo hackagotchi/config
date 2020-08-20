@@ -67,7 +67,7 @@
 
 - name: Vine Keyboard
   description: >-
-    The loud clacking of this keyboard''s keys enchant Hacker Vibes Vines, 
+    The loud clacking of this keyboard's keys enchant Hacker Vibes Vines, 
     sending those who hear it into a trancelike state where they work
     on their yields at a 10% faster rate.
   passive_plant_effects:
@@ -99,7 +99,7 @@
     These high energy Cyl can now produce yields 30% faster!
   passive_plant_effects:
     - description: >-
-        This Cytrus Staff''s magical might supercharges Cyl with powerful,
+        This Cytrus Staff's magical might supercharges Cyl with powerful,
         precise bolts of orange electricity,
         increasing the yield speed of Coffea Cyl by 30%!
       for_plants: { Only: [ Coffea Cyl ] }
@@ -196,7 +196,7 @@
     and using it will allow a 1.2% chance at double the crafting yield!
   passive_plant_effects:
     - description: >-
-        Not much can''t be solved by a good whack with a hammer! 
+        Not much can't be solved by a good whack with a hammer! 
         This one somehow even gives a 1.2% chance that you get double the crafts!
       for_plants: { Only: [ Tinkerstool ] }
       buff: { DoubleCraftYield: 0.012 }
@@ -209,7 +209,7 @@
   passive_plant_effects:
     - description: >-
         The precision of this new new screwdriver is crazy!
-        Just like you''d be without it''s 2% craft return chance!
+        Just like you'd be without it's 2% craft return chance!
       for_plants: { Only: [ Tinkerstool ] }
       buff: { CraftReturnChance: 0.02 }
 
@@ -221,8 +221,8 @@
     It also has the unique ability of boosting crafting speed by 24%.
   passive_plant_effects:
     - description: >-
-        Through it''s many lenses and filters,
-        it''s hard not to be entranced by this tool''s fantastic lights. 
+        Through it's many lenses and filters,
+        it's hard not to be entranced by this tool's fantastic lights. 
         It somehow makes crafting 24% faster.
       for_plants: { Only: [ Tinkerstool ] }
       buff: { CraftSpeedMultiplier: 1.24 }
@@ -264,18 +264,18 @@
 - name: Crystalline Buzzwing Boxlet
   description: >-
     At the correct angle, this box reflects lights that mesmerize those who see it.
-    Though it''s telling that there is treasure to be discovered, 
+    Though it's telling that there is treasure to be discovered, 
     the box itself seems to be a replica of an old goblin design.
 
 - name: Spirited Buzzwing Boxlet
   description: >-
     The soft humming of this boxes wing is almost musical in nature,
     sounding like an ancient hymn of an old goblin tribe. 
-    Maybe inside you''ll find some of their legendary treasure.
+    Maybe inside you'll find some of their legendary treasure.
 
 - name: Doughy Buzzwing Boxlet
   description: >-
-    From the corner of one''s eye, it seems that the dough on this box occasionally shifts and slides,
+    From the corner of one's eye, it seems that the dough on this box occasionally shifts and slides,
     as if it has been granted life by powerful magicks, known only to the ancients. 
     One knows they can find valuable trinkets within this enchanted box.
 
@@ -292,7 +292,7 @@
 
 - name: Doughy Buzzwing Megabox
   description: >-
-    The way in which this box''s outsides are animated emulate the magicks
+    The way in which this box's outsides are animated emulate the magicks
     of the great Brognark civilization. 
     The maker of this box has surely inserted items of much value.    
 # Potions
@@ -304,7 +304,7 @@
 - name: Cyllicizing Coffee Concoction
   description: >-
     This chemical craze commits quite the catastrophic capabilities to Coffea Cyl plants,
-    contributing a capacity to increase their neighbors'' yield speeds by 6%
+    contributing a capacity to increase their neighbors' yield speeds by 6%
     and their yield sizes by 3%.
   plant_rub_effects:
     - description: Crazy Coffee! + 6% Yield Speed!
@@ -317,7 +317,7 @@
 - name: Vibefying Vinefying Elixir
   description: >-
     Having a Hacker Vibes Vine quaff this potion has quite an effect on them,
-    enabling them to boost the size of their neighbors''
+    enabling them to boost the size of their neighbors'
     yield speeds and sizes by 6% and 3% respectively.
   plant_rub_effects:
     - description: Vine Elixir! + 6% Yield Speed!
@@ -332,7 +332,7 @@
   description: >-
     This beaut of a butt can be boozed in a bout on a boat or a butte ...
     or just about anywhere. 
-    Bracti that drink it increase the speed of neighboring Bracti''s yields by 6%,
+    Bracti that drink it increase the speed of neighboring Bracti's yields by 6%,
     with their yield sizes being increased by 3%.
   plant_rub_effects:
     - description: Bractus Brew! + 6% Yield Speed!
@@ -366,7 +366,7 @@
 - name: Bold Bractification Brew
   description: >-
     As this golden liquid seems to be silky and smooth,
-    it''s quite strange to find the potion as dry as it is.
+    it's quite strange to find the potion as dry as it is.
     Pouring it upon a plant transforms it into a Bractus.
   plant_rub_effects:
     - description: Turn this plant into a Bractus!
@@ -376,7 +376,7 @@
 - name: Tinker Tincture
   description: >-
     A nanobot mixture filled to the brim with craft beer.
-    The nanobots inside can enhance any plant''s dexterity,
+    The nanobots inside can enhance any plant's dexterity,
     allowing them to craft 8% faster.
   plant_rub_effects:
     - description: Increase this plant's crafting speed by 8%!

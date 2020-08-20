@@ -2,7 +2,7 @@
 - title: In the Dust
   description: >-
     Out of the dust, a wonderful little plant has materialized. 
-    It''s not much right now, but your baby Aloe will soon grow, 
+    It's not much right now, but your baby Aloe will soon grow, 
     gathering XP from the blue ashes it continues to produce.
   achiever_title: Aloe Seedling
   art: aloe_avanta_baby
@@ -52,7 +52,7 @@
   
 - title: Dust Smites
   description: >-
-    This plant can''t stand any dust that isn''t its own. 
+    This plant can't stand any dust that isn't its own. 
     It periodically shoots out waves of powder that clear up those nasty Dust Bunnies of Caerbannog, 
     giving its neighbors a 1.1 times speed boost.
   achiever_title: Friendly Aloe
@@ -72,8 +72,8 @@
 
 - title: Vera Nice to See You
   description: >-
-    Conversing with their neighbors has improved the Aloe''s spirits! 
-    The joy from this lighthearted interaction has increased their neighobr''s yield speed by 15%.
+    Conversing with their neighbors has improved the Aloe's spirits! 
+    The joy from this lighthearted interaction has increased their neighobr's yield speed by 15%.
   achiever_title: Energized Aloe
   art: aloe_avanta_kid
   kind:
@@ -164,7 +164,7 @@
 - title: Soothing Soot
   description: >-
     Working hard usually makes one feel hot and stuffy, 
-    but the natural coolant that this Aloe emits in its dust helps regulate their neighbor''s temperatures, 
+    but the natural coolant that this Aloe emits in its dust helps regulate their neighbor's temperatures, 
     boosting their overall production by 20%.
   achiever_title: Chill Avanta
   art: aloe_avanta_teen
@@ -175,7 +175,7 @@
 - title: Nitroglycerin Nursery
   description: >-
     After some extensive testing - and a few fires - your Aloe Avanta has found itself able to make a gelatinous liquid substance that can improve the effectiveness of Powders. 
-    Just try not to let it catch fire; there''s some liquor in there.
+    Just try not to let it catch fire; there's some liquor in there.
   achiever_title: Plastic Avanta
   art: aloe_avanta_teen
   kind:
@@ -229,7 +229,7 @@
 - title: Powder Power
   effects:
     - description: >-
-        With the power of this plant''s powder, we''ve started generating very potent material. 
+        With the power of this plant's powder, we've started generating very potent material. 
         There is now a base chance of 9% to get Rift Powder as a part of yields.
       kind:
         Yield:
@@ -246,7 +246,7 @@
           precedence: 4
   
 - title: Gel Guru
-  description: Using the starry blue gel from one of it''s bountiful leaves, the Aloe has increased it''s yield size with a 15% enhancement. 
+  description: Using the starry blue gel from one of it's bountiful leaves, the Aloe has increased it's yield size with a 15% enhancement. 
   achiever_title: Enlightened Avanta
   art: aloe_avanta_grown
   kind: { YieldSizeMultiplier: 1.15 }
@@ -287,7 +287,7 @@
 
 - title: Fate of the Stars
   description: >-
-    The shine of your Aloe''s twinkling lights has dwarfed some of the galaxy''s greatest wonders. 
+    The shine of your Aloe's twinkling lights has dwarfed some of the galaxy's greatest wonders. 
     The intense sparkles are actually the effect of a process that boosts yield size by 1.2.
   achiever_title: Galactic Avanta
   art: aloe_avanta_grown
@@ -296,7 +296,7 @@
 
 - title: Aloe Savanta
   description: >-
-    This Aloe has been designated a certified genius! They''ve started producing a mysterious, 
+    This Aloe has been designated a certified genius! They've started producing a mysterious, 
     powerful powder with the uncanny ability to twist the fabric of space-time. 
     There is now a 1% base chance of getting Wormhole Powder.
   achiever_title: Genius Avanta

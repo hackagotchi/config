@@ -30,7 +30,7 @@ gotchi:
   
 keepsake:
   - name: Paintbrush
-    description: A plastic participation trophy for the Fine Arts Gala! It''s not recyclable.
+    description: A plastic participation trophy for the Fine Arts Gala! It's not recyclable.
     item_application_effect: null
     unlocks_land: null
     plant_effects: []

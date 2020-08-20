@@ -1,7 +1,7 @@
 --- # Gotchi
 - name: Gempheus
   description: >-
-    The boundless buzzing, crackling energy found in Cyl Crystals manifests itself in Gempheus''s personality! That is to say, 
+    The boundless buzzing, crackling energy found in Cyl Crystals manifests itself in Gempheus's personality! That is to say, 
     Gempheus early in the morning is a little more than most people can handle. At least this energy helps your Cyl plants have greater yields!
   gotchi:
     base_happiness: 3
@@ -27,8 +27,8 @@
 
 - name: Chefpheus
   description: >-
-    A cute Hackagotchi who is into baking! She can actually only make bread, as we all know from the Great Cake Fire of ''19. 
-    What she lacks in kitchen skills, however, doesn''t affect her ability to cook up a boost to yield size.
+    A cute Hackagotchi who is into baking! She can actually only make bread, as we all know from the Great Cake Fire of '19. 
+    What she lacks in kitchen skills, however, doesn't affect her ability to cook up a boost to yield size.
   gotchi: 
     base_happiness: 3
   passive_plant_effects:

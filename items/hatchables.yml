@@ -60,7 +60,7 @@
       - Chance: [ 0.015, Amount: [ Between: [1.00, 1.25], Item: Spirited Buzzwing Boxlet ] ]
 
 - name: Bread Egg
-  description: If you knock gently on this egg, it sounds like the crisp outer shell of hardtack. Petition to change its name to ''Breagg.'' No? ... okay fine.
+  description: If you knock gently on this egg, it sounds like the crisp outer shell of hardtack. Petition to change its name to 'Breagg.' No? ... okay fine.
   hatch_table:
     All:
     # -- Guaranteed Items

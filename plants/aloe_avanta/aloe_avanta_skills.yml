@@ -4,7 +4,7 @@
   effects:
     - description: >-
         Out of the dust, a wonderful little plant has materialized. 
-        It''s not much right now, but your baby Aloe will soon grow, 
+        It's not much right now, but your baby Aloe will soon grow, 
         gathering XP from the blue ashes it continues to produce.
       buff: { Xp: 1.0 }
     - description: Aloe Vera
