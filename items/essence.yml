@@ -1,0 +1,37 @@
+---
+# -- Essences
+- name: crystcyl
+  description: >-
+    The humming noise coming from this crystcyl is powerful enough to roast marshmallows.
+    I'm not kidding! 
+    The marshmallows glow orange and discharge static on your tongue,
+    but have a delicious coffee flavor!
+
+- name: hacksprit
+  description: >-
+    Dude, I'm seriously kind of amazed at the power of duct tape. 
+    There's no way that these Hacker Spirits should be able to stick together like this.
+    It's mind blowing.
+
+- name: bressence
+  description: >-
+    Seriously. Don't eat bressence.
+    It might sound like a quick way to get five meals in the time it takes to get one. 
+    It's not. Just don't.
+    The last guy to try it was on the toilet for - well, I'll spare you the gory details.
+
+# Raw Materials
+- name: Cyl Crystal
+  description: >-
+    This Crystal pops, buzzes, and warps the space around it.
+    Soft, warm lights dance within the Crystal's facets.
+
+- name: Hacker Spirit
+  description: >-
+    It does not, as a matter of fact, smell like teen spirit. Except for when it does. 
+    The air becomes ripe around it whenever new things are being created.
+
+- name: Bread Essence
+  description: >-
+    It may be whole wheat, but don't hold that against it. Its rich, 
+    freshly-baked aroma triggers an overwhelming nostalgia and a thoughtful sense of calm.

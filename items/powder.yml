@@ -1,0 +1,34 @@
+---
+# -- Powders
+- name: Warp Powder
+  description: >-
+    Sparkling, glittery, glowing blue powder that emits high-pitched squeaking noises,
+    especially when excited. It has been known to accelerate time.
+  plant_rub_effects:
+    - description: Grow this plant 2 extra hours in 6 minutes!
+      duration: 72
+      for_plants: { Not: [ Aloe Avanta ] }
+      buff: { ExtraTimeTicks: 20 }
+
+- name: Rift Powder
+  description: >-
+    A volatile compound that easily tears the fabric of spacetime.
+    Its powerful time acceleration properties were last recorded
+    in the ancient tomes of the Brognarks; 
+    no one has been able to acquire any more knowledge of this substance since then.
+  plant_rub_effects:
+    - description: Grow this plant 20 extra hours in 5 minutes!
+      duration: 60
+      for_plants: { Not: [ Aloe Avanta ] }
+      buff: { ExtraTimeTicks: 240 }
+
+- name: Wormhole Powder
+  description: >-
+    The rarest, most pure time acceleration substance in the universe ... 
+    So rare, even the ancients only alluded to its existence ...
+    Said to be able to call forth the ancient worm of time herself ...
+  plant_rub_effects:
+    - description: Grow this plant 69 extra hours in 2 minutes!
+      duration: 24
+      for_plants: { Not: [ Aloe Avanta ] }
+      buff: { ExtraTimeTicks: 2070 }

@@ -1,0 +1,111 @@
+--- 
+# -- Potions
+- name: Cyllicizing Coffee Concoction
+  description: >-
+    This chemical craze commits quite the catastrophic capabilities to Coffea Cyl plants,
+    contributing a capacity to increase their neighbors' yield speeds by 6%
+    and their yield sizes by 3%.
+  plant_rub_effects:
+    - description: Crazy Coffee! + 6% Yield Speed!
+      for_plants: { Only: [ Coffea Cyl ] }
+      buff: { Neighbor: { YieldSpeedMultiplier: 1.06 } }
+    - description: Crazy Coffee! + 3% Yield Size!
+      for_plants: { Only: [ Coffea Cyl ] }
+      buff: { Neighbor: { YieldSizeMultiplier: 1.03 } }
+
+- name: Vibefying Vinefying Elixir
+  description: >-
+    Having a Hacker Vibes Vine quaff this potion has quite an effect on them,
+    enabling them to boost the size of their neighbors'
+    yield speeds and sizes by 6% and 3% respectively.
+  plant_rub_effects:
+    - description: Vine Elixir! + 6% Yield Speed!
+      for_plants: { Only: [ Hacker Vibes Vine ] }
+      buff: { Neighbor: { YieldSpeedMultiplier: 1.06 } }
+
+    - description: Vine Elixir! + 3% Yield Size!
+      for_plants: { Only: [ Hacker Vibes Vine ] }
+      buff: { Neighbor: { YieldSizeMultiplier: 1.03 } }
+
+- name: Bractification Brew
+  description: >-
+    This beaut of a butt can be boozed in a bout on a boat or a butte ...
+    or just about anywhere. 
+    Bracti that drink it increase the speed of neighboring Bracti's yields by 6%,
+    with their yield sizes being increased by 3%.
+  plant_rub_effects:
+    - description: Bractus Brew! + 6% Yield Speed!
+      for_plants: { Only: [ Bractus ] }
+      buff: { Neighbor: { YieldSpeedMultiplier: 1.06 } }
+
+    - description: Bractus Brew! + 3% Yield Size!
+      for_plants: { Only: [ Bractus ] }
+      buff: { Neighbor: { YieldSizeMultiplier: 1.03 } }
+
+- name: Scintillating Cyllicizing Coffee Concoction
+  description: >-
+    An aromatic potion emanating a warm aura.
+    As well as being able to wake up a dead elephant,
+    it can magically change a plant into a Coffea Cyl.
+  plant_rub_effects:
+    - description: Turn this plant into a Coffea Cyl!
+      for_plants: { Not: [ Coffea Cyl ] }
+      transmogrification: Coffea Cyl
+
+- name: Vivifying Vibefying Vinefying Elixir
+  description: >-
+    This curious tincture smells like a fresh rainstorm,
+    and makes the air around it feel humid.
+    It also has the power to make any plant into a Hacker Vibes Vine.
+  plant_rub_effects:
+    - description: Turn this plant into a Hacker Vibes Vine!
+      for_plants: { Not: [ Hacker Vibes Vine ] }
+      transmogrification: Hacker Vibes Vine
+
+- name: Bold Bractification Brew
+  description: >-
+    As this golden liquid seems to be silky and smooth,
+    it's quite strange to find the potion as dry as it is.
+    Pouring it upon a plant transforms it into a Bractus.
+  plant_rub_effects:
+    - description: Turn this plant into a Bractus!
+      for_plants: { Not: [ Bractus ] }
+      transmogrification: Bractus
+
+- name: Tinker Tincture
+  description: >-
+    A nanobot mixture filled to the brim with craft beer.
+    The nanobots inside can enhance any plant's dexterity,
+    allowing them to craft 8% faster.
+  plant_rub_effects:
+    - description: Increase this plant's crafting speed by 8%!
+      buff: { CraftSpeedMultiplier: 1.08 }
+
+- name: Terrific Tinker Tincture
+  description: >-
+    After some software updates,
+    as well as some additives for flavor,
+    this mechanical mixture can improve crafting speed by 24%.
+  plant_rub_effects:
+    - description: Increase this plant's crafting speed by 24%!
+      buff: { CraftSpeedMultiplier: 1.24 }
+
+- name: Powder Keg
+  description: >-
+    A bottle of brew with only minor explosive properties.
+    It has enough latent energy to boost the effect of Powders on plants by 10%.
+  plant_rub_effects:
+    - description: Boost the effect of Powders on this plant by 10%!
+      for_plants: { Not: [ Aloe Avanta ] }
+      buff: { TimeTicksMultiplier: 1.10 }
+
+- name: Portent Powder Keg
+  description: >-
+    Handle with caution.
+    Upgrading this potion has has caused it to become more than just a bit explosive. 
+    Though keeping the fabric of reality safe is a concern, 
+    the risk is worth it when making powders 28% as effective for neighbors.
+  plant_rub_effects:
+    - description: Boost the effect of Powders on this plant's neighbors by 28%!
+      for_plants: { Not: [ Aloe Avanta ] }
+      buff: { Neighbor: { TimeTicksMultiplier: 1.28 } }
