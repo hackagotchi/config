@@ -1,6 +1,7 @@
 ---
 - title: Crystal-less Chrysalis
-  unlocks: []
+  unlocks:
+    - Intelligent Investment
   effects:
     - description: Born without a single gem to its name, this plant will only give you XP for the time being.
       buff: { Xp: 1.0 }
@@ -9,3 +10,394 @@
         Art:
           file: coffea_cyl_baby
           precedence: 0
+
+- title: Intelligent Investment
+  unlocks: 
+    - Night Shift
+  effects:
+    - description: >-
+        What it lacks in luster, it makes up for in its potential, 
+        but for now this Coffea Cyl will readily give you Cyl Crystals every six hours.
+      buff:
+        Yield: 
+          All:
+            - Xp: [ 150, 200 ]
+            - Amount: 
+                - [1.2, 1.4]
+                - All: [ Item: Cyl Crystal, Xp: 50 ]
+
+- title: Night Shift
+  unlocks: 
+    - Coffee Table
+  effects:
+    - description: >-
+        Uncovering some grime reveals that the Crystals on this plant were more orange than originally thought. 
+        Along with this new cheery hue comes the ability to produce 5% larger yields.
+      buff: { YieldSizeMultiplier: 1.05 }
+
+- title: Coffee Table
+  unlocks: 
+    - Caffeine Catastrophe
+  effects:
+    - description: >-
+        This Coffea Cyl has been working on furnishing its surroundings a bit to pass time. After decorating a bit, 
+        your plant feels so relaxed that its production speed is boosted by a factor of 1.1!
+      buff: { YieldSpeedMultiplier: 1.1 }
+
+- title: Caffeine Catastrophe
+  unlocks: 
+    - Chromatic Concentration
+  effects:
+    - description: >-
+        This Cyl's been on straight caffeine, and it's made your plant a bit too hyper ... 
+        Well, at least you get another 10% speed boost for your yields.
+      buff: { YieldSpeedMultiplier: 1.1 }
+
+- title: Chromatic Concentration
+  unlocks: 
+    - Warming Up
+  effects:
+    - description: >-
+        Your Coffea Cyl has found that if it focuses all of its electromagnetic intensity on just a handful of Cyl Crystals, 
+        it can concentrate all of them into one extremely compressed crystcyl.
+      buff:
+        Craft:
+          - title: ':crystcyl: crystcyl!'
+            explanation: Compressing your raw cyl crystals into crystal cubes seems to be useful for further crafting.
+            needs:
+              - [5, Cyl Crystal]
+            makes:
+              All: [Item: crystcyl, Xp: 144]
+            time: 240
+            art: crystcyl
+
+    - description: Coffea Cyl Kid!!!
+      buff:
+        Art:
+          file: coffea_cyl_kid
+          precedence: 1
+
+- title: Warming Up
+  unlocks: 
+    - Roasted!
+  effects:
+    - description: >-
+        To get started on its yields, this plant has begun to absorb even more heat and light from the sun, 
+        the extra energy letting it support a 5% yield size boost!
+      buff: { YieldSizeMultiplier: 1.05 }
+
+- title: Roasted!
+  unlocks: 
+    - Expresso Your Feelings
+  effects:
+    - description: >-
+        The sun's glaring heat has roasted this Cyl's arcane chemical compounds to dark, aromatic perfection, 
+        allowing it to produce 10% more resources.
+      buff: { YieldSizeMultiplier: 1.1 }
+  
+- title: Expresso Your Feelings
+  unlocks: 
+    - Cylli Me
+  effects:
+    - description: >-
+        This Coffea Cyl has grown quite empathic, often found talking with others of its kind over a cup of coffee. 
+        As a result of these neighborly interactions, nearby Cyl can produce yields 5% more often.
+      buff: { Neighbor: { YieldSpeedMultiplier: 1.05 } }
+
+- title: Cylli Me
+  unlocks: 
+    - New Baginnings
+  effects:
+    - description: >-
+        This plant's playful and jovial mood lightens the burden of neighboring plant's constant hard work. 
+        With renewed vigor, neighboring Cyl now work 1.1 times faster.
+      buff: { Neighbor: { YieldSpeedMultiplier: 1.1 } }
+  
+- title: New Baginnings
+  unlocks:  
+    - Ground Up
+  effects:
+    - description: >-
+        An unknown person has been leaving behind bags by plants at night. No one has the slightest inkling of their motives, 
+        but the bags are filled with all kinds of useful things.    
+      buff: 
+        Yield:
+          All:
+            - Chance:
+                - 0.003
+                - All: 
+                    - Xp: [ 200, 300 ]
+                    - Amount: 
+                        - [ 1.00, 1.05 ]
+                        - Item: Spirited Buzzwing Bagling
+            - Chance:
+                - 0.003
+                - All:
+                    - Xp: [ 200, 300 ]
+                    - Amount: 
+                        - [ 1.00, 1.05 ]
+                        - Item: Doughy Buzzwing Bagling          
+
+    - description: Coffea Cyl Teen # change to flavortext as you like
+      buff:
+        Art:
+          file: coffea_cyl_teen
+          precedence: 2
+
+- title: Ground Up
+  unlocks: 
+    - 100% Organic
+  effects:
+    - description: Baglings can now be upgraded, transformed, or opened.
+      buff:
+        Craft:
+          - title: ':crystalline_buzzwing_bagling: Bagling Breakdown'
+            explanation: >-
+              Craft your Crystalline Buzzwing Baglings with a crystcyl for a 40% chance to get loot, a 36% chance to upgrade to a Boxling of another kind, 
+              or a 24% chance to transform into a Bagling of another kind.
+            needs:
+              - [1, crystcyl]
+              - [3, Crystalline Buzzwing Bagling]
+            makes:
+              All:
+                - Xp: [ 1400, 2100 ]
+                - OneOf:
+                    - [0.40, Item: Bagling Egg]
+                    - [0.18, Item: Doughy Buzzwing Boxling]
+                    - [0.18, Item: Spirited Buzzwing Boxling]
+                    - [0.12, Item: Doughy Buzzwing Bagling]
+                    - [0.12, Item: Spirited Buzzwing Bagling]
+            time: 24
+            art: Crystalline Buzzwing Bagling
+            
+- title: 100% Organic
+  unlocks:  
+    - Crystalline Bean
+  effects:
+    - description: >-
+        The natural wildfires of great forests reinvigorate the growth of the forest; 
+        the 100% organic flames in the branches of this Cyl are similarly vital, 
+        and they seem to allow it to produce yields 20% faster!
+      buff: { YieldSpeedMultiplier: 1.2 }
+
+- title: Crystalline Bean
+  unlocks: 
+    - Coffee Coffer
+  effects:
+    - description: >-
+        The brightly shining gems forming on this plant's limbs create ripples of warm energy in the air. 
+        Sparks ignite around it, the warm energy giving your plant a 15% yield boost!
+      buff: { YieldSizeMultiplier: 1.15 }
+
+- title: Coffee Coffer
+  unlocks: 
+    - Sparks of Brilliance
+  effects:
+    - description: Boxlings can now be upgraded, transformed, or opened.
+      buff:
+        Craft:
+          - title: ':crystalline_buzzwing_boxling: Boxling Breakdown'
+            explanation: >-
+              Craft your Crystalline Buzzwing Boxlings with 3 crystcyl for an 32% chance to get loot, a 30% chance to upgrade to a Boxlet of another kind, 
+              or a 38% chance to transform into a Boxling of another kind
+            needs:
+              - [3, crystcyl]
+              - [2, Crystalline Buzzwing Boxling]
+            makes:
+              All:
+                - Xp: [1800, 2700]
+                - OneOf:
+                    - [0.32, Item: Boxling Egg]
+                    - [0.15, Item: Doughy Buzzwing Boxlet]
+                    - [0.15, Item: Spirited Buzzwing Boxlet]
+                    - [0.19, Item: Doughy Buzzwing Boxling]
+                    - [0.19, Item: Spirited Buzzwing Boxling]
+            time: 36
+            art: Crystalline Buzzwing Boxling
+
+- title: Sparks of Brilliance
+  unlocks: 
+    - Clear as Crystal
+  effects:
+    - description: >-
+        The rays passing through the glistening boughs of polished Cyl can now light the flame of life, 
+        shaped into the form of an Egg.
+      buff:
+        Craft:
+          - title: ':bread_egg:/:hacker_egg:/:cyl_egg: Egg Craft When'
+            explanation: >-
+              With some resources from far outside of the Cyl Dimension, 
+              you can sacrifice your plant in exchange for an egg of an unpredictable variety, 
+              filled with luxurious goods, if you're lucky!
+            needs:
+              - [5, bressence]
+              - [5, hacksprit]
+            makes:
+              All:
+                - Xp: [1, 2]
+                - OneOf:
+                    - [0.495, Item: Hacker Egg]
+                    - [0.495, Item: Bread Egg]
+                    - [0.010, Item: Cyl Egg]
+            time: 600
+            art: Cyl Egg
+            destroys_plant: true
+
+    - description: Coffea Cyl Grown
+      buff:
+        Art:
+          file: coffea_cyl_grown
+          precedence: 3
+
+- title: Clear as Crystal
+  unlocks: 
+    - Swell Swill
+  effects:
+    - description: >-
+        Just as the searing heat of a hot summer's day makes the horizon shimmer and shift is your Coffea Cyl 
+        enveloped with a blurry and distorted bubble, which helps deter predators, and its yields are now 20% 
+        more bountiful as a result.
+      buff: { YieldSizeMultiplier: 1.2 }
+
+- title: Swell Swill
+  unlocks: 
+    - Crystalline Coffer
+  effects:
+    - description: >-
+        While favoring coffee cannibalism, this Cyl is quite the mixologist who can make a mean Dark 'n' Stormy. 
+        Doing its best work in its own drunkenness, it can make a drink that could make any Cyl feel empowered.
+      buff:
+        Craft:
+          - title: ':cyllicizing_coffee_concoction: Classic Concoction'
+            explanation: >-
+              Cook up some concoctions with supports of 6% and 3% to yield speed and size for your Coffea Cyl companions! 
+              Craft with a 25% chance of success.
+            needs:
+              - [3, Volatile Vial]
+              - [12, Warp Powder]
+              - [18, crystcyl]
+            makes:
+              All:
+                - Xp: [4000, 6800]
+                - OneOf:
+                    - [0.35, Item: Volatile Vial]
+                    - [0.25, Item: Cyllicizing Coffee Concoction]
+                    - [0.40, Nothing]
+            time: 1440
+            art: Cyllicizing Coffee Concoction
+
+- title: Crystalline Coffer
+  unlocks: 
+    - Something Brewing
+  effects:
+    - description: Boxlets can now be upgraded, transformed, or opened.
+      buff:
+        Craft:
+          - title: ':crystalline_buzzwing_boxlet: Boxlet Breakdown'
+            explanation: >-
+              Craft your Crystalline Buzzwing Boxlets with 6 crystcyl for a 24% chance to get loot, a 22% chance to upgrade to a Megabox of another kind, 
+              or a 54% chance to transform into a Boxlet of another kind.
+            needs:
+              - [6, crystcyl]
+              - [1, Crystalline Buzzwing Boxlet]
+            makes:
+              All:
+                - Xp: [2400, 3600]
+                - OneOf:
+                    - [0.24, Item: Boxlet Egg]
+                    - [0.11, Item: Doughy Buzzwing Megabox]
+                    - [0.11, Item: Spirited Buzzwing Megabox]
+                    - [0.27, Item: Doughy Buzzwing Boxlet]
+                    - [0.27, Item: Spirited Buzzwing Boxlet]
+            time: 72
+            art: Crystalline Buzzwing Boxlet
+
+- title: Something Brewing
+  unlocks: 
+    - Towards the Horizon
+  effects:
+    - description: >-
+        All the plants in the neighborhood know that something is up ... Dark, stormy clouds crowd the sky around your plant. 
+        Of course, these clouds are the effect of its famous coffee, the Zach Latte, made from the remains of distant cousins! 
+        Your plant shares these stewed entrails to its neighbors, giving them a 1.1 times boost to all yields!
+      buff: { Neighbor: { YieldSizeMultiplier: 1.1 } }
+
+- title: Towards the Horizon
+  unlocks: 
+    - Caesar's Pride
+  effects:
+    - description: Shining like a fiery afternoon sky, the beams of light fragmenting from this Coffea Cyl empower others of its kind with a 10% boost to yield size.
+      buff: { Neighbor: { YieldSizeMultiplier: 1.1 } }
+  
+- title: Caesar's Pride
+  unlocks: 
+    - Foam Fountain
+  effects:
+    - description: >-
+        Reminiscent of a season known for landscapes filled with brightly-colored leaves, 
+        the august shine of this plant's crystalline structure shines once more upon its neighbors, 
+        multiplying their crafting speeds by 1.1.
+      buff: { Neighbor: { CraftSpeedMultiplier: 1.1 } }    
+
+- title: Foam Fountain
+  unlocks: 
+    - Midas's Masterpiece
+  effects:
+    - description: >-
+        Your Cyl has shown the characteristic of caffeinating fluids after prolonged contact. While this has potential to destroy many ecosystems, 
+        it also allows for the creation of a drink that transforms plants into Cyl.
+      buff:
+        Craft:
+          - title: ':scintillating_cyllicizing_coffee_concoction: Complex Concoction'
+            explanation: Create a crazy coffee mixture that can change plants into Coffea Cyl!
+            needs:
+              - [1, Cyllicizing Coffee Concoction]
+              - [4, Volatile Vial]
+              - [16, Warp Powder]
+              - [28, crystcyl]
+            makes:
+              All: [Item: Scintillating Cyllicizing Coffee Concoction, Xp: [10800, 13200] ]
+            time: 10800
+            art: Scintillating Cyllicizing Coffee Concoction
+
+- title: Midas's Masterpiece
+  unlocks: 
+    - Orange You Glad?
+  effects:
+    - description: Megaboxes can now be transformed or opened.
+      buff:
+        Craft:
+          - title: ':crystalline_buzzwing_megabox: Megabox Breakdown'
+            explanation: Craft your Crystalline Buzzwing Megaboxes with 11 crystcyl for a 16% chance to get loot or a 84% chance to transform into a Megabox of another kind.
+            needs:
+              - [11, crystcyl]
+              - [1, Crystalline Buzzwing Megabox]
+            makes:
+              All:
+                - Xp: [3200, 4800]
+                - OneOf:
+                    - [0.16, Item: Megabox Egg]
+                    - [0.42, Item: Doughy Buzzwing Megabox]
+                    - [0.42, Item: Spirited Buzzwing Megabox]
+            time: 216
+            art: Crystalline Buzzwing Megabox
+
+- title: Orange You Glad?
+  unlocks: []
+  effects:
+    - description: >-
+        Imbued with the power of the stars themselves, this Coffea Cyl has ascended to a whole new level of power. It's electric aura can be imbued into a Cyl Wand over time, 
+        upgrading it into a more powerful Cytrus Staff.
+      buff:
+        Craft:
+          - title: ':cytrus_staff: Cytrus Staff Crafting'
+            explanation: Craft a Cytrus Staff with even moar boosts than a Cyl Wand!
+            needs:
+              - [120, bressence]
+              - [120, hacksprit]
+              - [1, Cyl Wand]
+            makes:
+              All: [Item: Cytrus Staff, Xp: [1, 2] ]
+            time: 17280
+            art: Cytrus Staff
+            destroys_plant: true          
