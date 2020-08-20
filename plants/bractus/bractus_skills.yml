@@ -266,7 +266,8 @@
       buff: { YieldSizeMultiplier: 1.2 }
 
 - title: Potent Potables
-  unlocks: []
+  unlocks:
+    - Breadbox Bonanza
   effects:
     - description: >-
         Watering this Bractus with alcohol has provided some strange results, 
@@ -292,7 +293,8 @@
             art: Bractification Brew
 
 - title: Breadbox Bonanza
-  unlocks: []
+  unlocks: 
+    - Bread Growers' Association
   effects:
     - description: Boxlets can now be upgraded, transformed, or opened.
       buff:
@@ -326,7 +328,8 @@
       buff: { Neighbor: { YieldSizeMultiplier: 1.1 } }
 
 - title: Bread Growers' Guild
-  unlocks: []
+  unlocks: 
+    - Bread Growers' Empire
   effects:
     - description: >-
         Your Bractus's Bread Growers' Association is now complete with hazing, 
@@ -335,7 +338,8 @@
       buff: { Neighbor: { YieldSizeMultiplier: 1.1 } }
 
 - title: Bread Growers' Empire
-  unlocks: []
+  unlocks: 
+    - Bready Beverages
   effects:
     - description: >-
         The Bread Growers' Association's influence has expanded unprecedentedly! 
@@ -343,7 +347,8 @@
       buff: { CraftSpeedMultiplier: 1.1 }
 
 - title: Bready Beverages
-  unlocks: []
+  unlocks: 
+    - Panera's Box
   effects:
     - description: >-
         While a young Bractus often grows in a dry area, powerful and mature Bracti 
@@ -366,7 +371,8 @@
             art: Bold Bractification Brew
 
 - title: Panera's Box
-  unlocks: []
+  unlocks: 
+    - Bread of Kings
   effects:
     - description: Megaboxes can now be transformed or opened.
       buff:
