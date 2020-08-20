@@ -7,7 +7,7 @@
       - Amount: [ Between: [4.25, 6.45], Item: Warp Powder ]
       - Amount: [ Between: [1.45, 3.18], Item: Coffea Cyl Seed ]
       - Amount: [ Between: [6.00, 18.00], Item: Cyl Crystal ]
-      - Amount: [ Between: [8.00, 10.00], Item: Crystalline Buzzwing Bagling]
+      - Amount: [ Between: [8.00, 10.00], Item: Crystalline Buzzwing Bagling ]
       # -- Chance Items
       - Chance: [ 0.024, Item: Gempheus ]
       - Chance: [ 0.048, Item: Cyl Wand ]
@@ -37,7 +37,7 @@
       - Amount: [ Between: [4.25, 6.45], Item: Warp Powder ]
       - Amount: [ Between: [1.45, 3.18], Item: Hacker Vibes Vine Seed ]
       - Amount: [ Between: [6.00, 18.00], Item: Hacker Spirit ]
-      - Amount: [ Between: [8.00, 10.00], Item: Spirited Buzzwing Bagling]
+      - Amount: [ Between: [8.00, 10.00], Item: Spirited Buzzwing Bagling ]
       # -- Chance Items
       - Chance: [ 0.024, Item: Hackpheus ]
       - Chance: [ 0.048, Item: Vine Keyboard ]
@@ -67,7 +67,7 @@
       - Amount: [ Between: [4.25, 6.45], Item: Warp Powder ]
       - Amount: [ Between: [1.45, 3.18], Item: Bractus Seed ]
       - Amount: [ Between: [6.00, 18.00], Item: Bread Essence ]
-      - Amount: [ Between: [8.00, 10.00], Item: Doughy Buzzwing Bagling]
+      - Amount: [ Between: [8.00, 10.00], Item: Doughy Buzzwing Bagling ]
       # -- Chance Items
       - Chance: [ 0.024, Item: Chefpheus ]
       - Chance: [ 0.048, Item: Rolling Pin ]
@@ -149,9 +149,9 @@
       - Chance: [ 0.025, Amount: [ Between: [1.00, 3.03], Item: Crystalline Buzzwing Bagling ] ]
       - Chance: [ 0.025, Amount: [ Between: [1.00, 3.03], Item: Spirited Buzzwing Bagling ] ]
       - Chance: [ 0.025, Amount: [ Between: [1.00, 3.03], Item: Doughy Buzzwing Bagling ] ]
-      - Chance: [ 0.005, Item: Crystalline Buzzwing Boxling]
-      - Chance: [ 0.005, Item: Spirited Buzzwing Boxling]
-      - Chance: [ 0.005, Item: Doughy Buzzwing Boxling]
+      - Chance: [ 0.005, Item: Crystalline Buzzwing Boxling ]
+      - Chance: [ 0.005, Item: Spirited Buzzwing Boxling ]
+      - Chance: [ 0.005, Item: Doughy Buzzwing Boxling ]
         
 - name: Boxlet Egg
   description: With an occasional hum and flutter, this Egg will hatch into all the loot from Boxlets.
@@ -182,9 +182,9 @@
       - Chance: [ 0.0250, Amount: [ Between: [1.00, 2.02], Item: Crystalline Buzzwing Boxling ] ]
       - Chance: [ 0.0250, Amount: [ Between: [1.00, 2.02], Item: Spirited Buzzwing Boxling ] ]
       - Chance: [ 0.0250, Amount: [ Between: [1.00, 2.02], Item: Doughy Buzzwing Boxling ] ]
-      - Chance: [ 0.0050, Item: Crystalline Buzzwing Boxlet]
-      - Chance: [ 0.0050, Item: Spirited Buzzwing Boxlet]
-      - Chance: [ 0.0050, Item: Doughy Buzzwing Boxlet]
+      - Chance: [ 0.0050, Item: Crystalline Buzzwing Boxlet ]
+      - Chance: [ 0.0050, Item: Spirited Buzzwing Boxlet ]
+      - Chance: [ 0.0050, Item: Doughy Buzzwing Boxlet ]
 
 - name: Megabox Egg
   description: Megabox loot is magically transferred into this bright and cheery Egg!

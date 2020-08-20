@@ -32,196 +32,196 @@
 #     Neighbor:
 #       YieldSpeedMultiplier: 1.1
 
-- title: New Baginnings
-  description: News has been spreading of a mysterious goblin who has been sneaking little bags filled with treats to your plants. Be on the lookout for Baglings from this point on.
-  achiever_title: Droning Bractus
-  art: bractus_teen
-  kind:
-    Yield:
-      - chance: 0.003
-        amount: [1.00, 1.05]
-        dropoff: 1.4
-        xp: [200, 300]
-        yields: Spirited Buzzwing Bagling
+# - title: New Baginnings
+#   description: News has been spreading of a mysterious goblin who has been sneaking little bags filled with treats to your plants. Be on the lookout for Baglings from this point on.
+#   achiever_title: Droning Bractus
+#   art: bractus_teen
+#   kind:
+#     Yield:
+#       - chance: 0.003
+#         amount: [1.00, 1.05]
+#         dropoff: 1.4
+#         xp: [200, 300]
+#         yields: Spirited Buzzwing Bagling
 
-      - chance: 0.003
-        amount: [1.00, 1.05]
-        dropoff: 1.4
-        xp: [200, 300]
-        yields: Crystalline Buzzwing Bagling
+#       - chance: 0.003
+#         amount: [1.00, 1.05]
+#         dropoff: 1.4
+#         xp: [200, 300]
+#         yields: Crystalline Buzzwing Bagling
 
-- title: Breadbox
-  description: Baglings can now be upgraded, transformed, or opened
-  achiever_title: Humming Bractus
-  art: bractus_teen
-  kind:
-    Craft:
-      title: ""
-      explanation: >-
-        Craft your Doughy Buzzwing Baglings with a bressence for a 40% chance to get loot, a 36% chance to upgrade to a Boxling of another kind, 
-        or a 24% chance to transform into a Bagling of another kind.
-      needs:
-        - amount: 1
-          item: bressence
-        - amount: 3
-          item: Doughy Buzzwing Bagling
-      makes:
-        OneOf:
-          - Just:
-              amount: 1
-              item: Bagling Egg
-              chance: 0.40
-          - Just:
-              amount: 1
-              item: Spirited Buzzwing Boxling
-              chance: 0.18
-          - Just:
-              amount: 1
-              item: Crystalline Buzzwing Boxling
-              chance: 0.18
-          - Just:
-              amount: 1
-              item: Spirited Buzzwing Bagling
-              chance: 0.12
-          - Just:
-              amount: 1
-              item: Crystalline Buzzwing Bagling
-              chance: 0.12
-      time: 24
-      xp: [1400, 2100]
-      destroys_plant: false
+# - title: Breadbox
+#   description: Baglings can now be upgraded, transformed, or opened
+#   achiever_title: Humming Bractus
+#   art: bractus_teen
+#   kind:
+#     Craft:
+#       title: ""
+#       explanation: >-
+#         Craft your Doughy Buzzwing Baglings with a bressence for a 40% chance to get loot, a 36% chance to upgrade to a Boxling of another kind, 
+#         or a 24% chance to transform into a Bagling of another kind.
+#       needs:
+#         - amount: 1
+#           item: bressence
+#         - amount: 3
+#           item: Doughy Buzzwing Bagling
+#       makes:
+#         OneOf:
+#           - Just:
+#               amount: 1
+#               item: Bagling Egg
+#               chance: 0.40
+#           - Just:
+#               amount: 1
+#               item: Spirited Buzzwing Boxling
+#               chance: 0.18
+#           - Just:
+#               amount: 1
+#               item: Crystalline Buzzwing Boxling
+#               chance: 0.18
+#           - Just:
+#               amount: 1
+#               item: Spirited Buzzwing Bagling
+#               chance: 0.12
+#           - Just:
+#               amount: 1
+#               item: Crystalline Buzzwing Bagling
+#               chance: 0.12
+#       time: 24
+#       xp: [1400, 2100]
+#       destroys_plant: false
 
-- title: Son of a Biscuit Eater
-  description: >-
-    Your Bractus has developed spikes which are well over a meter in length. Made to deter carnivorous desert unicorns, 
-    allowing your now-unhindered Bractus to produce yields at a 20% faster rate.
-  achiever_title: Hardtacktus
-  art: bractus_teen
-  kind:
-    YieldSpeedMultiplier: 1.2
+# - title: Son of a Biscuit Eater
+#   description: >-
+#     Your Bractus has developed spikes which are well over a meter in length. Made to deter carnivorous desert unicorns, 
+#     allowing your now-unhindered Bractus to produce yields at a 20% faster rate.
+#   achiever_title: Hardtacktus
+#   art: bractus_teen
+#   kind:
+#     YieldSpeedMultiplier: 1.2
 
-- title: Butter My Biscuits
-  description: >-
-    Your Bractus has acquired the uncanny ability to retract its spikes and has begun to secrete a delicious buttery substance which attracts nearby carnivorous unicorns. 
-    Once the unicorns begin licking the buttery substance, the Bractus extends its spikes, piercing the pale, bioluminescent flesh of the unicorns and draining their vital organs. 
-    This newfound source of nutrients allows your Bractus to produce 15% larger yields!
-  achiever_title: Buttertus
-  art: bractus_teen
-  kind:
-    YieldSizeMultiplier: 1.15
+# - title: Butter My Biscuits
+#   description: >-
+#     Your Bractus has acquired the uncanny ability to retract its spikes and has begun to secrete a delicious buttery substance which attracts nearby carnivorous unicorns. 
+#     Once the unicorns begin licking the buttery substance, the Bractus extends its spikes, piercing the pale, bioluminescent flesh of the unicorns and draining their vital organs. 
+#     This newfound source of nutrients allows your Bractus to produce 15% larger yields!
+#   achiever_title: Buttertus
+#   art: bractus_teen
+#   kind:
+#     YieldSizeMultiplier: 1.15
 
-- title: Bready Unboxing
-  description: Boxlings can now be upgraded, transformed, or opened.
-  achiever_title: Fizzing Bractus
-  art: bractus_teen
-  kind: 
-    Craft:
-      title: ""
-      explanation: >-
-        Craft your Doughy Buzzwing Boxlings with 3 bressence for an 32% chance to get loot, a 30% chance to upgrade to a Boxlet of another kind, 
-        or a 38% chance to transform into a Boxling of another kind
-      needs:
-        - amount: 3
-          item: bressence
-        - amount: 2
-          item: Doughy Buzzwing Boxling
-      makes:
-        OneOf:
-          - Just:
-              amount: 1
-              item: Boxling Egg
-              chance: 0.32
-          - Just:
-              amount: 1
-              item: Spirited Buzzwing Boxlet
-              chance: 0.15
-          - Just:
-              amount: 1
-              item: Crystalline Buzzwing Boxlet
-              chance: 0.15
-          - Just:
-              amount: 1
-              item: Spirited Buzzwing Boxling
-              chance: 0.19
-          - Just:
-              amount: 1
-              item: Crystalline Buzzwing Boxling
-              chance: 0.19
-      time: 36
-      xp: [1800, 2700]
-      destroys_plant: false
+# - title: Bready Unboxing
+#   description: Boxlings can now be upgraded, transformed, or opened.
+#   achiever_title: Fizzing Bractus
+#   art: bractus_teen
+#   kind: 
+#     Craft:
+#       title: ""
+#       explanation: >-
+#         Craft your Doughy Buzzwing Boxlings with 3 bressence for an 32% chance to get loot, a 30% chance to upgrade to a Boxlet of another kind, 
+#         or a 38% chance to transform into a Boxling of another kind
+#       needs:
+#         - amount: 3
+#           item: bressence
+#         - amount: 2
+#           item: Doughy Buzzwing Boxling
+#       makes:
+#         OneOf:
+#           - Just:
+#               amount: 1
+#               item: Boxling Egg
+#               chance: 0.32
+#           - Just:
+#               amount: 1
+#               item: Spirited Buzzwing Boxlet
+#               chance: 0.15
+#           - Just:
+#               amount: 1
+#               item: Crystalline Buzzwing Boxlet
+#               chance: 0.15
+#           - Just:
+#               amount: 1
+#               item: Spirited Buzzwing Boxling
+#               chance: 0.19
+#           - Just:
+#               amount: 1
+#               item: Crystalline Buzzwing Boxling
+#               chance: 0.19
+#       time: 36
+#       xp: [1800, 2700]
+#       destroys_plant: false
 
-- title: Birds and the Bread
-  description: This Bractus has lived a long and eventful life, and is now able to spread life across the vast reaches of the desert by making Eggs.
-  achiever_title: Flouring Sourguarodough
-  art: bractus_grown
-  kind:
-    Craft:
-      title: ""
-      explanation: >-
-        With some resources from far outside of the desert, you can sacrifice your plant in exchange for an egg of an unpredictable variety, 
-        filled with luxurious goods, if you''re lucky!
-      needs:
-        - amount: 5
-          item: hacksprit
-        - amount: 5
-          item: crystcyl
-      makes:
-        OneOf:
-          - Just:
-              amount: 1
-              item: Cyl Egg
-              chance: 0.495
-          - Just:
-              amount: 1
-              item: Hacker Egg
-              chance: 0.495
-          - Just:
-              amount: 1
-              item: Bread Egg
-              chance: 0.010
-      time: 600
-      xp: [1, 2]
-      destroys_plant: true
+# - title: Birds and the Bread
+#   description: This Bractus has lived a long and eventful life, and is now able to spread life across the vast reaches of the desert by making Eggs.
+#   achiever_title: Flouring Sourguarodough
+#   art: bractus_grown
+#   kind:
+#     Craft:
+#       title: ""
+#       explanation: >-
+#         With some resources from far outside of the desert, you can sacrifice your plant in exchange for an egg of an unpredictable variety, 
+#         filled with luxurious goods, if you''re lucky!
+#       needs:
+#         - amount: 5
+#           item: hacksprit
+#         - amount: 5
+#           item: crystcyl
+#       makes:
+#         OneOf:
+#           - Just:
+#               amount: 1
+#               item: Cyl Egg
+#               chance: 0.495
+#           - Just:
+#               amount: 1
+#               item: Hacker Egg
+#               chance: 0.495
+#           - Just:
+#               amount: 1
+#               item: Bread Egg
+#               chance: 0.010
+#       time: 600
+#       xp: [1, 2]
+#       destroys_plant: true
 
-- title: Artificial Inflation
-  description: Your Bractus figured out how to how to put more air bubbles in its bread, increasing the size of its product! Expect 20% more bountiful yields from now on!
-  achiever_title: Bubbly Bractus
-  art: bractus_grown
-  kind:
-    YieldSizeMultiplier: 1.2
+# - title: Artificial Inflation
+#   description: Your Bractus figured out how to how to put more air bubbles in its bread, increasing the size of its product! Expect 20% more bountiful yields from now on!
+#   achiever_title: Bubbly Bractus
+#   art: bractus_grown
+#   kind:
+#     YieldSizeMultiplier: 1.2
 
-- title: Potent Potables
-  description: Watering this Bractus with alcohol has provided some strange results, as it has been processed into a golden fluid that can boost plant yield stats.
-  achiever_title: Drunk Bractus
-  art: bractus_grown
-  kind:
-    Craft:
-      title: ""
-      explanation: Boil some brews with boosts of 6% and 3% to yield speed and size for your Bractus buddies! Craft with a 25% chance of success.
-      needs:
-        - amount: 3
-          item: Volatile Vial
-        - amount: 12
-          item: Warp Powder
-        - amount: 18
-          item: bressence
-      makes:
-        OneOf:
-          - Just:
-              amount: 1
-              item: Volatile Vial
-              chance: 0.35
-          - Just:
-              item: Nothing
-              chance: 0.40
-          - Just:
-              amount: 1
-              item: Bractification Brew
-              chance: 0.25
-      time: 1440
-      xp: [4000, 6800]
-      destroys_plant: false
+# - title: Potent Potables
+#   description: Watering this Bractus with alcohol has provided some strange results, as it has been processed into a golden fluid that can boost plant yield stats.
+#   achiever_title: Drunk Bractus
+#   art: bractus_grown
+#   kind:
+#     Craft:
+#       title: ""
+#       explanation: Boil some brews with boosts of 6% and 3% to yield speed and size for your Bractus buddies! Craft with a 25% chance of success.
+#       needs:
+#         - amount: 3
+#           item: Volatile Vial
+#         - amount: 12
+#           item: Warp Powder
+#         - amount: 18
+#           item: bressence
+#       makes:
+#         OneOf:
+#           - Just:
+#               amount: 1
+#               item: Volatile Vial
+#               chance: 0.35
+#           - Just:
+#               item: Nothing
+#               chance: 0.40
+#           - Just:
+#               amount: 1
+#               item: Bractification Brew
+#               chance: 0.25
+#       time: 1440
+#       xp: [4000, 6800]
+#       destroys_plant: false
 
 - title: Breadbox Bonanza
   description: Boxlets can now be upgraded, transformed, or opened.
