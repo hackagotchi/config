@@ -109,3 +109,8 @@
     - description: Boost the effect of Powders on this plant's neighbors by 28%!
       for_plants: { Not: [ Aloe Avanta ] }
       buff: { Neighbor: { TimeTicksMultiplier: 1.28 } }
+
+- name: Volatile Vial
+  description: >-
+    A glass bottle which sizzles with magic.
+    Some of this energy escapes into whatever it holds, limiting its number of uses.
