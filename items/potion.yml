@@ -97,7 +97,7 @@
   plant_rub_effects:
     - description: Boost the effect of Powders on this plant by 10%!
       for_plants: { Not: [ Aloe Avanta ] }
-      buff: { TimeTicksMultiplier: 1.10 }
+      buff: { ExtraTimeTicksMultiplier: 1.10 }
 
 - name: Portent Powder Keg
   description: >-
@@ -108,7 +108,7 @@
   plant_rub_effects:
     - description: Boost the effect of Powders on this plant's neighbors by 28%!
       for_plants: { Not: [ Aloe Avanta ] }
-      buff: { Neighbor: { TimeTicksMultiplier: 1.28 } }
+      buff: { Neighbor: { ExtraTimeTicksMultiplier: 1.28 } }
 
 - name: Volatile Vial
   description: >-

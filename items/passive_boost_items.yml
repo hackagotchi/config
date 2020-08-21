@@ -89,11 +89,11 @@
   passive_plant_effects:
     - description: 2.4% chance of double craft yields!
       for_plants: { Only: [ Tinkerstool ] }
-      buff: { DoubleCraftYield: 0.024 }
+      buff: { CraftOutputDoubleChance: 0.024 }
     
     - description: 4% chance of craft return!
       for_plants: { Only: [ Tinkerstool ] }
-      buff: { CraftReturnChance: 0.04 }
+      buff: { CraftInputReturnChance: 0.04 }
     
     - description: 48% faster crafts!
       for_plants: { Only: [ Tinkerstool ] }
@@ -108,7 +108,7 @@
         Not much can't be solved by a good whack with a hammer! 
         This one somehow even gives a 1.2% chance that you get double the crafts!
       for_plants: { Only: [ Tinkerstool ] }
-      buff: { DoubleCraftYield: 0.012 }
+      buff: { CraftOutputDoubleChance: 0.012 }
 
 - name: Tinkerdriver
   description: >-
@@ -120,7 +120,7 @@
         The precision of this new new screwdriver is crazy!
         Just like you'd be without it's 2% craft return chance!
       for_plants: { Only: [ Tinkerstool ] }
-      buff: { CraftReturnChance: 0.02 }
+      buff: { CraftInputReturnChance: 0.02 }
 
 - name: Tinkerlight
   description: >-
