@@ -1,0 +1,34 @@
+---
+
+
+# -- Tier 2
+
+- name: Scintillating Cyllicizing Coffee Concoction
+  description: >-
+    An aromatic potion emanating a warm aura.
+    As well as being able to wake up a dead elephant,
+    it can magically change a plant into a Coffea Cyl.
+  plant_rub_effects:
+    - description: Turn this plant into a Coffea Cyl!
+      for_plants: { Not: [ Coffea Cyl ] }
+      transmogrification: Coffea Cyl
+
+- name: Vivifying Vibefying Vinefying Elixir
+  description: >-
+    This curious tincture smells like a fresh rainstorm,
+    and makes the air around it feel humid.
+    It also has the power to make any plant into a Hacker Vibes Vine.
+  plant_rub_effects:
+    - description: Turn this plant into a Hacker Vibes Vine!
+      for_plants: { Not: [ Hacker Vibes Vine ] }
+      transmogrification: Hacker Vibes Vine
+
+- name: Bold Bractification Brew
+  description: >-
+    As this golden liquid seems to be silky and smooth,
+    it's quite strange to find the potion as dry as it is.
+    Pouring it upon a plant transforms it into a Bractus.
+  plant_rub_effects:
+    - description: Turn this plant into a Bractus!
+      for_plants: { Not: [ Bractus ] }
+      transmogrification: Bractus

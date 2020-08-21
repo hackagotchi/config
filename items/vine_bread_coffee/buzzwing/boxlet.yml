@@ -1,0 +1,22 @@
+---
+
+
+# -- Boxlet
+
+- name: Crystalline Buzzwing Boxlet
+  description: >-
+    At the correct angle, this box reflects lights that mesmerize those who see it.
+    Though it's telling that there is treasure to be discovered, 
+    the box itself seems to be a replica of an old goblin design.
+
+- name: Spirited Buzzwing Boxlet
+  description: >-
+    The soft humming of this boxes wing is almost musical in nature,
+    sounding like an ancient hymn of an old goblin tribe. 
+    Maybe inside you'll find some of their legendary treasure.
+
+- name: Doughy Buzzwing Boxlet
+  description: >-
+    From the corner of one's eye, it seems that the dough on this box occasionally shifts and slides,
+    as if it has been granted life by powerful magicks, known only to the ancients. 
+    One knows they can find valuable trinkets within this enchanted box.

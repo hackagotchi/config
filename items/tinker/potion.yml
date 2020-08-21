@@ -1,0 +1,22 @@
+---
+
+
+# -- Potions
+
+- name: Tinker Tincture
+  description: >-
+    A nanobot mixture filled to the brim with craft beer.
+    The nanobots inside can enhance any plant's dexterity,
+    allowing them to craft 8% faster.
+  plant_rub_effects:
+    - description: Increase this plant's crafting speed by 8%!
+      buff: { CraftSpeedMultiplier: 1.08 }
+
+- name: Terrific Tinker Tincture
+  description: >-
+    After some software updates,
+    as well as some additives for flavor,
+    this mechanical mixture can improve crafting speed by 24%.
+  plant_rub_effects:
+    - description: Increase this plant's crafting speed by 24%!
+      buff: { CraftSpeedMultiplier: 1.24 }

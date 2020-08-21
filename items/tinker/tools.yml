@@ -1,0 +1,59 @@
+---
+
+
+# -- Tools
+
+- name: Tinkermultitool
+  description: >-
+    A wieldly tool for only the finest craftsmen, this is the trade tool of a Tinkerstool. 
+    With the power of all three tools combined,
+    this tool takes on the abilities of all its predecessors doubled.
+  passive_plant_effects:
+    - description: 2.4% chance of double craft yields!
+      for_plants: { Only: [ Tinkerstool ] }
+      buff: { DoubleCraftYield: 0.024 }
+    
+    - description: 4% chance of craft return!
+      for_plants: { Only: [ Tinkerstool ] }
+      buff: { CraftReturnChance: 0.04 }
+    
+    - description: 48% faster crafts!
+      for_plants: { Only: [ Tinkerstool ] }
+      buff: { CraftSpeedMultiplier: 1.48 }
+
+- name: Tinkersledge
+  description: >-
+    A mushroom with a heavy-duty hammer? What? This springy tool takes precision and focus, 
+    and using it will allow a 1.2% chance at double the crafting yield!
+  passive_plant_effects:
+    - description: >-
+        Not much can't be solved by a good whack with a hammer! 
+        This one somehow even gives a 1.2% chance that you get double the crafts!
+      for_plants: { Only: [ Tinkerstool ] }
+      buff: { DoubleCraftYield: 0.012 }
+
+- name: Tinkerdriver
+  description: >-
+    A carefully crafted tool that allows careful crafting. 
+    Having this tool available allows for a 2% chance to
+    have some of your crafting resources returned.
+  passive_plant_effects:
+    - description: >-
+        The precision of this new new screwdriver is crazy!
+        Just like you'd be without it's 2% craft return chance!
+      for_plants: { Only: [ Tinkerstool ] }
+      buff: { CraftReturnChance: 0.02 }
+
+- name: Tinkerlight
+  description: >-
+    While this flashlight seems normal enough,
+    it has the uncanny ability to filter light through artificial gills
+    to refract light into an assortment of shapes and shades. 
+    It also has the unique ability of boosting crafting speed by 24%.
+  passive_plant_effects:
+    - description: >-
+        Through it's many lenses and filters,
+        it's hard not to be entranced by this tool's fantastic lights. 
+        It somehow makes crafting 24% faster.
+      for_plants: { Only: [ Tinkerstool ] }
+      buff: { CraftSpeedMultiplier: 1.24 }

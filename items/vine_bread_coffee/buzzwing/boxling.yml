@@ -1,0 +1,21 @@
+---
+
+
+# -- Boxling
+
+- name: Crystalline Buzzwing Boxling
+  description: >-
+    A flightful box of amber with a nice shine to it.
+    Other than being a decent mirror, it is sure to contain something of worth.
+
+- name: Spirited Buzzwing Boxling
+  description: >-
+    Infused with the might of duct tape,
+    this box flies strong, wings flapping rhythmically.
+    The box itself is worth trying to open for the hope of good loot.
+
+- name: Doughy Buzzwing Boxling
+  description: >-
+    For something made of dough,
+    this box holds itself together well, while still being a bit malleable.
+    Treasure is certain to be found within.

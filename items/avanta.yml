@@ -1,0 +1,33 @@
+---
+
+
+# -- Seed
+
+- name: Aloe Avanta Seed
+  description: >-
+    A strange seed that kind of smells of hand sanitizer.
+    It emits a faint blue light that makes the earth around it glow.
+  grows_into: Aloe Avanta
+
+
+# -- Potions
+
+- name: Powder Keg
+  description: >-
+    A bottle of brew with only minor explosive properties.
+    It has enough latent energy to boost the effect of Powders on plants by 10%.
+  plant_rub_effects:
+    - description: Boost the effect of Powders on this plant by 10%!
+      for_plants: { Not: [ Aloe Avanta ] }
+      buff: { TimeTicksMultiplier: 1.10 }
+
+- name: Portent Powder Keg
+  description: >-
+    Handle with caution.
+    Upgrading this potion has has caused it to become more than just a bit explosive. 
+    Though keeping the fabric of reality safe is a concern, 
+    the risk is worth it when making powders 28% as effective for neighbors.
+  plant_rub_effects:
+    - description: Boost the effect of Powders on this plant's neighbors by 28%!
+      for_plants: { Not: [ Aloe Avanta ] }
+      buff: { Neighbor: { TimeTicksMultiplier: 1.28 } }

@@ -1,0 +1,7 @@
+---
+- name: Tinkerspore
+  description: >-
+    This small Spore is quite colorful.
+    It often attaches itself to machinery,
+    showing an innate attraction to mechanical contraptions.
+  grows_into: Tinkerstool

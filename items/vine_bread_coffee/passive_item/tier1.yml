@@ -1,0 +1,42 @@
+---
+
+
+# -- Tier 1
+
+- name: Cyl Wand
+  description: >-
+    Once your run-of-the-mill stick,
+    this wand has been lined with gems that occasionally light and spark, 
+    the energy giving Coffea Cyl plants a 10% boost to yield speed.
+  passive_plant_effects:
+    - description: >-
+        The occasional static discharged from this Wand allows Cyl plants to recharge, 
+        allowing them to produce yields 10% faster.
+      for_plants: { Only: [ Coffea Cyl ] }
+      buff: { YieldSpeedMultiplier: 1.10 }
+
+- name: Vine Keyboard
+  description: >-
+    The loud clacking of this keyboard's keys enchant Hacker Vibes Vines, 
+    sending those who hear it into a trancelike state where they work
+    on their yields at a 10% faster rate.
+  passive_plant_effects:
+    - description: >-
+        What with the pen being mightier than the sword,
+        arming yourself with a nice Keyboard is never a bad idea. 
+        This one even gives Hacker Vibes Vines a 10% boost to yield speed.
+      for_plants: { Only: [ Hacker Vibes Vine ] }
+      buff: { YieldSpeedMultiplier: 1.10 }
+
+- name: Rolling Pin
+  description: >-
+    Bracti fear the Rolling Pin more than almost any other tool,
+    and in the hands of the correct wielder, 
+    it will inspire them to work harder with a 10% boost to the speed of yields.
+  passive_plant_effects:
+    - description: >-
+        It may be better to be loved than feared,
+        but the unease Rolling Pins generate among the Bractus
+        crowds increase their yield speeds by 10%!
+      for_plants: { Only: [ Bractus ] }
+      buff: { YieldSpeedMultiplier: 1.10 }

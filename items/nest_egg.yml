@@ -1,0 +1,21 @@
+---
+
+- name: Nest Egg
+  description: >-
+    A special egg which helps new Hacksteaders get started. Hatching it guarantees some Powders to speed up plant growth, as well as quite a few crafting materials. 
+    Happy Hacksteading!
+  hatch_table:
+    All:
+    # -- Guaranteed Items
+      - Amount: [ Between: [90.00, 120.00], Item: Cyl Crystal ]
+      - Amount: [ Between: [90.00, 120.00], Item: Hacker Spirit ]
+      - Amount: [ Between: [90.00, 120.00], Item: Bread Essence ]
+      - Amount: [ Between: [7.40, 9.60], Item: Warp Powder ]
+      # -- Chance Items
+      - Chance: [ 0.150, Amount: [ Between: [1.27, 2.50], Item: Rift Powder ] ]
+      - Chance: [ 0.026, Amount: [ Between: [1.24, 1.64], Item: Tinkerpart ] ]
+      - Chance: [ 0.021, Amount: [ Between: [1.10, 1.64], Item: Volatile Vial ] ]
+      - Chance: [ 0.018, Amount: [ Between: [1.00, 1.05], Item: Nest Egg ] ]
+    
+  welcome_gift: true
+

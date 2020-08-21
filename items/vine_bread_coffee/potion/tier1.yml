@@ -1,0 +1,46 @@
+---
+
+
+# -- Potions
+
+- name: Cyllicizing Coffee Concoction
+  description: >-
+    This chemical craze commits quite the catastrophic capabilities to Coffea Cyl plants,
+    contributing a capacity to increase their neighbors' yield speeds by 6%
+    and their yield sizes by 3%.
+  plant_rub_effects:
+    - description: Crazy Coffee! + 6% Yield Speed!
+      for_plants: { Only: [ Coffea Cyl ] }
+      buff: { Neighbor: { YieldSpeedMultiplier: 1.06 } }
+    - description: Crazy Coffee! + 3% Yield Size!
+      for_plants: { Only: [ Coffea Cyl ] }
+      buff: { Neighbor: { YieldSizeMultiplier: 1.03 } }
+
+- name: Vibefying Vinefying Elixir
+  description: >-
+    Having a Hacker Vibes Vine quaff this potion has quite an effect on them,
+    enabling them to boost the size of their neighbors'
+    yield speeds and sizes by 6% and 3% respectively.
+  plant_rub_effects:
+    - description: Vine Elixir! + 6% Yield Speed!
+      for_plants: { Only: [ Hacker Vibes Vine ] }
+      buff: { Neighbor: { YieldSpeedMultiplier: 1.06 } }
+
+    - description: Vine Elixir! + 3% Yield Size!
+      for_plants: { Only: [ Hacker Vibes Vine ] }
+      buff: { Neighbor: { YieldSizeMultiplier: 1.03 } }
+
+- name: Bractification Brew
+  description: >-
+    This beaut of a butt can be boozed in a bout on a boat or a butte ...
+    or just about anywhere. 
+    Bracti that drink it increase the speed of neighboring Bracti's yields by 6%,
+    with their yield sizes being increased by 3%.
+  plant_rub_effects:
+    - description: Bractus Brew! + 6% Yield Speed!
+      for_plants: { Only: [ Bractus ] }
+      buff: { Neighbor: { YieldSpeedMultiplier: 1.06 } }
+
+    - description: Bractus Brew! + 3% Yield Size!
+      for_plants: { Only: [ Bractus ] }
+      buff: { Neighbor: { YieldSizeMultiplier: 1.03 } }

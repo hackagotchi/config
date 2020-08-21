@@ -1,0 +1,20 @@
+---
+
+
+# -- Bagling
+
+- name: Crystalline Buzzwing Bagling
+  description: >-
+    A curious flying bag which is sometimes tied to a goblin folk legend.
+    Upon opening you can usually find quite a few treats.
+
+- name: Spirited Buzzwing Bagling
+  description: >-
+    Magical bags such as this are rumored to have been commonplace in a time long past.
+    It is bound to have some magical items inside.
+
+- name: Doughy Buzzwing Bagling
+  description: >-
+    The secret to the creation of these rare winged bags was supposedly lost,
+    making their sudden return quite curious. 
+    Opening it may give way to fantastic rewards.

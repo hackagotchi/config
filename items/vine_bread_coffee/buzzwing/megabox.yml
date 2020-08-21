@@ -1,0 +1,21 @@
+---
+
+
+# -- Megabox
+
+- name: Crystalline Buzzwing Megabox
+  description: >-
+    This crystal-laden box lights up with strange magicks,
+    similarly to a rumored piece of magitech made by the Brognarks. 
+    Bounty and wealth are promised to those who can access its contents.
+
+- name: Spirited Buzzwing Megabox
+  description: >-
+    The melodious buzzings of this box remind of a song of the fabled and revered Brognark tribe. 
+    The song hints at a glorious treasure, which you may be holding now.
+
+- name: Doughy Buzzwing Megabox
+  description: >-
+    The way in which this box's outsides are animated emulate the magicks
+    of the great Brognark civilization. 
+    The maker of this box has surely inserted items of much value.    

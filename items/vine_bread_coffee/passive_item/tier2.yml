@@ -1,0 +1,42 @@
+---
+
+
+# -- Tier 2
+
+- name: Cytrus Staff
+  description: >-
+    Energy overflows from this staff,
+    with orange lightning arcing from Cyl to Cyl,
+    sending them all into overdrive. 
+    These high energy Cyl can now produce yields 30% faster!
+  passive_plant_effects:
+    - description: >-
+        This Cytrus Staff's magical might supercharges Cyl with powerful,
+        precise bolts of orange electricity,
+        increasing the yield speed of Coffea Cyl by 30%!
+      for_plants: { Only: [ Coffea Cyl ] }
+      buff: { YieldSpeedMultiplier: 1.30 }
+  
+- name: Jungleboard
+  description: >-
+    Click clack. Clickity clack click.
+    Upon hearing this sound, any Hacker Vibes Vines will become lost in the forest of their minds, 
+    releasing more vIbes with a 30% boost to yield speed.
+  passive_plant_effects:
+    - description: >-
+        The light jungle sounds of this Jungleboard send Hacker Vibes Vines
+        into a deep meditative state where they produce yields 30% more often!
+      for_plants: { Only: [ Hacker Vibes Vine ] }
+      buff: { YieldSpeedMultiplier: 1.30 }
+
+- name: Kingpin
+  description: >-
+    The majesty and might of this Rolling Pin has grown beyond mere bread,
+    and the terror it causes within Bracti now gives them a 30% boost to yield speed.
+  passive_plant_effects:
+    - description: >-
+        The top tool of its kitchen college,
+        the Kingpin orders Bracti to supply both bread and circus,
+        still somehow increasing the frequency of Bractus yields by 30%.
+      for_plants: { Only: [ Bractus ] }
+      buff: { YieldSpeedMultiplier: 1.30 }
