@@ -1,6 +1,7 @@
 ---
 - title: Ivy Initiation
-  unlocks: []
+  unlocks: 
+    - Really Got a Hold on Me
   effects:
     - description: This Vine is at the bottom rung of the ladder for now, but it will soon climb to the very top, collecting experience along the way.
       buff: { Xp: 1.0 }
@@ -10,8 +11,9 @@
           file: hacker_vibes_vine_baby
           precedence: 0
 
-- title: Really Got a Hold On me
-  unlocks: []
+- title: Really Got a Hold on Me
+  unlocks: 
+    - Duct Duct Goose
   effects:
     - description: >-
         You're so fond of this little vine you just wanna love it forever and not let go. After all, 
@@ -25,7 +27,8 @@
                 - All: [ Item: Hacker Spirit, Xp: 50 ]
 
 - title: Duct Duct Goose
-  unlocks: []
+  unlocks: 
+    - Hacker Culture Horticulture
   effects:
     - description: >-
         This Vine has constructed a vocal cord for itself out of duct tape, which allows it to communicate effectively with other nearby Hacker Vibes Vines 
@@ -33,13 +36,15 @@
       buff: { YieldSizeMultiplier: 1.05 }
   
 - title: Hacker Culture Horticulture
-  unlocks: []
+  unlocks: 
+    - Fey Fines
   effects:
     - description: This Vine has started to spend some nights reading forums, and from them has learned how to optimize its production to be 1.1 times as fast.
       buff: { YieldSpeedMultiplier: 1.1 }
 
 - title: Fey Fines
-  unlocks: []
+  unlocks: 
+    - Vine Combined
   effects:
     - description: >-
         The elves made a terrible mistake when they leased this land to you! As compensation, they weave arcane runes into the air, making this plant 
@@ -47,7 +52,8 @@
       buff: { YieldSpeedMultiplier: 1.1 }
 
 - title: Vine Combined
-  unlocks: []
+  unlocks: 
+    - Perennial Programming
   effects:
     - description: By slapping some duct tape onto some Hacker Spirits, this Vine can now make hacksprits with the power of five Spirits in one!
       buff:
@@ -70,13 +76,15 @@
           precedence: 1
 
 - title: Perennial Programming
-  unlocks: []
+  unlocks: 
+    - Stem Education
   effects:
     - description: Making amazing things is a gift that keeps on coming back. In the case of your Vine, this gift will be coming back bigger with 5% larger yields.
       buff: { YieldSizeMultiplier: 1.05 }
 
 - title: Stem Education
-  unlocks: []
+  unlocks: 
+    - Morning Glory
   effects:
     - description: >-
         After taking a class on the optimal stem width to rigidness ratio, your Vine is now able to hold more Hacker Spirit aloft on its branches. 
@@ -84,7 +92,8 @@
       buff: { YieldSizeMultiplier: 1.1 }
 
 - title: Morning Glory
-  unlocks: []
+  unlocks: 
+    - Social Climber
   effects:
     - description: >-
         Not all programmers are night owls; this Hacker Vibes Vine prefers the bright rays of sunlight and the cool touch of the glistening morning dew. 
@@ -92,7 +101,8 @@
       buff: { Neighbor: { YieldSpeedMultiplier: 1.05 } }
 
 - title: Social Climber
-  unlocks: []
+  unlocks: 
+    - New Baginnings
   effects:
     - description: >-
         Having an friendly personality allows this Vine to make friends with peers in its field. Its helpful responses and support makes him a platform for support: 
@@ -100,7 +110,8 @@
       buff: { Neighbor: { YieldSpeedMultiplier: 1.1 } }
 
 - title: New Baginnings
-  unlocks: []
+  unlocks: 
+    - Hack in the Box
   effects:
     - description: There have been recent tales of bags suddenly appearing next to plants in the night. Reports suggest that a mysterious stout figure has been leaving these goodie bags behind.
       buff:
@@ -128,7 +139,8 @@
           precedence: 2
 
 - title: Hack in the Box
-  unlocks: []
+  unlocks: 
+    - Honeysuckle, I'm Home
   effects:
     - description: Baglings can now be upgraded, transformed, or opened.
       buff:
@@ -153,7 +165,8 @@
             art: Spirited Buzzwing Bagling
 
 - title: Honeysuckle, I'm Home
-  unlocks: []
+  unlocks: 
+    - Scandent Sourceror
   effects:
     - description: >-
         Due to its size, this Vine has become home to a few small creatures, especially birds. Of course, these creatures take care of their home sweet home, 
@@ -161,13 +174,15 @@
       buff: { YieldSpeedMultiplier: 1.2 }
 
 - title: Scandent Sourceror
-  unlocks: []
+  unlocks: 
+    - Hacking Outside the Box
   effects:
     - description: This code wizard writes up some spooky black magic shortcuts that will make yields have 15% more resources.
       buff: { YieldSizeMultiplier: 1.15 }
 
 - title: Hacking Outside the Box
-  unlocks: []
+  unlocks: 
+    - Ivy League
   effects:
     - description: Boxlings can now be upgraded, transformed, or opened.
       buff:
@@ -192,7 +207,8 @@
             art: Spirited Buzzwing Boxling
 
 - title: Ivy League
-  unlocks: []
+  unlocks: 
+    - Back to Our Roots
   effects:
     - description: >-
         This Vine has banded together with some friends to form a coalition to help progress its scientific research. Shared knowledge passing hands finds 
@@ -226,13 +242,15 @@
 
 
 - title: Back to Our Roots
-  unlocks: []
+  unlocks: 
+    - Alcoholic Attraction
   effects:
     - description: Remembering all the passion-filled projects from its youth, this Vine redoubles its efforts into making, having a 1.2 times boost to yield sizes to show for it.
       buff: { YieldSizeMultiplier: 1.2 }
 
 - title: Alcoholic Attraction
-  unlocks: []
+  unlocks: 
+    - Box of Bark
   effects:
     - description: >-
         This Vine will cling to a bottle of hard liquor like it's a tree trunk. Refining the vomit that results from its inebriated state will make a beverage which helps make any other Vines work more efficiently.
@@ -255,7 +273,8 @@
             art: Vibefying Vinefying Elixir
 
 - title: Box of Bark
-  unlocks: []
+  unlocks: 
+    - Ivy Induction
   effects:
     - description: Boxlets can now be upgraded, transformed, or opened.
       buff:
@@ -280,7 +299,8 @@
             art: Spirited Buzzwing Boxlet
 
 - title: Ivy Induction
-  unlocks: []
+  unlocks: 
+    - Cult Conduction
   effects:
     - description: >-
         When your programming prowess is well-known, it isn't totally unheard of for secret organizations to reach out. This Vine has donned its black hat 
@@ -288,7 +308,8 @@
       buff: { Neighbor: { YieldSizeMultiplier: 1.1 } }
 
 - title: Cult Conduction
-  unlocks: []
+  unlocks: 
+    - Cloud Vine
   effects:
     - description: >-
         With your Vine's many contributions to its local cult, it has become a high-ranking member of the organization's council. Your Vine uses its new status 
@@ -296,7 +317,8 @@
       buff: { Neighbor: { YieldSizeMultiplier: 1.1 } }
 
 - title: Cloud Vine
-  unlocks: []
+  unlocks: 
+    - Fine Vines
   effects:
     - description: >-
         Your Hacker Vibes Vine can now upload all of its secrets and data onto the cloud, where other Vines can access them. Expect 10% faster crafting from all 
@@ -304,7 +326,8 @@
       buff: { Neighbor: { CraftSpeedMultiplier: 1.1 } }
 
 - title: Fine Vines
-  unlocks: []
+  unlocks: 
+    - Vim Cubed
   effects:
     - description: >-
         Never let it be said that Vines age poorly. In fact, the healthy glitter of dew on its leaves help them remain forever fresh. Adding a specific potion to 
@@ -324,7 +347,8 @@
             art: Vivifying Vibefying Vinefying Elixir
 
 - title: Vim Cubed
-  unlocks: []
+  unlocks: 
+    - Botany Oddity
   effects:
     - description: Megaboxes can now be transformed or opened.
       buff:

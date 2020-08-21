@@ -1,6 +1,7 @@
 ---
 - title: In the Dust
-  unlocks: []
+  unlocks:
+    - Wading In
   effects:
     - description: >-
         Out of the dust, a wonderful little plant has materialized. 
@@ -12,3 +13,305 @@
         Art:
           file: aloe_avanta_baby
           precedence: 0
+
+- title: Wading In
+  unlocks: 
+    - Aloe Alone
+  effects:
+    - description: >-
+        Your young Aloe is already trying to summon Warp Powder - 
+        how determined! Your plant has a 70% chance of obtaining Warp Powder.
+      buff:
+        Yield:
+          All:
+            - Xp: [800, 1200]
+            - Amount:
+                - [1.4, 7.4]
+                - All: [ Item: Warp Powder ]
+
+- title: Aloe Alone
+  unlocks: 
+    - Why So Blue?
+  effects:
+    - description: >-
+        Introverted and quiet, your mysterious plant is a singularity in solidarity 
+        and has started working more efficiently. Their yield size has experienced 
+        a 1.05 size boost.
+      buff: { YieldSizeMultiplier: 1.05 }
+
+- title: Why So Blue?
+  unlocks: 
+    - Smooth Tunes
+  effects:
+    - description: >-
+        This plant seems to have become existential, being extremely intelligent. 
+        We might need to introduce them to some friends. Yield size has increased by 7%.
+      buff: { YieldSizeMultiplier: 1.07 }
+
+- title: Smooth Tunes
+  unlocks: 
+    - Dust Smites
+  effects:
+    - description: >-
+        A little music while you work can really get things moving. 
+        This holds especially true for this plant, who gets a 7% bonus to yield speed.
+      buff: { YieldSpeedMultiplier: 1.07 }
+
+- title: Dust Smites
+  unlocks:  
+    - Purple Haze
+  effects:
+    - description: >-
+        This plant can't stand any dust that isn't its own. 
+        It periodically shoots out waves of powder that clear up those nasty Dust Bunnies of Caerbannog, 
+        giving its neighbors a 1.1 times speed boost.
+      buff: { Neighbor: { YieldSpeedMultiplier: 1.1 } }
+    
+    - description: Aloe Vera Kid
+      buff:
+        Art:
+          file: aloe_avanta_kid
+          precedence: 1
+
+- title: Purple Haze
+  unlocks: 
+    - Vera Nice to See You
+  effects:
+    - description: >-
+        The groovy succulent has sped up productivity after listening to some Jimi Hendrix. Far out, 
+        your speed has seen a 10% swell!
+      buff: { YieldSpeedMultiplier: 1.1 }
+
+- title: Vera Nice to See You
+  unlocks: 
+    - Aloewance
+  effects:
+    - description: >-
+        Conversing with their neighbors has improved the Aloe's spirits! 
+        The joy from this lighthearted interaction has increased their neighobr's yield speed by 15%.
+      buff: { Neighbor: { YieldSpeedMultiplier: 1.15 } }
+
+- title: Aloewance
+  unlocks: 
+    - Avanta Garde
+  effects:
+    - description: >-
+        Your plant pal has prayed to their astronomical Aloe ancestors for greater yields - and they provided! 
+        Your plant has gained an Aloe aura that boosts the yield sizes of nearby Aloe 1.1 times!
+      buff: { Neighbor: { YieldSizeMultiplier: 1.1 } }
+
+- title: Avanta Garde
+  unlocks: 
+    - Aloe Avantage
+  effects:
+    - description: >-
+        Novelty strikes very rarely, but when an inspired Aloe has an idea, it usually lets them compress and 
+        dissect Powders into another, as this idea does. Along with it comes the abillity to use excess Aloe Seeds for Powder!
+      buff:
+        Craft:
+          - title: ':rift_powder: Powder Crafting'
+            explanation: This reddish purple powder seems to be even more effective than blue ones.
+            needs:
+              - [11, Warp Powder]
+            makes:
+              All: [Item: Rift Powder, Xp: [2480, 3280] ]
+            time: 75
+            art: Rift Powder
+
+          - title: ':warp_powder: Powder Crafting'
+            explanation: Using some special techniques, Rift Powder can be decomposed back into Warp Powder!
+            needs:
+              - [1, Rift Powder]
+            makes:
+              All: [Amount: [9, Item: Warp Powder], Xp: [4960, 6560] ]
+            time: 75
+            art: Warp Powder
+          
+          - title: ':wormhole_powder: Powder Crafting'
+            explanation: A mixture of both Warp Powder and Rift Powder seems to transmute into a special worm-shaped powder.
+            needs:
+              - [3, Rift Powder]
+              - [8, Warp Powder]
+            makes:
+              All: [Item: Wormhole Powder, Xp: [8160, 12000] ]
+            time: 75
+            art: Wormhole Powder
+          
+          - title: ':wormhole_powder: Powder Crafting'
+            explanation: After further research, your Aloe has figured out how to craft Wormhole Powders from simple Warp Powders.
+            needs:
+              - [38, Warp Powder]
+            makes:
+              All: [Item: Wormhole Powder, Xp: [8160, 12000] ]
+            time: 75
+            art: Wormhole Powder
+
+          - title: ':wormhole_powder: Powder Decomposition'
+            explanation: Just as Wormhole Powder can be crafted with Rift Powder and Warp Powder, the process can be reversed!
+            needs:
+              - [1, Wormhole Powder]
+            makes:
+              All:
+                - Xp: [6500, 7900]
+                - Amount: [3, Item: Rift Powder]
+                - Amount: [2, Item: Warp Powder]
+            time: 75
+            art: Wormhole Powder
+
+          - title: ':aloe_avanta_seed: Seed Decomposition'
+            explanation: With some black magic, Aloe Avanta Seeds can be grinded up into a variety of powders!
+            needs:
+              - [1, Aloe Avanta Seed]
+            makes:
+              All:
+                - Xp: [160000, 240000]
+                - Amount: [20, Item: Wormhole Powder]
+                - Amount: [60, Item: Rift Powder]
+                - Amount: [500, Item: Warp Powder]
+            time: 1
+            art: Aloe Avanta Seed
+    - description: Aloe Avanta Teen!
+      buff:
+        Art:
+          file: aloe_avanta_teen
+          precedence: 2
+
+- title: Aloe Avantage
+  unlocks: 
+    - Soothing Soot
+  effects:
+    - description: >-
+        Ingesting Warp Powder has enlightened your plant, and they will now support their friends to help their species grow. 
+        Neighbor yield size has seen a 1.15 times increase! 
+      buff: { Neighbor: { YieldSizeMultiplier: 1.15 } }
+
+- title: Soothing Soot
+  unlocks: 
+    - Nitroglycerin Nursery
+  effects:
+    - description: >-
+        Working hard usually makes one feel hot and stuffy, but the natural coolant that this Aloe emits in its dust helps 
+        regulate their neighbor's temperatures, boosting their overall production by 20%.
+      buff: { Neighbor: { YieldSizeMultiplier: 1.2 } }
+
+- title: Nitroglycerin Nursery
+  unlocks: 
+    - Warp Speed
+  effects:
+    - description: >-
+        After some extensive testing - and a few fires - your Aloe Avanta has found itself able to make a gelatinous 
+        liquid substance that can improve the effectiveness of Powders. Just try not to let it catch fire; there's some liquor in there.
+      buff:
+        Craft:
+          - title: ':powder_keg: Powered Potion'
+            explanation: >-
+              Powders are pretty potent on their own, but to truly bring out their potential, you can make a Powder Keg that boosts their 
+              effects by 10%. Craft with a 40% chance of success.
+            needs:
+              - [5, Volatile Vial]
+              - [20, Warp Powder]
+              - [2, Rift Powder]
+              - [18, crystcyl]
+              - [18, hacksprit]
+              - [18, bressence]
+            makes:
+              All:
+                - Xp: [8800, 12400]
+                - OneOf:
+                    - [0.20, All: [Item: Volatile Vial, Amount: [5, Item: Warp Powder] ] ]
+                    - [0.40, All: [Item: Volatile Vial, Amount: [2, Item: Warp Powder] ] ]
+                    - [0.40, Item: Powder Keg]
+            time: 480
+            art: Powder Keg
+
+- title: Warp Speed
+  unlocks: 
+    - Powder Power
+  effects:
+    - description: Having taken the plant equivalent of hard cocaine, this plant now yields 1.12 times faster.
+      buff: { YieldSpeedMultiplier: 1.12 }
+
+- title: Powder Power
+  unlocks: 
+    - Gel Guru
+  effects:
+    - description: >-
+        With the power of this plant's powder, we've started generating very potent material. 
+        There is now a base chance of 9% to get Rift Powder as a part of yields.
+      buff:
+        Yield:
+          All:
+            - Xp: [400, 600]
+            - Amount:
+                - [1.1, 2.3]
+                - All: [ Item: Rift Powder]
+
+    - description: All Grown Up!
+      buff:
+        Art:
+          file: aloe_avanta_grown
+          precedence: 3
+
+- title: Gel Guru
+  unlocks: 
+    - Successful Succulent
+  effects:
+    - description: Using the starry blue gel from one of it's bountiful leaves, the Aloe has increased it's yield size with a 15% enhancement. 
+      buff: { YieldSizeMultiplier: 1.15 }
+
+- title: Successful Succulent
+  unlocks: 
+    - Expedited Explosions
+  effects:
+    - description: >-
+        Your Aloe Avanta has become famous for their brilliant, galactic style. Along with newfound confidence comes the perk of having their yield 
+        size increased by 15%!
+      buff: { YieldSizeMultiplier: 1.15 }
+
+- title: Expedited Explosions
+  unlocks: 
+    - Fate of the Stars
+  effects:
+    - description: >-
+        Your Aloe has learned how to use quantum injectors to carefully place nanoparticles in Powder Kegs which greatly increase its explosive properties, 
+        but more importantly, its capability to boost Powder efficiency for neighboring plants.
+      buff:
+        Craft:
+          - title: ':portent_powder_keg: Perfect Potion'
+            explanation: Pouring copious amounts of Powder into an already powerful, powderful potion makes a Portent Powder Keg that boosts Powder power upon neighbors by 28%.
+            needs:
+              - [1, Powder Keg]
+              - [8, Volatile Vial]
+              - [6, Rift Powder]
+              - [3, Wormhole Powder]
+              - [36, crystcyl]
+              - [36, hacksprit]
+              - [36, bressence]
+            makes:
+              All: [Item: Portent Powder Keg, Xp: [15500, 19000] ]
+            time: 14400
+            art: Portent Powder Keg
+
+- title: Fate of the Stars
+  unlocks: 
+    - Aloe Savanta
+  effects:
+    - description: >-
+        The shine of your Aloe's twinkling lights has dwarfed some of the galaxy's greatest wonders. 
+        The intense sparkles are actually the effect of a process that boosts yield size by 1.2.
+      buff: { YieldSizeMultiplier: 1.2 }
+
+- title: Aloe Savanta
+  unlocks: []
+  effects:
+    - description: >-
+        This Aloe has been designated a certified genius! They've started producing a mysterious, 
+        powerful powder with the uncanny ability to twist the fabric of space-time. 
+        There is now a 1% base chance of getting Wormhole Powder.
+      buff:
+        Yield:
+          All:
+            - Xp: [1, 2]
+            - Amount:
+                - [1.00, 1.05]
+                - All: [Item: Wormhole Powder]
