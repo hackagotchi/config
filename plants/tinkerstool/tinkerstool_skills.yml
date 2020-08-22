@@ -1,11 +1,615 @@
 ---
 - title: Tinkerer's Tools
-  unlocks: []
+  unlocks: 
+    - Speedy Spores
   effects:
     - description: The Tinkerstool is a strange plant gifted with the knowledge of crafting from birth, but unable to make resources for themselves.
-      buff: { Xp: 0 }
-    - description: hammer
+      buff:
+        Craft:
+          - title: ':tinkerpart: Learning and Burning'
+            explanation: Burn a Tinkerpart to get some quick XP for your plants! There's also a small chance for something special.
+            needs:
+              - [1, Tinkerpart]
+            makes:
+              All:
+                - Xp: [1800, 5400]
+                - OneOf:
+                    - [0.005, Item: Warp Powder]
+                    - [Rest, Nothing]
+            time: 1
+            art: Tinkerpart
+
+          - title: ':tinkerpart: More Learning and More Burning'
+            explanation: >-
+              After some trial by fire, your Tinkerstool has found more Tinkerparts means more fire and more XP, 
+              and a higher chance for a secret drop!
+            needs:
+              - [3, Tinkerpart]
+            makes:
+              All:
+                - Xp: [7200, 21600]
+                - OneOf:
+                    - [0.020, Item: Warp Powder]
+                    - [Rest, Nothing]
+            time: 2
+            art: Tinkerpart
+
+          - title: ':tinkerpart: Even More Learning and Even More Burning'
+            explanation: >-
+              Arson is truly an educational experience. Burn a bunch of Tinkerparts and get a crazy big fire, 
+              some XP, as well as good odds for something extra.
+            needs:
+              - [12, Tinkerpart]
+            makes:
+              All:
+                - Xp: [36000, 96000]
+                - OneOf:
+                    - [0.100, Item: Warp Powder]
+                    - [0.020, Amount: [2, Item: Warp Powder] ]
+                    - [Rest, Nothing]
+            time: 4
+            art: Tinkerpart
+
+          - title: ':tinkerpart: ... This is Getting Out of Hand'
+            explanation: >-
+              Some people want to watch the world burn - it's a learning experience, alright! 
+              Burn all the Tinkerparts and watch the XP flow.
+            needs:
+              - [60, Tinkerpart]
+            makes:
+              All:
+                - Xp: [216000, 576000]
+                - OneOf:
+                    - [0.500, Item: Warp Powder]
+                    - [0.120, Amount: [2, Item: Warp Powder] ]
+                    - [0.030, Amount: [3, Item: Warp Powder] ]
+                    - [Rest, Nothing]
+            time: 8
+            art: Tinkerpart
+
+          - title: ':bressence: bressence'
+            explanation: >-
+              With some tools of sorts, your Tinkerstool is able to compress bread essence in a similar manner to
+              those of Bractus'.
+            needs:
+              - [5, Bread Essence]
+            makes:
+              All: [Item: bressence, Xp: [100, 120] ]
+            time: 12
+            art: bressence
+          
+          - title: ':hacksprit: hacksprit'
+            explanation: >-
+              With some tools of sorts, your Tinkerstool is able to compress bread essence in a similar manner to
+              those of Hacker Vibes Vine.
+            needs:
+              - [5, Hacker Spirit]
+            makes:
+              All: [Item: hacksprit, Xp: [100, 120] ]
+            time: 12
+            art: hacksprit
+          
+          - title: ':crystcyl: crystcyl'
+            explanation: >-
+              With some tools of sorts, your Tinkerstool is able to compress bread essence in a similar manner to
+              those of Hacker Vibes Vine.
+            needs:
+              - [5, Cyl Crystal]
+            makes:
+              All: [Item: hacksprit, Xp: [100, 120] ]
+            time: 12
+            art: crystcyl
+          
+    - description: tiny shroom
       buff:
         Art:
           file: tinkerstool_baby
           precedence: 0
+
+- title: Speedy Spores
+  unlocks: 
+    - Pressing Buttons
+  effects:
+    - description: The occasional spore clouds expelled by this Tinkerstool contain a chemical component which boosts its crafting speed by 5%.
+      buff: { CraftSpeedMultiplier: 1.05 }
+
+- title: Pressing Buttons
+  unlocks: 
+    - Fast Like a Fungus
+  effects:
+    - description: >-
+        Pressing issues are rarely fixed by just pressing buttons, but this cute as a button mushroom is too pressed for time! 
+        This work rush presses him to craft 5% faster.
+      buff: { CraftSpeedMultiplier: 1.05 }
+
+- title: Fast Like a Fungus
+  unlocks: 
+    - Basidia in Bulk
+  effects:
+    - description: >-
+        Fungal colonies have a natural tendency to grow at impressive speeds. This Tinkerstool has found a way to channel this speed into its crafting, 
+        allowing items to be made 7% quicker.
+      buff: { CraftSpeedMultiplier: 1.07 }
+
+- title: Basidia in Bulk
+  unlocks: 
+    - Gilded Girdle
+  effects:
+    - description: >-
+        Are you tired of crafting items one at a time? Well so is this Tinkerstool! With the cost of a few Tinkerparts, 
+        items can now be produced in bulk with the efficiency and efficacy of a fungus factory!
+      buff:
+        Craft:
+          - title: ':bressence: bressence Bulk Craft'
+            explanation: After some Trial and Error, your Tinkerstool has discovered how to utilize tinkerparts to craft bressence in bulk.
+            needs:
+              - [100, Bread Essence]
+              - [2, Tinkerpart]
+            makes:
+              All: [Amount: [25, Item: bressence], Xp: [27000, 36000] ]
+            time: 150
+            art: bressence
+          
+          - title: ':hacksprit: hacksprit Bulk Craft'
+            explanation: After some Trial and Error, your Tinkerstool has discovered how to utilize tinkerparts to craft hacksprit in bulk.
+            needs:
+              - [100, Hacker Spirit]
+              - [2, Tinkerpart]
+            makes:
+              All: [Amount: [25, Item: hacksprit], Xp: [27000, 36000] ]
+            time: 150
+            art: hacksprit
+
+          - title: ':crystcyl: crystcyl Bulk Craft'
+            explanation: After some Trial and Error, your Tinkerstool has discovered how to utilize tinkerparts to craft crystcyl in bulk.
+            needs:
+              - [100, Cyl Crystal]
+              - [2, Tinkerpart]
+            makes:
+              All: [Amount: [25, Item: crystcyl], Xp: [27000, 36000] ]
+            time: 150
+            art: crystcyl
+          
+          - title: ':bressence: bressence Large Bulk Craft'
+            explanation: >-
+              Further experimenting has led your Tinkerstool to discover a method in which tinkerparts can be used at their full potential.
+              Your Tinkerstool is now able to craft at most 150 bressence at once, at an expense of 12 tinkerparts!
+            needs:
+              - [500, Bread Essence]
+              - [12, Tinkerpart]
+            makes:
+              All: [Amount: [150, Item: bressence], Xp: [108000, 144000] ]
+            time: 900
+            art: bressence
+
+          - title: ':hacksprit: hacksprit Large Bulk Craft'
+            explanation: >-
+              Further experimenting has led your Tinkerstool to discover a method in which tinkerparts can be used at their full potential.
+              Your Tinkerstool is now able to craft at most 150 hacksprit at once, at an expense of 12 tinkerparts!
+            needs:
+              - [500, Hacker Spirit]
+              - [12, Tinkerpart]
+            makes:
+              All: [Amount: [150, Item: hacksprit], Xp: [108000, 144000] ]
+            time: 900
+            art: hacksprit
+
+          - title: ':crystcyl: crystcyl Large Bulk Craft'
+            explanation: >-
+              Further experimenting has led your Tinkerstool to discover a method in which tinkerparts can be used at their full potential.
+              Your Tinkerstool is now able to craft at most 150 crystcyl at once, at an expense of 12 tinkerparts!
+            needs:
+              - [500, Cyl Crystal]
+              - [12, Tinkerpart]
+            makes:
+              All: [Amount: [150, Item: crystcyl], Xp: [108000, 144000] ]
+            time: 900
+            art: hacksprit
+          
+    - description: Tinkerstool Kid!!
+      buff:
+        Art:
+          file: tinkerstool_kid
+          precedence: 1
+
+- title: Gilded Girdle
+  unlocks: 
+    - Mycelium Mechanics
+  effects:
+    - description: >-
+        Having a mechanic's belt is fungally fundamental for any Tinkerstool. This Tinkerstool has built one for itself, 
+        helping it hold tools and boosting crafting speed by 7%.
+      buff: { CraftSpeedMultiplier: 1.07 }
+
+- title: Mycelium Mechanics
+  unlocks: 
+    - Scrapyard Shenanigans
+  effects:
+    - description: >-
+        A talented Tinkerstool is yours, as he has has built a drone to assist in the workshop. 
+        Affixed to the Tinkerstool's belt when not used, this machine helps with the heavy lifting, making things run 8% faster.
+      buff: { CraftSpeedMultiplier: 1.08 }
+
+- title: Scrapyard Shenanigans
+  unlocks: 
+    - Toadstool Technology
+  effects:
+    - description: >-
+        This frugal fungus is able to salvage excess materials from his projects, 
+        reworking them into more crafts! This allows for a 0.5% chance to have double the yield!
+      buff: { CraftOutputDoubleChance: 0.005 }
+
+- title: Toadstool Technology
+  unlocks: 
+    - Flux Capacitor
+  effects:
+    - description: >-
+        Your Tinkerstool has redesigned its utility belt with some innovative upgrades. 
+        This belt now has a great array of tools and mechanical appendages that offer control over micromovements that cost precious items, 
+        offering a 1.5% chance for crafting to return materials!
+      buff: { CraftInputReturnChance: 0.015 }
+    
+    - description: Tinkerstool Teen!!
+      buff:
+        Art:
+          file: tinkerstool_teen
+          precedence: 2
+
+- title: Flux Capacitor
+  unlocks: 
+    - Chanterelle Enchantments
+  effects:
+    - description: >-
+        Great Scott! Put on your thinking caps and get ready to go 88 miles an hour, because this plant has found a way to stabilize, separate, 
+        and contain the dimensional overflow from Powders! While not totally efficient, this allows the ability to deconstruct and reconstruct Powders. 
+        Using similar technology, it can also manipulate time to instantly grow extra Tinkerspores into Tinkerparts.
+      buff:
+        Craft:
+          - title: ':rift_powder: Powder Synthesis'
+            explanation: &desc >-
+              Using similar techniques to those of Aloe Avanta, this Tinkerstool has gained the ability to ascend the dimension of time, 
+              using the special properties of tinkerparts to synthesize and decompose several types of Powders.
+            needs:
+              - [12, Warp Powder]
+              - [2, Tinkerpart]
+            makes:
+              All: [Item: Rift Powder, Xp: [3360, 4000] ]
+            time: 120
+            art: Rift Powder
+
+          - title: ':warp_powder: Powder Decomposition'
+            explanation: *desc
+            needs:
+              - [1, Rift Powder]
+              - [2, Tinkerpart]
+            makes:
+              All: [Amount: [8, Item: Warp Powder], Xp: [3360, 4000] ]
+            time: 120
+            art: Rift Powder
+          
+          - title: ':wormhole_powder: Powder Synthesis'
+            explanation: *desc
+            needs:
+              - [4, Rift Powder]
+              - [3, Warp Powder]
+              - [2, Tinkerpart]
+            makes:
+              All: [Item: Wormhole Powder, Xp: [11980, 14100] ]
+            time: 120
+            art: Wormhole Powder
+        
+          - title: ':wormhole_powder: Powder Synthesis'
+            explanation: *desc
+            needs:
+              - [43, Warp Powder]
+              - [2, Tinkerpart]
+            makes:
+              All: [Item: Wormhole Powder, Xp: [11980, 14100] ]
+            time: 120
+            art: Wormhole Powder
+          
+          - title: ':wormhole_powder: Powder Decomposition'
+            explanation: *desc
+            needs:
+              - [1, Wormhole Powder]
+              - [2, Tinkerpart]
+            makes:
+              All:
+                - Xp: [9320, 11000]
+                - Amount: [2, Item: Rift Powder]
+                - Amount: [8, Item: Warp Powder]
+            time: 120
+            art: Wormhole Powder
+          
+          - title: ':tinkerspore: Tinkerspore Decomposition'
+            explanation: After a closer inspection, tinkerspores seem to be an amalgamation of several tinkerparts.
+            needs:
+              - [1, Tinkerspore]
+            makes:
+              All: [Amount: [400, Item: Tinkerpart], Xp: [160000, 480000] ]
+            time: 1
+            art: Tinkerspore
+
+- title: Chanterelle Enchantments
+  unlocks: 
+    - Underground Upgrades
+  effects:
+    - description: Turns out this modish mushroom has mastered a modicum of magical measures, allowing crafting speed to be increased by another 10%.
+      buff: { CraftSpeedMultiplier: 1.1 }
+
+- title: Underground Upgrades
+  unlocks: 
+    - Largely Licensed
+  effects:
+    - description: >-
+        Every now and then, some parts and tools can't be easily found. When that happens you have to go underground. 
+        The black market is shady, but fast, with a 1.1 times speed boost to offer.
+      buff: { CraftSpeedMultiplier: 1.1 }
+
+- title: Largely Licensed
+  unlocks: 
+    - Sporadic Spectacles
+  effects:
+    - description: >-
+        Apparently, some interesting permits are needed to do interesting things ... Now that you have them, your Tinkerstool gets the benefit of sometimes 
+        being reimbursed for his work, with 2% greater chance to keep items spent on crafting.
+      buff: { CraftInputReturnChance: 0.02 }
+
+- title: Sporadic Spectacles
+  unlocks: 
+    - Amanita Alchemist
+  effects:
+    - description: >-
+        The specs on this Tinkerstools spectacles have been specially upgraded to allow it to see the internal workings of most machines, 
+        opening up crafting to include the tools of the trade: the Tinkersledge, Tinkerdriver, and Tinkerlight.
+      buff:
+        Craft:
+          - title: ':tinkersledge: Tinkersledge Crafting'
+            explanation: &desc >-
+              It seems that resources from different dimensions can be combined with a surplus of Tinkerparts to create special
+              tools for this Tinkerstool!
+            needs:
+              - [30, crystcyl]
+              - [30, hacksprit]
+              - [30, bressence]
+              - [100, Tinkerpart]
+            makes:
+              All: [Item: Tinkersledge, Xp: [64000, 81000] ]
+            time: 3600
+            art: Tinkersledge
+          
+          - title: ':tinkerdriver: Tinkerdriver Crafting'
+            explanation: *desc
+            needs:
+              - [30, crystcyl]
+              - [30, hacksprit]
+              - [30, bressence]
+              - [100, Tinkerpart]
+            makes:
+              All: [Item: Tinkerdriver, Xp: [64000, 81000] ]
+            time: 3600
+            art: Tinkerdriver
+
+          - title: ':tinkerlight: Tinkerlight Crafting'
+            explanation: *desc
+            needs:
+              - [30, crystcyl]
+              - [30, hacksprit]
+              - [30, bressence]
+              - [100, Tinkerpart]
+            makes:
+              All: [Item: Tinkerlight, Xp: [64000, 81000] ]
+            time: 3600
+            art: Tinkerlight
+
+    - description: ALL GROWN UP
+      buff:
+        Art:
+          file: tinkerstool_grown
+          precedence: 3
+
+- title: Amanita Alchemist
+  unlocks: 
+    - Compost Composition
+  effects:
+    - description: >-
+        With the power of drunk science, this Tinkerstool has done drink science. That is to say, 
+        that it has developed new formulas and machinery to create drinks which can boost plant yields.
+      buff:
+        Craft:
+          - title: ':cyllicizing_coffee_concoction: Classic Concoction'
+            explanation: >-
+              Cook up some concoctions with supports of 6% and 3% to yield speed and size 
+              for your Coffea Cyl companions! Craft with a 40% chance of success.
+            needs:
+              - [2, Volatile Vial]
+              - [8, Warp Powder]
+              - [12, crystcyl]
+              - [3, Tinkerpart]
+            makes:
+              All:
+                - Xp: [8800, 12400]
+                - OneOf:
+                    - [0.45, Item: Volatile Vial]
+                    - [0.40, Item: Cyllicizing Coffee Concoction]
+                    - [Rest, Nothing]
+
+            time: 240
+            art: Cyllicizing Coffee Concoction
+
+          - title: ':vibefying_vinefying_elixir: Easy Elixir'
+            explanation: >-
+              Ferment some elixirs with fixes of 6% and 3% to yield speed and size 
+              for your Hacker Vibes Vine friends! Craft with a 40% chance of success.              
+            needs:
+              - [2, Volatile Vial]
+              - [8, Warp Powder]
+              - [12, hacksprit]
+              - [3, Tinkerpart]
+            makes:
+              All:
+                - Xp: [8800, 12400]
+                - OneOf:
+                    - [0.45, Item: Volatile Vial]
+                    - [0.40, Item: Vibefying Vinefying Elixir]
+                    - [Rest, Nothing]
+
+            time: 240
+            art: Vibefying Vinefying Elixir
+
+          - title: ':bractification_brew: Bold Brew'
+            explanation: >-
+              Boil some brews with boosts of 6% and 3% to yield speed and size for your Bractus buddies! 
+              Craft with a 40% chance of success.
+            needs:
+              - [2, Volatile Vial]
+              - [8, Warp Powder]
+              - [12, bressence]
+              - [3, Tinkerpart]
+            makes:
+              All:
+                - Xp: [8800, 12400]
+                - OneOf:
+                    - [0.45, Item: Volatile Vial]
+                    - [0.40, Item: Bractification Brew]
+                    - [Rest, Nothing]
+
+            time: 240
+            art: Bractification Brew
+
+- title: Compost Composition
+  unlocks: 
+    - Spore Downpour
+  effects:
+    - description: >-
+        Having a hobby for one's spare time is nice, and this composed composer's compositions fill rooms with tunes - 
+        tunes that help him work 15% faster when on the job.
+      buff: { CraftSpeedMultiplier: 1.15 }
+
+- title: Spore Downpour
+  unlocks: 
+    - King of the Craft
+  effects:
+    - description: >-
+        The spores that were keeping things moving before are now more frequent, and in greater amount, 
+        making small clouds and giving an extra 15% boost to crafting speed.
+      buff: { CraftSpeedMultiplier: 1.15 }
+
+- title: King of the Craft
+  unlocks: 
+    - Superb Solutions
+  effects:
+    - description: >-
+        Keeping an orderly workspace can be pretty taxing, but this Tinkerstool has class and control... 
+        until you call him a plant. He's a fungus. And as a fungus, the chance of craft bonuses is increased to 0.8%.
+      buff: { CraftOutputDoubleChance: 0.003 }
+
+- title: Superb Solutions
+  unlocks: 
+    - In the Hall of the Mushroom King
+  effects:
+    - description: >-
+        While in a stupendous Siberian stupor, this Tinkerstool was inspired to research an assortment of alcohols with unique abilities, 
+        which it can now craft
+      buff:
+        Craft:
+          - title: ':tinker_tincture: Alcohol Alchemy'
+            explanation: >-
+              With bubbling beakers and spinning centrifuges all around, you can make a Tinker Tincture that boosts crafting speed by 8%. 
+              Craft with a 50% chance of success.
+            needs:
+              - [4, Volatile Vial]
+              - [12, Warp Powder]
+              - [16, crystcyl]
+              - [16, hacksprit]
+              - [16, bressence]
+              - [24, Tinkerpart]
+            makes:
+              All:
+                - Xp: [66000, 88000]
+                - OneOf:
+                    - [0.20, All: [Item: Volatile Vial, Amount: [6, Item: Tinkerpart] ] ]
+                    - [0.30, All: [Item: Volatile Vial, Amount: [2, Item: Tinkerpart] ] ]
+                    - [Rest, Item: Tinker Tincture]
+            time: 360
+            art: Tinker Tincture
+          
+          - title: ':terrific_tinker_tincture: Amazing Alchemy'
+            explanation: With expert precision, your Tinkerstool can whip up a potent Terrific Tinker Tincture that boosts crafting speed by 24%.
+            needs:
+              - [1, Tinker Tincture]
+              - [8, Volatile Vial]
+              - [18, Warp Powder]
+              - [32, crystcyl]
+              - [32, hacksprit]
+              - [32, bressence]
+            makes:
+              All: [Item: Terrific Tinker Tincture, Xp: [105000, 125000] ]
+            time: 540
+            art: Terrific Tinker Tincture
+
+          - title: ':powder_keg: Powered Potion'
+            explanation: >-
+              Powders are pretty potent on their own, but to truly bring out their potential, you can make a Powder Keg that boosts their effects by 10%. 
+              Craft with a 50% chance of success.
+            needs:
+              - [4, Volatile Vial]
+              - [24, Warp Powder]
+              - [3, Rift Powder]
+              - [16, crystcyl]
+              - [16, hacksprit]
+              - [16, bressence]
+              - [8, Tinkerpart]
+            makes:
+              All:
+                - Xp: [66000, 88000]
+                - OneOf:
+                    - [0.20, All: [Item: Volatile Vial, Amount: [4, Item: Warp Powder] ] ]
+                    - [0.30, All: [Item: Volatile Vial, Item: Warp Powder] ]
+                    - [Rest, Item: Powder Keg]
+            time: 360
+            art: Powder Keg
+
+- title: In the Hall of the Mushroom King
+  unlocks: 
+    - Land Indeed
+  effects:
+    - description: &desc >-
+        As adept a crafter as the ancient dwarves of old, 
+        this Tinkerstool has developed a forging technique that combines the tools of its trade into one Tinkermultitool.
+      buff:
+        Craft:
+          - title: ':tinkermultitool: Tinker Multi Tool Composition'
+            explanation: *desc
+            needs:
+              - [80, bressence]
+              - [80, hacksprit]
+              - [80, crystcyl]
+              - [500, Tinkerpart]
+              - [1, Tinkersledge]
+              - [1, Tinkerdriver]
+              - [1, Tinkerlight]
+            makes:
+              All: [Item: Tinkermultitool, Xp: [1, 2] ]
+            time: 18000
+            art: Tinkermultitool
+
+- title: Land Indeed
+  unlocks: []
+  effects:
+    - description: >-
+        Mushrooms have always been good at decomposing things to create rich soil, 
+        so it should come as no surprise that your Tinkerstool can now turn 999 earthy paper fragments into a land deed 
+        that can be redeemed to add extra land to your hackstead!
+      buff:
+        Craft:
+          - title: ':land_deed: Land Deed Crafting'
+            explanation: Combine 999 land deed fragments and 99 tinkerparts in a spectacular explosion to create the all powerful Land Deed!
+            needs:
+              - [999, Land Deed Fragment]
+              - [99, Tinkerpart]
+            makes:
+              All: [Item: Land Deed, Xp: [70000, 80000] ]
+            time: 20000
+            art: Land Deed
+
