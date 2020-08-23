@@ -1,5 +1,6 @@
 --- # Hatchables
 - name: Cyl Egg
+  conf: 3f98b5bf-b181-4669-95c3-5f1cad66544a
   description: Veins of pure arcane energy course throughout this egg, and holding it quickly makes your hands shaky and numb.
   hatch_table:
     All:
@@ -30,6 +31,7 @@
       - Chance: [ 0.015, Amount: [ Between: [1.00, 1.25], Item: Crystalline Buzzwing Boxlet ] ]
 
 - name: Hacker Egg
+  conf: 32af962e-07d8-4b2d-a11c-3b7997047df2
   description: If you put your ear up to this egg, you can hear the sounds of a keyboard clacking. And profanity. Lots and lots of profanity...
   hatch_table:
     All:
@@ -60,6 +62,7 @@
       - Chance: [ 0.015, Amount: [ Between: [1.00, 1.25], Item: Spirited Buzzwing Boxlet ] ]
 
 - name: Bread Egg
+  conf: 2f15d29b-1278-4167-8ea4-1a3c4c3290f0
   description: If you knock gently on this egg, it sounds like the crisp outer shell of hardtack. Petition to change its name to 'Breagg.' No? ... okay fine.
   hatch_table:
     All:
@@ -90,6 +93,7 @@
       - Chance: [ 0.015, Amount: [ Between: [1.00, 1.25], Item: Doughy Buzzwing Boxlet ] ]
 
 - name: Nest Egg
+  conf: 211bcc4b-d810-4d5d-9d94-fb78fd20b3b1
   description: >-
     A special egg which helps new Hacksteaders get started. Hatching it guarantees some Powders to speed up plant growth, as well as quite a few crafting materials. 
     Happy Hacksteading!
@@ -109,6 +113,7 @@
   welcome_gift: true
 
 - name: Bagling Egg
+  conf: c31ed089-866b-4a14-b586-2364d7934216
   description: This Egg is the manifestation of loot contained in a Bagling!
   hatch_table:
     All:
@@ -128,6 +133,7 @@
       - Chance: [ 0.005, Item: Doughy Buzzwing Bagling ]
               
 - name: Boxling Egg
+  conf: c461faf9-40c1-4c41-bafa-73b75b512975
   description: Boxling loot is somehow stored inside this Egg with the power of mysterious arcana.
   hatch_table:
     All:
@@ -154,6 +160,7 @@
       - Chance: [ 0.005, Item: Doughy Buzzwing Boxling ]
         
 - name: Boxlet Egg
+  conf: 18e5e13b-16d1-4c64-ab1b-4b0e81a795e0
   description: With an occasional hum and flutter, this Egg will hatch into all the loot from Boxlets.
   hatch_table:
     All:
@@ -187,6 +194,7 @@
       - Chance: [ 0.0050, Item: Doughy Buzzwing Boxlet ]
 
 - name: Megabox Egg
+  conf: 906122c7-6228-4d97-a0dc-840ce1a66c24
   description: Megabox loot is magically transferred into this bright and cheery Egg!
   hatch_table:
     All:

@@ -1,5 +1,6 @@
 ---
 - name: Cyl Wand
+  conf: d3a3f8b7-d86f-4174-9a19-323e3825cfd5
   description: >-
     Once your run-of-the-mill stick,
     this wand has been lined with gems that occasionally light and spark, 
@@ -12,6 +13,7 @@
       buff: { YieldSpeedMultiplier: 1.10 }
 
 - name: Vine Keyboard
+  conf: 7b1dce40-dd80-4bf2-8282-34e890392653
   description: >-
     The loud clacking of this keyboard's keys enchant Hacker Vibes Vines, 
     sending those who hear it into a trancelike state where they work
@@ -25,6 +27,7 @@
       buff: { YieldSpeedMultiplier: 1.10 }
 
 - name: Rolling Pin
+  conf: fb66553d-5cdb-4370-b848-13ffb154c2de
   description: >-
     Bracti fear the Rolling Pin more than almost any other tool,
     and in the hands of the correct wielder, 
@@ -38,6 +41,7 @@
       buff: { YieldSpeedMultiplier: 1.10 }
 
 - name: Cytrus Staff
+  conf: 041b2d67-e2cc-4b47-bcf4-09c585cf8753
   description: >-
     Energy overflows from this staff,
     with orange lightning arcing from Cyl to Cyl,
@@ -52,6 +56,7 @@
       buff: { YieldSpeedMultiplier: 1.30 }
   
 - name: Jungleboard
+  conf: fc836ef1-1e32-4e8d-abed-112850f60ff2
   description: >-
     Click clack. Clickity clack click.
     Upon hearing this sound, any Hacker Vibes Vines will become lost in the forest of their minds, 
@@ -64,6 +69,7 @@
       buff: { YieldSpeedMultiplier: 1.30 }
 
 - name: Kingpin
+  conf: bcac7d1f-adb4-44e6-8405-dac1e82c5d35
   description: >-
     The majesty and might of this Rolling Pin has grown beyond mere bread,
     and the terror it causes within Bracti now gives them a 30% boost to yield speed.
@@ -77,11 +83,13 @@
 
 # Tinkerstool stuff
 - name: Tinkerpart
+  conf: 9ab67213-cbc3-4a01-a910-f3290aec1725
   description: >-
     A mysterious, mechanical scrap that can only be handled by the most masterful craftsmen.
     It smells and feels a bit damp.
 
 - name: Tinkermultitool
+  conf: 1cd9a2ee-e866-4860-97d5-c9eb7c2fb794
   description: >-
     A wieldly tool for only the finest craftsmen, this is the trade tool of a Tinkerstool. 
     With the power of all three tools combined,
@@ -100,6 +108,7 @@
       buff: { CraftSpeedMultiplier: 1.48 }
 
 - name: Tinkersledge
+  conf: 13aea3ed-8ab6-40ff-8a7f-148cd4a02dd2
   description: >-
     A mushroom with a heavy-duty hammer? What? This springy tool takes precision and focus, 
     and using it will allow a 1.2% chance at double the crafting yield!
@@ -111,6 +120,7 @@
       buff: { CraftOutputDoubleChance: 0.012 }
 
 - name: Tinkerdriver
+  conf: 9b549aff-338c-44b1-b200-f674a04cf60f
   description: >-
     A carefully crafted tool that allows careful crafting. 
     Having this tool available allows for a 2% chance to
@@ -123,6 +133,7 @@
       buff: { CraftInputReturnChance: 0.02 }
 
 - name: Tinkerlight
+  conf: e88d6709-0938-4b39-afc3-5dad6a8b94be
   description: >-
     While this flashlight seems normal enough,
     it has the uncanny ability to filter light through artificial gills

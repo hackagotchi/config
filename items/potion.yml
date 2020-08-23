@@ -1,6 +1,7 @@
 --- 
 # -- Potions
 - name: Cyllicizing Coffee Concoction
+  conf: 7098e852-6921-4f4d-be14-0d28d4a750aa
   description: >-
     This chemical craze commits quite the catastrophic capabilities to Coffea Cyl plants,
     contributing a capacity to increase their neighbors' yield speeds by 6%
@@ -14,6 +15,7 @@
       buff: { Neighbor: { YieldSizeMultiplier: 1.03 } }
 
 - name: Vibefying Vinefying Elixir
+  conf: afa78310-0017-4e51-b289-5424618372c7
   description: >-
     Having a Hacker Vibes Vine quaff this potion has quite an effect on them,
     enabling them to boost the size of their neighbors'
@@ -28,6 +30,7 @@
       buff: { Neighbor: { YieldSizeMultiplier: 1.03 } }
 
 - name: Bractification Brew
+  conf: 632a720f-141e-42b6-8849-49b707b44646
   description: >-
     This beaut of a butt can be boozed in a bout on a boat or a butte ...
     or just about anywhere. 
@@ -43,6 +46,7 @@
       buff: { Neighbor: { YieldSizeMultiplier: 1.03 } }
 
 - name: Scintillating Cyllicizing Coffee Concoction
+  conf: 8989b897-c233-4d9f-a1f9-41c1bd89cff4
   description: >-
     An aromatic potion emanating a warm aura.
     As well as being able to wake up a dead elephant,
@@ -53,6 +57,7 @@
       transmogrification: Coffea Cyl
 
 - name: Vivifying Vibefying Vinefying Elixir
+  conf: ff36f958-8f80-4070-b85b-3074ef6f2136
   description: >-
     This curious tincture smells like a fresh rainstorm,
     and makes the air around it feel humid.
@@ -63,6 +68,7 @@
       transmogrification: Hacker Vibes Vine
 
 - name: Bold Bractification Brew
+  conf: 880e947c-fc25-4a3c-91fd-e431e6aa5c48
   description: >-
     As this golden liquid seems to be silky and smooth,
     it's quite strange to find the potion as dry as it is.
@@ -73,6 +79,7 @@
       transmogrification: Bractus
 
 - name: Tinker Tincture
+  conf: b4bab383-e372-4a76-9c0a-2ab2193ca572
   description: >-
     A nanobot mixture filled to the brim with craft beer.
     The nanobots inside can enhance any plant's dexterity,
@@ -82,6 +89,7 @@
       buff: { CraftSpeedMultiplier: 1.08 }
 
 - name: Terrific Tinker Tincture
+  conf: 4748a5b8-f45a-47fd-86cc-71904b851d9e
   description: >-
     After some software updates,
     as well as some additives for flavor,
@@ -91,6 +99,7 @@
       buff: { CraftSpeedMultiplier: 1.24 }
 
 - name: Powder Keg
+  conf: 688296fe-6af0-400c-b8ea-52b83be4887d
   description: >-
     A bottle of brew with only minor explosive properties.
     It has enough latent energy to boost the effect of Powders on plants by 10%.
@@ -100,6 +109,7 @@
       buff: { ExtraTimeTicksMultiplier: 1.10 }
 
 - name: Portent Powder Keg
+  conf: 608aa241-0050-474f-b476-991784a31866
   description: >-
     Handle with caution.
     Upgrading this potion has has caused it to become more than just a bit explosive. 
@@ -111,6 +121,7 @@
       buff: { Neighbor: { ExtraTimeTicksMultiplier: 1.28 } }
 
 - name: Volatile Vial
+  conf: c76e5ba0-9691-4468-9758-8911225a4dd1
   description: >-
     A glass bottle which sizzles with magic.
     Some of this energy escapes into whatever it holds, limiting its number of uses.

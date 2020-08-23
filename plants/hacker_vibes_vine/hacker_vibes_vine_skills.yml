@@ -1,5 +1,6 @@
 ---
 - title: Ivy Initiation
+  conf: da323a4a-0c54-4288-a885-b1ca12552d14
   unlocks: 
     - Really Got a Hold on Me
   effects:
@@ -12,6 +13,7 @@
           precedence: 0
 
 - title: Really Got a Hold on Me
+  conf: c28849d2-2f42-4395-b919-a8e626fd283b
   unlocks: 
     - Duct Duct Goose
   effects:
@@ -27,6 +29,7 @@
                 - All: [ Item: Hacker Spirit, Xp: 50 ]
 
 - title: Duct Duct Goose
+  conf: e2419f2f-8c7e-4e5c-b1a2-3087acaeb7d3
   unlocks: 
     - Hacker Culture Horticulture
   effects:
@@ -36,6 +39,7 @@
       buff: { YieldSizeMultiplier: 1.05 }
   
 - title: Hacker Culture Horticulture
+  conf: 18d6a70a-ea75-4df4-9d92-8b96bb724dd7
   unlocks: 
     - Fey Fines
   effects:
@@ -43,6 +47,7 @@
       buff: { YieldSpeedMultiplier: 1.1 }
 
 - title: Fey Fines
+  conf: 82ddf9e9-351d-4f0f-8505-d137223ca4db
   unlocks: 
     - Vine Combined
   effects:
@@ -52,6 +57,7 @@
       buff: { YieldSpeedMultiplier: 1.1 }
 
 - title: Vine Combined
+  conf: 231c0b6c-c0a0-4c7c-98e9-981234915bb2
   unlocks: 
     - Perennial Programming
   effects:
@@ -76,6 +82,7 @@
           precedence: 1
 
 - title: Perennial Programming
+  conf: 26df0254-2dfc-437e-8421-216a6bd499f2
   unlocks: 
     - Stem Education
   effects:
@@ -83,6 +90,7 @@
       buff: { YieldSizeMultiplier: 1.05 }
 
 - title: Stem Education
+  conf: 49558cdf-46ca-445d-a008-faf5a1b2b39f
   unlocks: 
     - Morning Glory
   effects:
@@ -92,6 +100,7 @@
       buff: { YieldSizeMultiplier: 1.1 }
 
 - title: Morning Glory
+  conf: c85dc505-a234-49a6-8d48-9883bbdccc11
   unlocks: 
     - Social Climber
   effects:
@@ -101,6 +110,7 @@
       buff: { Neighbor: { YieldSpeedMultiplier: 1.05 } }
 
 - title: Social Climber
+  conf: 0fa5ce69-86aa-4638-a8cd-c6e75eff550a
   unlocks: 
     - New Baginnings
   effects:
@@ -110,6 +120,7 @@
       buff: { Neighbor: { YieldSpeedMultiplier: 1.1 } }
 
 - title: New Baginnings
+  conf: 2ac52f07-c128-4dfe-9e4f-f9d9dedc9c17
   unlocks: 
     - Hack in the Box
   effects:
@@ -139,6 +150,7 @@
           precedence: 2
 
 - title: Hack in the Box
+  conf: 01d214ae-cf08-42df-aacd-d8d8e545a626
   unlocks: 
     - Honeysuckle, I'm Home
   effects:
@@ -165,6 +177,7 @@
             art: Spirited Buzzwing Bagling
 
 - title: Honeysuckle, I'm Home
+  conf: 460bda7b-471f-47fa-ba65-a00ae77708c3
   unlocks: 
     - Scandent Sourceror
   effects:
@@ -174,6 +187,7 @@
       buff: { YieldSpeedMultiplier: 1.2 }
 
 - title: Scandent Sourceror
+  conf: f1883a9d-5c28-4c1d-9113-84efe8f6ea74
   unlocks: 
     - Hacking Outside the Box
   effects:
@@ -181,6 +195,7 @@
       buff: { YieldSizeMultiplier: 1.15 }
 
 - title: Hacking Outside the Box
+  conf: b15e1fbf-6139-4912-b260-af5874e7a5e7
   unlocks: 
     - Ivy League
   effects:
@@ -207,6 +222,7 @@
             art: Spirited Buzzwing Boxling
 
 - title: Ivy League
+  conf: 826e9463-8738-4a29-927b-ab657a540f13
   unlocks: 
     - Back to Our Roots
   effects:
@@ -242,6 +258,7 @@
 
 
 - title: Back to Our Roots
+  conf: 5c415cd7-8a50-4746-8a4f-2eb755d8402a
   unlocks: 
     - Alcoholic Attraction
   effects:
@@ -249,6 +266,7 @@
       buff: { YieldSizeMultiplier: 1.2 }
 
 - title: Alcoholic Attraction
+  conf: 9066db4b-d3aa-4b39-a4ab-4ab9862955cd
   unlocks: 
     - Box of Bark
   effects:
@@ -273,6 +291,7 @@
             art: Vibefying Vinefying Elixir
 
 - title: Box of Bark
+  conf: 85e0bef1-7cad-4b7f-b322-12a333c50719
   unlocks: 
     - Ivy Induction
   effects:
@@ -299,6 +318,7 @@
             art: Spirited Buzzwing Boxlet
 
 - title: Ivy Induction
+  conf: ebae1d13-60f9-4c44-9a39-8e1d530dcbdb
   unlocks: 
     - Cult Conduction
   effects:
@@ -308,6 +328,7 @@
       buff: { Neighbor: { YieldSizeMultiplier: 1.1 } }
 
 - title: Cult Conduction
+  conf: 5a1de5a9-6a6f-4e52-8006-74bf781853a3
   unlocks: 
     - Cloud Vine
   effects:
@@ -317,6 +338,7 @@
       buff: { Neighbor: { YieldSizeMultiplier: 1.1 } }
 
 - title: Cloud Vine
+  conf: ab05e68d-d0e3-44a8-97fb-9fe351d4e7c3
   unlocks: 
     - Fine Vines
   effects:
@@ -326,6 +348,7 @@
       buff: { Neighbor: { CraftSpeedMultiplier: 1.1 } }
 
 - title: Fine Vines
+  conf: 6aac4b9e-2b9c-49fc-b66e-207fa887db9b
   unlocks: 
     - Vim Cubed
   effects:
@@ -347,6 +370,7 @@
             art: Vivifying Vibefying Vinefying Elixir
 
 - title: Vim Cubed
+  conf: c9b6b8c6-6a0d-4baf-a0f1-3297caa9bed1
   unlocks: 
     - Botany Oddity
   effects:
@@ -369,6 +393,7 @@
             art: Spirited Buzzwing Megabox
 
 - title: Botany Oddity
+  conf: 2dd47e6b-e4fd-4fb4-bead-62d355f3fca7
   unlocks: []
   effects:
     - description: >-

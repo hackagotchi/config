@@ -1,5 +1,6 @@
 ---
 - title: In the Dust
+  conf: 1e59806a-dc23-4f94-83ba-20dd81f06d78
   unlocks:
     - Wading In
   effects:
@@ -15,6 +16,7 @@
           precedence: 0
 
 - title: Wading In
+  conf: b1757618-070d-426d-adf4-491abade4f67
   unlocks: 
     - Aloe Alone
   effects:
@@ -30,6 +32,7 @@
                 - All: [ Item: Warp Powder ]
 
 - title: Aloe Alone
+  conf: 78e21757-800d-4d1b-bfd1-201e9af53824
   unlocks: 
     - Why So Blue?
   effects:
@@ -40,6 +43,7 @@
       buff: { YieldSizeMultiplier: 1.05 }
 
 - title: Why So Blue?
+  conf: 6de7bf2e-f7a7-4002-9267-e18cacb1922b
   unlocks: 
     - Smooth Tunes
   effects:
@@ -49,6 +53,7 @@
       buff: { YieldSizeMultiplier: 1.07 }
 
 - title: Smooth Tunes
+  conf: 2ff83350-2cc6-4d13-bf94-ef56ead73434
   unlocks: 
     - Dust Smites
   effects:
@@ -58,6 +63,7 @@
       buff: { YieldSpeedMultiplier: 1.07 }
 
 - title: Dust Smites
+  conf: 34efc1e4-33fd-4732-a8b8-d30a0eb30c13
   unlocks:  
     - Purple Haze
   effects:
@@ -74,6 +80,7 @@
           precedence: 1
 
 - title: Purple Haze
+  conf: 4709a03b-cc16-495a-8cce-bd8224a41f8a
   unlocks: 
     - Vera Nice to See You
   effects:
@@ -83,6 +90,7 @@
       buff: { YieldSpeedMultiplier: 1.1 }
 
 - title: Vera Nice to See You
+  conf: fcdcef1d-4ac4-4f34-8117-afe9f67afd67
   unlocks: 
     - Aloewance
   effects:
@@ -92,6 +100,7 @@
       buff: { Neighbor: { YieldSpeedMultiplier: 1.15 } }
 
 - title: Aloewance
+  conf: ce595df9-ccb5-444c-b6e9-302821b734db
   unlocks: 
     - Avanta Garde
   effects:
@@ -101,6 +110,7 @@
       buff: { Neighbor: { YieldSizeMultiplier: 1.1 } }
 
 - title: Avanta Garde
+  conf: f3b4e390-e8e5-4de2-9ff3-12039b9384b9
   unlocks: 
     - Aloe Avantage
   effects:
@@ -177,6 +187,7 @@
           precedence: 2
 
 - title: Aloe Avantage
+  conf: 8173347f-5ecc-4018-94b0-daee7627b41e
   unlocks: 
     - Soothing Soot
   effects:
@@ -186,6 +197,7 @@
       buff: { Neighbor: { YieldSizeMultiplier: 1.15 } }
 
 - title: Soothing Soot
+  conf: 8dcb8e7f-ee28-4ad7-8294-752a27d78154
   unlocks: 
     - Nitroglycerin Nursery
   effects:
@@ -195,6 +207,7 @@
       buff: { Neighbor: { YieldSizeMultiplier: 1.2 } }
 
 - title: Nitroglycerin Nursery
+  conf: 7b40393d-993e-400d-b373-af97eaa4fecd
   unlocks: 
     - Warp Speed
   effects:
@@ -225,6 +238,7 @@
             art: Powder Keg
 
 - title: Warp Speed
+  conf: 8c380306-286c-4297-b884-41bf4695d98a
   unlocks: 
     - Powder Power
   effects:
@@ -232,6 +246,7 @@
       buff: { YieldSpeedMultiplier: 1.12 }
 
 - title: Powder Power
+  conf: 318dcdb5-2c86-4d31-9cad-a741b0657a67
   unlocks: 
     - Gel Guru
   effects:
@@ -253,6 +268,7 @@
           precedence: 3
 
 - title: Gel Guru
+  conf: e79b43c7-7b1e-4877-bffb-8253a01c4224
   unlocks: 
     - Successful Succulent
   effects:
@@ -260,6 +276,7 @@
       buff: { YieldSizeMultiplier: 1.15 }
 
 - title: Successful Succulent
+  conf: afe20c0d-cdda-4bd2-8146-d957ffc99401
   unlocks: 
     - Expedited Explosions
   effects:
@@ -269,6 +286,7 @@
       buff: { YieldSizeMultiplier: 1.15 }
 
 - title: Expedited Explosions
+  conf: 43cc5f9b-5cd4-4ce8-aed2-b4fb4f27145d
   unlocks: 
     - Fate of the Stars
   effects:
@@ -293,6 +311,7 @@
             art: Portent Powder Keg
 
 - title: Fate of the Stars
+  conf: c0ffff4d-993d-4ebd-89f8-3cc457988109
   unlocks: 
     - Aloe Savanta
   effects:
@@ -302,6 +321,7 @@
       buff: { YieldSizeMultiplier: 1.2 }
 
 - title: Aloe Savanta
+  conf: e708a123-dde8-4e36-a738-981c00d4d0f0
   unlocks: []
   effects:
     - description: >-

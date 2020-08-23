@@ -1,5 +1,6 @@
 --- # Seeds
 - name: Coffea Cyl Seed
+  conf: 6869cf94-b8fa-4f0d-b099-1e848af32b4d
   description: >-
     The seed of a special species of coffee, descended from Coffea arabica and a host of related species. 
     Rather than beans, this plant is known to grow clusters of Crystals which grow on its limbs, 
@@ -7,17 +8,21 @@
   grows_into: Coffea Cyl
 
 - name: Hacker Vibes Vine Seed
+  conf: 08451c9d-9529-4051-bb1a-513111415822
   description: Just holding this sprout in your hands fills you with the desire to create! Surely, this seed is in for some amazing things.
   grows_into: Hacker Vibes Vine
 
 - name: Bractus Seed
+  conf: 8d9d2d49-4ef3-43a2-bb2b-2f849931c320
   description: Doughy, yet still somehow prickly. It smells slightly of yeast, and promises to grow into something in between a fresh loaf of sourdough and a certain Sonoran cactus.
   grows_into: Bractus
 
 - name: Tinkerspore
+  conf: 9a2fffa2-d39c-48b2-a69f-8e4b3716588a
   description: This small Spore is quite colorful. It often attaches itself to machinery, showing an innate attraction to mechanical contraptions.
   grows_into: Tinkerstool
 
 - name: Aloe Avanta Seed
+  conf: 48d18700-f4ed-4f7a-948b-d7e92e904d1f
   description: A strange seed that kind of smells of hand sanitizer. It emits a faint blue light that makes the earth around it glow.
   grows_into: Aloe Avanta

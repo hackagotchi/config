@@ -1,5 +1,6 @@
 ---
 - title: Baked Like a Bractus
+  conf: 4e9d5d55-ede3-43e9-8e5a-b2a84baf6b29
   unlocks:
     - Doughy Drought
   effects:
@@ -12,6 +13,7 @@
           precedence: 0
 
 - title: Doughy Drought
+  conf: 27ce7441-3ff9-4c90-89c0-57d5b8fed532
   unlocks:
     - Journey to the Yeast
   effects:
@@ -27,6 +29,7 @@
                 - All: [ Item: Bread Essence, Xp: 50 ]
 
 - title: Journey to the Yeast
+  conf: a6d0bb05-73ec-4834-a481-6c3e456582ff
   unlocks:
     - Rockin' and Rollin'
   effects:
@@ -36,6 +39,7 @@
       buff: { YieldSpeedMultiplier: 1.1 }
 
 - title: Rockin' and Rollin'
+  conf: 81c689a9-524c-4b78-9289-22f5efbcd6fa
   unlocks:
     - Bread Buddies
   effects:
@@ -45,6 +49,7 @@
       buff: { YieldSpeedMultiplier: 1.1 }
 
 - title: Bread Buddies
+  conf: 6471e05b-accd-492f-b7e2-33b3f950082c
   unlocks:
     - Playdough
   effects:
@@ -54,6 +59,7 @@
       buff: { YieldSizeMultiplier: 1.05 }
 
 - title: Playdough
+  conf: d0911a64-796c-4021-baa7-c098592800f5
   unlocks:
     - Agglutination
   effects:
@@ -79,6 +85,7 @@
           precedence: 1
 
 - title: Agglutination
+  conf: b62ced29-b35b-4259-9796-4522cc2b6dd2
   unlocks:
     - Just Desserts
   effects:
@@ -88,6 +95,7 @@
       buff: { YieldSizeMultiplier: 1.05 }
 
 - title: Just Desserts
+  conf: c3cbf3b2-3b3c-4d16-8335-8b1831154e5b
   unlocks:
     - Biscuits 'n Gravy
   effects:
@@ -98,6 +106,7 @@
       buff: { YieldSizeMultiplier: 1.1 }
 
 - title: Biscuits 'n Gravy
+  conf: 122e8252-c286-4192-975b-3cf037277621
   unlocks: 
     - Gravy 'n Biscuits
   effects:
@@ -108,6 +117,7 @@
       buff: { Neighbor: { YieldSpeedMultiplier: 1.05 } }
 
 - title: Gravy 'n Biscuits
+  conf: d3d09bec-a2f0-44d6-8334-75e335c23419
   unlocks: 
     - New Baginnings
   effects:
@@ -117,6 +127,7 @@
       buff: { Neighbor: { YieldSpeedMultiplier: 1.1 } }
 
 - title: New Baginnings
+  conf: 5f30320f-5820-45ec-bf5c-463994d68a9b
   unlocks:
     - Breadbox
   effects:
@@ -148,6 +159,7 @@
           precedence: 2
 
 - title: Breadbox
+  conf: cf054d38-d94f-4759-bb28-8d03cb11c465
   unlocks:
     - Son of a Biscuit Eater
   effects:
@@ -175,6 +187,7 @@
             art: Doughy Buzzwing Bagling
 
 - title: Son of a Biscuit Eater
+  conf: 1b58e3c2-67d2-4f26-a93d-8fac454b7ca6
   unlocks:
     - Butter My Biscuits
   effects:
@@ -185,6 +198,7 @@
       buff: { YieldSpeedMultiplier: 1.2 }
 
 - title: Butter My Biscuits
+  conf: a2212d09-b8e1-4e6e-8360-c76ecba13241
   unlocks:
     - Bready Unboxing
   effects:
@@ -197,6 +211,7 @@
       buff: { YieldSizeMultiplier: 1.15 }
 
 - title: Bready Unboxing
+  conf: b1e3a22a-62ae-4b0e-91cb-0aeb3ee69e7f
   unlocks:
     - Birds and the Bread
   effects:
@@ -223,6 +238,7 @@
             art: Doughy Buzzwing Boxling
 
 - title: Birds and the Bread
+  conf: 34194af2-61c0-48a1-942e-c8c589e07dae
   unlocks:
     - Artificial Inflation
   effects:
@@ -257,6 +273,7 @@
           precedence: 3
 
 - title: Artificial Inflation
+  conf: 1f0c86d7-b5f4-47f6-9257-5325544fd4c3
   unlocks:
     - Potent Potables
   effects:
@@ -266,6 +283,7 @@
       buff: { YieldSizeMultiplier: 1.2 }
 
 - title: Potent Potables
+  conf: 8df1b7e4-613c-4c8b-8950-7969a19298a6
   unlocks:
     - Breadbox Bonanza
   effects:
@@ -293,6 +311,7 @@
             art: Bractification Brew
 
 - title: Breadbox Bonanza
+  conf: 8be86f87-1038-41c1-9a25-d19e30f054ab
   unlocks: 
     - Bread Growers' Association
   effects:
@@ -319,6 +338,7 @@
             art: Doughy Buzzwing Boxlet
 
 - title: Bread Growers' Association
+  conf: 182199d6-b755-4c91-98dc-c7452d2c0f96
   unlocks:
     - Bread Growers' Guild
   effects:
@@ -328,6 +348,7 @@
       buff: { Neighbor: { YieldSizeMultiplier: 1.1 } }
 
 - title: Bread Growers' Guild
+  conf: 7575a0ff-fcf9-4429-b451-a93edf41d261
   unlocks: 
     - Bread Growers' Empire
   effects:
@@ -338,6 +359,7 @@
       buff: { Neighbor: { YieldSizeMultiplier: 1.1 } }
 
 - title: Bread Growers' Empire
+  conf: 0142ca09-6cef-4c55-b1e4-b7ab50cd81d8
   unlocks: 
     - Bready Beverages
   effects:
@@ -347,6 +369,7 @@
       buff: { CraftSpeedMultiplier: 1.1 }
 
 - title: Bready Beverages
+  conf: 38d0551b-f9ab-474c-b617-e47ffd939ff7
   unlocks: 
     - Panera's Box
   effects:
@@ -371,6 +394,7 @@
             art: Bold Bractification Brew
 
 - title: Panera's Box
+  conf: 205ddfa0-bca3-4683-b1f7-3f1058781391
   unlocks: 
     - Bread of Kings
   effects:
@@ -393,6 +417,7 @@
             art: Doughy Buzzwing Megabox
   
 - title: Bread of Kings
+  conf: 6021c159-911c-4d01-b5f2-fe05ac5c2d86
   unlocks: []
   effects:
     - description: >-

@@ -1,6 +1,7 @@
 ---
 # -- Powders
 - name: Warp Powder
+  conf: 9845a8fb-5697-45ca-b9de-c34a26d59bd2
   description: >-
     Sparkling, glittery, glowing blue powder that emits high-pitched squeaking noises,
     especially when excited. It has been known to accelerate time.
@@ -11,6 +12,7 @@
       buff: { ExtraTimeTicks: 20 }
 
 - name: Rift Powder
+  conf: 9c2e05a1-6c40-4975-b4d8-5f31ecb7b3bf
   description: >-
     A volatile compound that easily tears the fabric of spacetime.
     Its powerful time acceleration properties were last recorded
@@ -23,6 +25,7 @@
       buff: { ExtraTimeTicks: 240 }
 
 - name: Wormhole Powder
+  conf: c68d4253-0264-454c-b114-25ad73d81146
   description: >-
     The rarest, most pure time acceleration substance in the universe ... 
     So rare, even the ancients only alluded to its existence ...

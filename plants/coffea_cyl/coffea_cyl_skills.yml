@@ -1,5 +1,6 @@
 ---
 - title: Crystal-less Chrysalis
+  conf: 1528421e-303d-400a-8ade-c51c2ff9b755
   unlocks:
     - Intelligent Investment
   effects:
@@ -12,6 +13,7 @@
           precedence: 0
 
 - title: Intelligent Investment
+  conf: 57f3e3c4-cebe-4ce8-8cdd-d6a504334630
   unlocks: 
     - Night Shift
   effects:
@@ -27,6 +29,7 @@
                 - All: [ Item: Cyl Crystal, Xp: 50 ]
 
 - title: Night Shift
+  conf: c57ebe9a-381c-4fa0-9a5f-19a386dc34c8
   unlocks: 
     - Coffee Table
   effects:
@@ -36,6 +39,7 @@
       buff: { YieldSizeMultiplier: 1.05 }
 
 - title: Coffee Table
+  conf: 36f83c4f-de32-4d9c-80e1-2321cf1f3a65
   unlocks: 
     - Caffeine Catastrophe
   effects:
@@ -45,6 +49,7 @@
       buff: { YieldSpeedMultiplier: 1.1 }
 
 - title: Caffeine Catastrophe
+  conf: 0fcb0b56-d666-4b6a-9ffb-9deaa1377548
   unlocks: 
     - Chromatic Concentration
   effects:
@@ -54,6 +59,7 @@
       buff: { YieldSpeedMultiplier: 1.1 }
 
 - title: Chromatic Concentration
+  conf: db6e552c-7804-47e5-b0ce-f6d32ce9d575
   unlocks: 
     - Warming Up
   effects:
@@ -78,6 +84,7 @@
           precedence: 1
 
 - title: Warming Up
+  conf: 9bbba02a-3398-487a-8437-b136feec8cee
   unlocks: 
     - Roasted!
   effects:
@@ -87,6 +94,7 @@
       buff: { YieldSizeMultiplier: 1.05 }
 
 - title: Roasted!
+  conf: 2f107153-421d-406b-a936-be765d8da6c5
   unlocks: 
     - Expresso Your Feelings
   effects:
@@ -96,6 +104,7 @@
       buff: { YieldSizeMultiplier: 1.1 }
   
 - title: Expresso Your Feelings
+  conf: 806da46e-ef32-4356-bd70-a02252279f35
   unlocks: 
     - Cylli Me
   effects:
@@ -105,6 +114,7 @@
       buff: { Neighbor: { YieldSpeedMultiplier: 1.05 } }
 
 - title: Cylli Me
+  conf: 411d1831-6104-4f3c-89f6-379cd4f7fbc1
   unlocks: 
     - New Baginnings
   effects:
@@ -114,6 +124,7 @@
       buff: { Neighbor: { YieldSpeedMultiplier: 1.1 } }
   
 - title: New Baginnings
+  conf: 516efec8-930e-404e-9e6b-55a14077a40e
   unlocks:  
     - Ground Up
   effects:
@@ -145,6 +156,7 @@
           precedence: 2
 
 - title: Ground Up
+  conf: 00f56f50-d216-4022-9009-f8bac1365d66
   unlocks: 
     - 100% Organic
   effects:
@@ -171,6 +183,7 @@
             art: Crystalline Buzzwing Bagling
             
 - title: 100% Organic
+  conf: b3e5fd95-e0c4-4a4a-ab9e-b75a85871f0c
   unlocks:  
     - Crystalline Bean
   effects:
@@ -181,6 +194,7 @@
       buff: { YieldSpeedMultiplier: 1.2 }
 
 - title: Crystalline Bean
+  conf: 7b29ca9b-7e1e-4acf-8174-7c74589500bc
   unlocks: 
     - Coffee Coffer
   effects:
@@ -190,6 +204,7 @@
       buff: { YieldSizeMultiplier: 1.15 }
 
 - title: Coffee Coffer
+  conf: d0f12ed4-0d53-46fe-bd0b-2de9fb1691cf
   unlocks: 
     - Sparks of Brilliance
   effects:
@@ -216,6 +231,7 @@
             art: Crystalline Buzzwing Boxling
 
 - title: Sparks of Brilliance
+  conf: d61d3b7a-278b-4c9b-b8b6-cf4a27c406f4
   unlocks: 
     - Clear as Crystal
   effects:
@@ -250,6 +266,7 @@
           precedence: 3
 
 - title: Clear as Crystal
+  conf: 805eae57-7fe3-417d-9cf7-2dbc5920bf4c
   unlocks: 
     - Swell Swill
   effects:
@@ -260,6 +277,7 @@
       buff: { YieldSizeMultiplier: 1.2 }
 
 - title: Swell Swill
+  conf: 3945b17f-6bbd-4116-b4e0-976d4644d930
   unlocks: 
     - Crystalline Coffer
   effects:
@@ -287,6 +305,7 @@
             art: Cyllicizing Coffee Concoction
 
 - title: Crystalline Coffer
+  conf: 532414bc-dbb0-4268-bc83-3f2d34fe6610
   unlocks: 
     - Something Brewing
   effects:
@@ -313,6 +332,7 @@
             art: Crystalline Buzzwing Boxlet
 
 - title: Something Brewing
+  conf: 432d86b2-e385-467d-9928-637c36ed0714
   unlocks: 
     - Towards the Horizon
   effects:
@@ -323,6 +343,7 @@
       buff: { Neighbor: { YieldSizeMultiplier: 1.1 } }
 
 - title: Towards the Horizon
+  conf: b0dc135c-1d4e-4997-8256-6146fbf079ac
   unlocks: 
     - Caesar's Pride
   effects:
@@ -330,6 +351,7 @@
       buff: { Neighbor: { YieldSizeMultiplier: 1.1 } }
   
 - title: Caesar's Pride
+  conf: d00137dd-99e8-4d98-a41a-b9e76983901e
   unlocks: 
     - Foam Fountain
   effects:
@@ -340,6 +362,7 @@
       buff: { Neighbor: { CraftSpeedMultiplier: 1.1 } }    
 
 - title: Foam Fountain
+  conf: 34ee3361-36b5-45ff-a54b-70e803e5d6ec
   unlocks: 
     - Midas's Masterpiece
   effects:
@@ -361,6 +384,7 @@
             art: Scintillating Cyllicizing Coffee Concoction
 
 - title: Midas's Masterpiece
+  conf: bd3b5e99-bdce-422c-bfc6-882624b488f7
   unlocks: 
     - Orange You Glad?
   effects:
@@ -383,6 +407,7 @@
             art: Crystalline Buzzwing Megabox
 
 - title: Orange You Glad?
+  conf: 0610dff6-b9a6-44d5-a635-ac6ffc420c18
   unlocks: []
   effects:
     - description: >-

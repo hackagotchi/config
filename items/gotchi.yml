@@ -1,5 +1,6 @@
 --- # Gotchi
 - name: Gempheus
+  conf: b5b78bd6-1e68-4272-8f65-a11fea06b688
   description: >-
     The boundless buzzing, crackling energy found in Cyl Crystals manifests itself in Gempheus's personality! That is to say, 
     Gempheus early in the morning is a little more than most people can handle. At least this energy helps your Cyl plants have greater yields!
@@ -13,6 +14,7 @@
       buff: { YieldSizeMultiplier: 1.16 }
 
 - name: Hackpheus
+  conf: 59521c8f-47b4-4ba2-85ee-b1bd09af2645
   description: >-
     Enjoys long hacks on the beach, and thinks that posting her dating profile bio here is somewhat inappropriate. 
     Thankfully, you hear much less profanity from this one, and hear instead bigger and better yields coming your way!
@@ -26,6 +28,7 @@
       buff: { YieldSizeMultiplier: 1.16 }
 
 - name: Chefpheus
+  conf: c0d42a25-af9a-4484-b6d3-95f53d3094b8
   description: >-
     A cute Hackagotchi who is into baking! She can actually only make bread, as we all know from the Great Cake Fire of '19. 
     What she lacks in kitchen skills, however, doesn't affect her ability to cook up a boost to yield size.

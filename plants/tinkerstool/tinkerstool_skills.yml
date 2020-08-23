@@ -1,5 +1,6 @@
 ---
 - title: Tinkerer's Tools
+  conf: 6d4e42d0-d473-4f28-ac48-c568af79badc
   unlocks: 
     - Speedy Spores
   effects:
@@ -107,6 +108,7 @@
           precedence: 0
 
 - title: Speedy Spores
+  conf: 05d8936e-92c9-46e7-8ad2-c4e038bb1146
   unlocks: 
     - Pressing Buttons
   effects:
@@ -114,6 +116,7 @@
       buff: { CraftSpeedMultiplier: 1.05 }
 
 - title: Pressing Buttons
+  conf: 48efd489-c68f-4bef-8bdb-1fa0cbdb1968
   unlocks: 
     - Fast Like a Fungus
   effects:
@@ -123,6 +126,7 @@
       buff: { CraftSpeedMultiplier: 1.05 }
 
 - title: Fast Like a Fungus
+  conf: 8f8816f8-0763-4fd2-bef9-1928e4ae37a8
   unlocks: 
     - Basidia in Bulk
   effects:
@@ -132,6 +136,7 @@
       buff: { CraftSpeedMultiplier: 1.07 }
 
 - title: Basidia in Bulk
+  conf: f4781461-21a3-4f76-a5bc-02e0d92bb81e
   unlocks: 
     - Gilded Girdle
   effects:
@@ -213,6 +218,7 @@
           precedence: 1
 
 - title: Gilded Girdle
+  conf: 1a28f756-44d7-40d6-99d5-90aa99ae7837
   unlocks: 
     - Mycelium Mechanics
   effects:
@@ -222,6 +228,7 @@
       buff: { CraftSpeedMultiplier: 1.07 }
 
 - title: Mycelium Mechanics
+  conf: c8627b8e-b1f0-46f8-9869-a0c6d4bcd8ab
   unlocks: 
     - Scrapyard Shenanigans
   effects:
@@ -231,6 +238,7 @@
       buff: { CraftSpeedMultiplier: 1.08 }
 
 - title: Scrapyard Shenanigans
+  conf: b8f88fe7-6eb6-412a-88c3-20ca3855fcf7
   unlocks: 
     - Toadstool Technology
   effects:
@@ -240,6 +248,7 @@
       buff: { CraftOutputDoubleChance: 0.005 }
 
 - title: Toadstool Technology
+  conf: 5d0cda75-bc89-4343-a645-e6debcf0814b
   unlocks: 
     - Flux Capacitor
   effects:
@@ -256,6 +265,7 @@
           precedence: 2
 
 - title: Flux Capacitor
+  conf: cef851d0-b351-4ad3-b58b-adce58efbe84
   unlocks: 
     - Chanterelle Enchantments
   effects:
@@ -331,6 +341,7 @@
             art: Tinkerspore
 
 - title: Chanterelle Enchantments
+  conf: daee0d0b-92bb-4227-b970-8bbf80c2ae99
   unlocks: 
     - Underground Upgrades
   effects:
@@ -338,6 +349,7 @@
       buff: { CraftSpeedMultiplier: 1.1 }
 
 - title: Underground Upgrades
+  conf: 0787f4e0-8fce-41db-8be5-1712679e3c86
   unlocks: 
     - Largely Licensed
   effects:
@@ -347,6 +359,7 @@
       buff: { CraftSpeedMultiplier: 1.1 }
 
 - title: Largely Licensed
+  conf: c8e5ea03-e20b-4080-811d-7206bb48d97a
   unlocks: 
     - Sporadic Spectacles
   effects:
@@ -356,6 +369,7 @@
       buff: { CraftInputReturnChance: 0.02 }
 
 - title: Sporadic Spectacles
+  conf: f84206fd-c4db-4106-81ed-bc11ebcc51bd
   unlocks: 
     - Amanita Alchemist
   effects:
@@ -409,6 +423,7 @@
           precedence: 3
 
 - title: Amanita Alchemist
+  conf: c6353749-b8ca-487a-ac20-cf9cde065fd9
   unlocks: 
     - Compost Composition
   effects:
@@ -478,6 +493,7 @@
             art: Bractification Brew
 
 - title: Compost Composition
+  conf: f6cbe878-e0b9-43ec-90af-230d6da96503
   unlocks: 
     - Spore Downpour
   effects:
@@ -487,6 +503,7 @@
       buff: { CraftSpeedMultiplier: 1.15 }
 
 - title: Spore Downpour
+  conf: 8bfb6e4c-5450-4a04-b150-3148571034c9
   unlocks: 
     - King of the Craft
   effects:
@@ -496,6 +513,7 @@
       buff: { CraftSpeedMultiplier: 1.15 }
 
 - title: King of the Craft
+  conf: 7db80b83-a8ee-4512-b7e6-d55ed8cd06ff
   unlocks: 
     - Superb Solutions
   effects:
@@ -505,6 +523,7 @@
       buff: { CraftOutputDoubleChance: 0.003 }
 
 - title: Superb Solutions
+  conf: 0fce6f74-cd0e-4227-a258-468af78bfbe3
   unlocks: 
     - In the Hall of the Mushroom King
   effects:
@@ -571,6 +590,7 @@
             art: Powder Keg
 
 - title: In the Hall of the Mushroom King
+  conf: 7e50c455-7567-46a9-acec-907cf814c350
   unlocks: 
     - Land Indeed
   effects:
@@ -595,6 +615,7 @@
             art: Tinkermultitool
 
 - title: Land Indeed
+  conf: 80d342f7-b08a-4cb1-9920-96e0590723c8
   unlocks: []
   effects:
     - description: >-

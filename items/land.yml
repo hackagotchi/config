@@ -1,6 +1,7 @@
 ---
 # -- Land Stuff
 - name: Land Deed
+  conf: 67255ea0-aabb-48cd-ae9a-50749ecd60f7
   description: >-
     A thin piece of paper with enormous power.
     Entitles the holder to a new plot of land,
@@ -8,12 +9,14 @@
   unlocks_land: { requires_xp: true }
 
 - name: Land Grant
+  conf: 40b28b7f-a2a2-49ad-868c-b69c63559634
   description: >-
     This aged parchment is covered with ancient runes that
     allow anyone to summon more land plots, regardless of their experience.
   unlocks_land: { requires_xp: false }
 
 - name: Land Deed Fragment
+  conf: c50bfa5b-5f38-4c9b-9fb3-39688dc69dc4
   description: >-
     A wrinkled fragment of paper which has a surprisingly earthy smell.
     It yearns to be reunited with 998 fragments similar to itself.
