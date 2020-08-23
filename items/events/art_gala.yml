@@ -1,0 +1,22 @@
+---
+- name: Art Gala Egg
+  conf: c3e14ca3-2862-43ff-ad5d-58b4ecc57737
+  description: A special egg for the Fine Arts Gala!
+  hatch_table: { Item: Paintbrush }
+
+- name: Bob Ross Egg
+  conf: abea832c-23f6-472e-ba36-a6281795fef8
+  description: A magical egg imbued with the talents of Bob Ross himself.
+  hatch_table: { Item: Paintbrush }
+
+- name: Art in the Dark Egg
+  conf: 49f3d9f0-8e87-41f1-9683-f7ec3d05c42d
+  description: ""
+
+- name: Orpheus Drawing Egg
+  conf: 8dbbd11e-7526-4a3e-8220-2e7174759a01
+  description: ""
+
+- name: Paintbrush
+  conf: f6201e19-9003-4c2d-a710-e34366f983a8
+  description: A plastic participation trophy for the Fine Arts Gala! It's not recyclable.

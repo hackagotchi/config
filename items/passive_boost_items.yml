@@ -146,3 +146,22 @@
         It somehow makes crafting 24% faster.
       for_plants: { Only: [ Tinkerstool ] }
       buff: { CraftSpeedMultiplier: 1.24 }
+
+- name: Brognark Pendant
+  conf: c58b9f5f-a889-4669-9e87-4adc2823303d
+  description: >-
+    Crudely etched upon this Ancient Amulet are the symbols of the four major Brognarkian deities::
+    Gorbgar the Slaughterer, Bognard the Stomper, Varink the Nabber, and Fordenk the Chanter.
+    While the exact purpose of this ancient artifact remains unknown,
+    is has been fabled to have the ability to slightly boost the speed and size of yields from any plant.
+  passive_plant_effects:
+    - description: >-
+        The haunting glow of the Brognark Pendant increases
+        the yield speed of any plant by 0.165171300764919700743822803694%.
+      for_plants: { Only: [ Tinkerstool ] }
+      buff: { YieldSpeedMultiplier: 1.00165171300764919700743822803694 }
+    - description: >-
+        The haunting glow of the Brognark Pendant increases
+        the yield size of any plant by 0.165171300764919700743822803694%.
+      for_plants: { Only: [ Tinkerstool ] }
+      buff: { YieldSizeMultiplier: 1.00165171300764919700743822803694 }
