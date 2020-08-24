@@ -4,7 +4,7 @@ advancements:
     description: A freshly hacked together Hackstead is what you have here! I see exciting new adventures in the future of this - cuts off - Hackstead!
     achiever_title: Hackstead
     xp: 0
-    land_pieces: 0
+    land_pieces: 1
 
   - advancement_title: Housewarming
     description: Your parents, ever thankful that you finally have moved out of their home, gift you with a credit card that allows you to redeem one more Land Deed!
