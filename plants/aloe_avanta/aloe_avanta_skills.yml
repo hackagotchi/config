@@ -120,6 +120,7 @@
       buff:
         Craft:
           - title: ':rift_powder: Powder Crafting'
+            conf: 7b8f052c-c9ac-46d0-a598-9ad81c202d53
             explanation: This reddish purple powder seems to be even more effective than blue ones.
             needs:
               - [11, Warp Powder]
@@ -129,6 +130,7 @@
             art: Rift Powder
 
           - title: ':warp_powder: Powder Crafting'
+            conf: d8b7da14-77a9-4677-b34a-f7c7d52ce247
             explanation: Using some special techniques, Rift Powder can be decomposed back into Warp Powder!
             needs:
               - [1, Rift Powder]
@@ -138,6 +140,7 @@
             art: Warp Powder
           
           - title: ':wormhole_powder: Powder Crafting'
+            conf: 3577f595-8bae-4f83-9c7d-f7d6e5584177
             explanation: A mixture of both Warp Powder and Rift Powder seems to transmute into a special worm-shaped powder.
             needs:
               - [3, Rift Powder]
@@ -148,6 +151,7 @@
             art: Wormhole Powder
           
           - title: ':wormhole_powder: Powder Crafting'
+            conf: d504511d-7091-42d8-abc3-ea7a11a37b08
             explanation: After further research, your Aloe has figured out how to craft Wormhole Powders from simple Warp Powders.
             needs:
               - [38, Warp Powder]
@@ -157,6 +161,7 @@
             art: Wormhole Powder
 
           - title: ':wormhole_powder: Powder Decomposition'
+            conf: fbfb1bac-35e1-445e-8a40-ba6d4c8afef2
             explanation: Just as Wormhole Powder can be crafted with Rift Powder and Warp Powder, the process can be reversed!
             needs:
               - [1, Wormhole Powder]
@@ -169,6 +174,7 @@
             art: Wormhole Powder
 
           - title: ':aloe_avanta_seed: Seed Decomposition'
+            conf: c7cd3375-3600-4a0b-9faf-266b25d848e0
             explanation: With some black magic, Aloe Avanta Seeds can be grinded up into a variety of powders!
             needs:
               - [1, Aloe Avanta Seed]
@@ -217,6 +223,7 @@
       buff:
         Craft:
           - title: ':powder_keg: Powered Potion'
+            conf: 2b7c1f2e-3cd0-4992-9c0a-7c7401ae8cff
             explanation: >-
               Powders are pretty potent on their own, but to truly bring out their potential, you can make a Powder Keg that boosts their 
               effects by 10%. Craft with a 40% chance of success.
@@ -296,6 +303,7 @@
       buff:
         Craft:
           - title: ':portent_powder_keg: Perfect Potion'
+            conf: 075f3b2c-c1a8-4acb-b920-95f1f8f7beed
             explanation: Pouring copious amounts of Powder into an already powerful, powderful potion makes a Portent Powder Keg that boosts Powder power upon neighbors by 28%.
             needs:
               - [1, Powder Keg]

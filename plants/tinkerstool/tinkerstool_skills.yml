@@ -8,6 +8,7 @@
       buff:
         Craft:
           - title: ':tinkerpart: Learning and Burning'
+            conf: 14a40364-b261-4d8b-92e8-b880c9c1e3dc
             explanation: Burn a Tinkerpart to get some quick XP for your plants! There's also a small chance for something special.
             needs:
               - [1, Tinkerpart]
@@ -21,6 +22,7 @@
             art: Tinkerpart
 
           - title: ':tinkerpart: More Learning and More Burning'
+            conf: 03e9d692-adf8-449d-bd75-801d20bac7ea
             explanation: >-
               After some trial by fire, your Tinkerstool has found more Tinkerparts means more fire and more XP, 
               and a higher chance for a secret drop!
@@ -36,6 +38,7 @@
             art: Tinkerpart
 
           - title: ':tinkerpart: Even More Learning and Even More Burning'
+            conf: f4488797-2691-4e2c-a75f-c533eb23ed58
             explanation: >-
               Arson is truly an educational experience. Burn a bunch of Tinkerparts and get a crazy big fire, 
               some XP, as well as good odds for something extra.
@@ -52,6 +55,7 @@
             art: Tinkerpart
 
           - title: ':tinkerpart: ... This is Getting Out of Hand'
+            conf: 272a014f-57f0-44e1-b730-d1256809352a
             explanation: >-
               Some people want to watch the world burn - it's a learning experience, alright! 
               Burn all the Tinkerparts and watch the XP flow.
@@ -69,6 +73,7 @@
             art: Tinkerpart
 
           - title: ':bressence: bressence'
+            conf: 8a5f8fc1-57b5-4d83-9e49-3b791b9d5a91
             explanation: >-
               With some tools of sorts, your Tinkerstool is able to compress bread essence in a similar manner to
               those of Bractus'.
@@ -80,6 +85,7 @@
             art: bressence
           
           - title: ':hacksprit: hacksprit'
+            conf: 35dd7795-90bf-4e51-864d-9ea63e0698fb
             explanation: >-
               With some tools of sorts, your Tinkerstool is able to compress bread essence in a similar manner to
               those of Hacker Vibes Vine.
@@ -91,6 +97,7 @@
             art: hacksprit
           
           - title: ':crystcyl: crystcyl'
+            conf: 1bd21218-45b1-460c-94c1-e8d4677b519b
             explanation: >-
               With some tools of sorts, your Tinkerstool is able to compress bread essence in a similar manner to
               those of Hacker Vibes Vine.
@@ -146,6 +153,7 @@
       buff:
         Craft:
           - title: ':bressence: bressence Bulk Craft'
+            conf: 1022e8ef-dd87-4eb6-a854-5d45ecc418b8
             explanation: After some Trial and Error, your Tinkerstool has discovered how to utilize tinkerparts to craft bressence in bulk.
             needs:
               - [100, Bread Essence]
@@ -156,6 +164,7 @@
             art: bressence
           
           - title: ':hacksprit: hacksprit Bulk Craft'
+            conf: 2335198a-d752-425c-90ac-9b48a5c8e7e7
             explanation: After some Trial and Error, your Tinkerstool has discovered how to utilize tinkerparts to craft hacksprit in bulk.
             needs:
               - [100, Hacker Spirit]
@@ -166,6 +175,7 @@
             art: hacksprit
 
           - title: ':crystcyl: crystcyl Bulk Craft'
+            conf: 8a06d69d-b918-45ce-a82d-454c4b869aa4
             explanation: After some Trial and Error, your Tinkerstool has discovered how to utilize tinkerparts to craft crystcyl in bulk.
             needs:
               - [100, Cyl Crystal]
@@ -176,6 +186,7 @@
             art: crystcyl
           
           - title: ':bressence: bressence Large Bulk Craft'
+            conf: e8cee0a5-70f0-4cd6-b1b2-6eba7ba680b9
             explanation: >-
               Further experimenting has led your Tinkerstool to discover a method in which tinkerparts can be used at their full potential.
               Your Tinkerstool is now able to craft at most 150 bressence at once, at an expense of 12 tinkerparts!
@@ -188,6 +199,7 @@
             art: bressence
 
           - title: ':hacksprit: hacksprit Large Bulk Craft'
+            conf: c4fa5d61-f845-4d0c-beaf-02f303fe3eb0
             explanation: >-
               Further experimenting has led your Tinkerstool to discover a method in which tinkerparts can be used at their full potential.
               Your Tinkerstool is now able to craft at most 150 hacksprit at once, at an expense of 12 tinkerparts!
@@ -200,6 +212,7 @@
             art: hacksprit
 
           - title: ':crystcyl: crystcyl Large Bulk Craft'
+            conf: ab74ffd6-41e2-4d2e-809c-3241e6f0d302
             explanation: >-
               Further experimenting has led your Tinkerstool to discover a method in which tinkerparts can be used at their full potential.
               Your Tinkerstool is now able to craft at most 150 crystcyl at once, at an expense of 12 tinkerparts!
@@ -276,6 +289,7 @@
       buff:
         Craft:
           - title: ':rift_powder: Powder Synthesis'
+            conf: 8a39669a-6bdb-4757-8f05-346aac885fbd
             explanation: &desc >-
               Using similar techniques to those of Aloe Avanta, this Tinkerstool has gained the ability to ascend the dimension of time, 
               using the special properties of tinkerparts to synthesize and decompose several types of Powders.
@@ -288,6 +302,7 @@
             art: Rift Powder
 
           - title: ':warp_powder: Powder Decomposition'
+            conf: f2cb925d-e0bb-42f6-be92-81482493c00a
             explanation: *desc
             needs:
               - [1, Rift Powder]
@@ -298,6 +313,7 @@
             art: Rift Powder
           
           - title: ':wormhole_powder: Powder Synthesis'
+            conf: 3e4a8f9b-113b-4947-8e72-c7771a456678
             explanation: *desc
             needs:
               - [4, Rift Powder]
@@ -309,6 +325,7 @@
             art: Wormhole Powder
         
           - title: ':wormhole_powder: Powder Synthesis'
+            conf: 351ad789-2cf2-4c83-a171-6f9a5c407938
             explanation: *desc
             needs:
               - [43, Warp Powder]
@@ -319,6 +336,7 @@
             art: Wormhole Powder
           
           - title: ':wormhole_powder: Powder Decomposition'
+            conf: fd69c6fb-a8f1-4bae-8b04-e588aa0b8db9
             explanation: *desc
             needs:
               - [1, Wormhole Powder]
@@ -332,6 +350,7 @@
             art: Wormhole Powder
           
           - title: ':tinkerspore: Tinkerspore Decomposition'
+            conf: ffcfcbf9-028b-45c9-bb82-95f372369b15
             explanation: After a closer inspection, tinkerspores seem to be an amalgamation of several tinkerparts.
             needs:
               - [1, Tinkerspore]
@@ -379,6 +398,7 @@
       buff:
         Craft:
           - title: ':tinkersledge: Tinkersledge Crafting'
+            conf: a3e7f00e-5d4a-4e87-9cf8-8387d85d72a0
             explanation: &desc >-
               It seems that resources from different dimensions can be combined with a surplus of Tinkerparts to create special
               tools for this Tinkerstool!
@@ -393,6 +413,7 @@
             art: Tinkersledge
           
           - title: ':tinkerdriver: Tinkerdriver Crafting'
+            conf: c5d53f30-c547-4768-94ad-541b42ad1c3e
             explanation: *desc
             needs:
               - [30, crystcyl]
@@ -405,6 +426,7 @@
             art: Tinkerdriver
 
           - title: ':tinkerlight: Tinkerlight Crafting'
+            conf: 755fd8b4-360f-4841-9407-c2ad94226361
             explanation: *desc
             needs:
               - [30, crystcyl]
@@ -433,6 +455,7 @@
       buff:
         Craft:
           - title: ':cyllicizing_coffee_concoction: Classic Concoction'
+            conf: fed68e31-54e6-45ad-b45d-87cc8b5e283a
             explanation: >-
               Cook up some concoctions with supports of 6% and 3% to yield speed and size 
               for your Coffea Cyl companions! Craft with a 40% chance of success.
@@ -453,6 +476,7 @@
             art: Cyllicizing Coffee Concoction
 
           - title: ':vibefying_vinefying_elixir: Easy Elixir'
+            conf: 371312b3-e860-4a17-8659-d0261a7c30d3
             explanation: >-
               Ferment some elixirs with fixes of 6% and 3% to yield speed and size 
               for your Hacker Vibes Vine friends! Craft with a 40% chance of success.              
@@ -473,6 +497,7 @@
             art: Vibefying Vinefying Elixir
 
           - title: ':bractification_brew: Bold Brew'
+            conf: 2854d3ec-8963-48aa-a6de-78f65713760d
             explanation: >-
               Boil some brews with boosts of 6% and 3% to yield speed and size for your Bractus buddies! 
               Craft with a 40% chance of success.
@@ -533,6 +558,7 @@
       buff:
         Craft:
           - title: ':tinker_tincture: Alcohol Alchemy'
+            conf: a4ecad00-b2b8-42ec-a776-397d4859ed1d
             explanation: >-
               With bubbling beakers and spinning centrifuges all around, you can make a Tinker Tincture that boosts crafting speed by 8%. 
               Craft with a 50% chance of success.
@@ -554,6 +580,7 @@
             art: Tinker Tincture
           
           - title: ':terrific_tinker_tincture: Amazing Alchemy'
+            conf: c0427f3b-c54f-4be6-bf35-149777dadf52
             explanation: With expert precision, your Tinkerstool can whip up a potent Terrific Tinker Tincture that boosts crafting speed by 24%.
             needs:
               - [1, Tinker Tincture]
@@ -568,6 +595,7 @@
             art: Terrific Tinker Tincture
 
           - title: ':powder_keg: Powered Potion'
+            conf: fe6ce475-52c8-4238-94b3-d505be2aef25
             explanation: >-
               Powders are pretty potent on their own, but to truly bring out their potential, you can make a Powder Keg that boosts their effects by 10%. 
               Craft with a 50% chance of success.
@@ -600,6 +628,7 @@
       buff:
         Craft:
           - title: ':tinkermultitool: Tinker Multi Tool Composition'
+            conf: d427e3c8-57f9-4086-a83b-c2857496edaa
             explanation: *desc
             needs:
               - [80, bressence]
@@ -625,6 +654,7 @@
       buff:
         Craft:
           - title: ':land_deed: Land Deed Crafting'
+            conf: e8dcf07e-ca68-40fc-9e3f-99fc2b0c9813
             explanation: Combine 999 land deed fragments and 99 tinkerparts in a spectacular explosion to create the all powerful Land Deed!
             needs:
               - [999, Land Deed Fragment]

@@ -70,6 +70,7 @@
       buff:
         Craft:
           - title: ':bressence: bressence!'
+            conf: 7243c804-8bf8-4127-a663-fff925bc34e9
             explanation: Compressing your bread makes it quite handy for crafting with!
             needs:
               - [5, Bread Essence]
@@ -168,6 +169,7 @@
       buff:
         Craft:
           - title: ':doughy_buzzwing_bagling: Bagling Breakdown'
+            conf: 98f78858-867f-4b6f-af33-7b10f231ffc5
             explanation: >-
               Craft your Doughy Buzzwing Baglings with a bressence for a 40% chance to get loot, a 36% chance to upgrade to a Boxling of another kind, 
               or a 24% chance to transform into a Bagling of another kind.
@@ -219,6 +221,7 @@
       buff:
         Craft:
           - title: ':doughy_buzzwing_boxling: Boxling Breakdown'
+            conf: 6db4e5bc-bdb1-4523-9140-26038298ddb0
             explanation: >-
               Craft your Doughy Buzzwing Boxlings with 3 bressence for an 32% chance to get loot, a 30% chance to upgrade to a Boxlet of another kind, 
               or a 38% chance to transform into a Boxling of another kind
@@ -248,6 +251,7 @@
       buff:
         Craft:
           - title: ':bread_egg:/:hacker_egg:/:cyl_egg: Egg Craft When'
+            conf: edfac6f0-6637-483c-96f7-613a172cc8e8
             explanation: >-
               With some resources from far outside of the desert, 
               you can sacrifice your plant in exchange for an egg of an unpredictable variety, 
@@ -293,6 +297,7 @@
       buff:
         Craft:
           - title: ':bractification_brew: Basic Brew'
+            conf: 4c886845-1b8b-4a5d-85ff-a666d49a641f
             explanation: >-
               Boil some brews with boosts of 6% and 3% to yield speed and size for your Bractus buddies! 
               Craft with a 25% chance of success.
@@ -319,6 +324,7 @@
       buff:
         Craft:
           - title: ':doughy_buzzwing_boxlet: Boxlet Breakdown'
+            conf: 868f7adb-2583-4f42-a4cf-8d924ab458f7
             explanation: >-
               Craft your Doughy Buzzwing Boxlets with 6 bressence for a 24% chance to get loot, a 22% chance to upgrade to a Megabox of another kind, 
               or a 54% chance to transform into a Boxlet of another kind.
@@ -382,6 +388,7 @@
       buff:
         Craft:
           - title: ':bold_bractification_brew: Bold Brew'
+            conf: a535ac96-992f-48e1-8293-c1c02a5fae7f
             explanation: Drop some courage into that liquid courage to make a potion which turns plants into Bracti!
             needs:
               - [1, Bractification Brew]
@@ -402,6 +409,7 @@
       buff:
         Craft:
           - title: ':doughy_buzzwing_megabox: Megabox Breakdown'
+            conf: ed3a5863-5599-46a6-b8be-f544ef9b72d4
             explanation: Craft your Doughy Buzzwing Megaboxes with 11 bressence for a 16% chance to get loot or a 84% chance to transform into a Megabox of another kind.
             needs:
               - [11, bressence]
@@ -426,6 +434,7 @@
       buff:
         Craft:
           - title: ':kingpin: Kingpin Crafting'
+            conf: 3b5071e7-a0bf-473b-a94b-ff454dd1387b
             explanation: Craft a Kingpin with even moar boosts than a Rolling Pin!
             needs:
               - [120, hacksprit]

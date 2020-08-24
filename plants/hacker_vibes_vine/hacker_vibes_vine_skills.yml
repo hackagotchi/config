@@ -65,6 +65,7 @@
       buff:
         Craft:
           - title: ':hacksprit: hacksprit!'
+            conf: 81ecf7c1-488e-40d7-b277-77ef5b0188b0
             explanation: >-
               Hacker spirit seems to fit together into a cube-like shape when combined with duct tape. 
               These cubes seem to be especially useful for more advanced crafting!
@@ -158,6 +159,7 @@
       buff:
         Craft:
           - title: ':spirited_buzzwing_bagling: Bagling Breakdown'
+            conf: 6ce5f0a6-a0b3-41ab-94a2-8249a8ec856d
             explanation: >-
               Craft your Spirited Buzzwing Baglings with a hacksprit for a 40% chance to get loot, a 36% chance to upgrade to a Boxling of another kind, 
               or a 24% chance to transform into a Bagling of another kind.
@@ -203,6 +205,7 @@
       buff:
         Craft:
           - title: ':spirited_buzzwing_boxling: Boxling Breakdown'
+            conf: 421653d8-e82a-4a39-af1d-c9cc3fe15e3c
             explanation: >-
               Craft your Spirited Buzzwing Boxlings with 3 hacksprit for an 32% chance to get loot, a 30% chance to upgrade to a Boxlet of another kind, 
               or a 38% chance to transform into a Boxling of another kind
@@ -232,6 +235,7 @@
       buff:
         Craft:
           - title: ':bread_egg:/:hacker_egg:/:cyl_egg: Egg Craft When'
+            conf: be7ae7ad-d66a-4c6a-bf27-eccbe91f4f2d
             explanation: >-
               With some resources from far outside of the jungle, 
               you can sacrifice your plant in exchange for an egg of an unpredictable variety, 
@@ -275,6 +279,7 @@
       buff:
         Craft:
           - title: ':vibefying_vinefying_elixir: Easy Elixir'
+            conf: 513de0dd-9204-4229-aba7-b8d06c5baa7a
             explanation: Ferment some elixirs with fixes of 6% and 3% to yield speed and size for your Hacker Vibes Vine friends! Craft with a 25% chance of success.
             needs:
               - [3, Volatile Vial]
@@ -299,6 +304,7 @@
       buff:
         Craft:
           - title: ':spirited_buzzwing_boxlet: Boxlet Breakdown'
+            conf: c2604a23-bf89-4c25-a6c8-8eaee70da3e6
             explanation: >-
               Craft your Spirited Buzzwing Boxlets with 6 hacksprit for a 24% chance to get loot, a 22% chance to upgrade to a Megabox of another kind, 
               or a 54% chance to transform into a Boxlet of another kind.
@@ -358,6 +364,7 @@
       buff:
         Craft:
           - title: ':vivifying_vibefying_vinefying_elixir: Extravagant Elixir'
+            conf: 580bc982-1854-4cf0-876f-334f0c7ce7de
             explanation: Boiling up this fanciful, green liquid with the right ingredients makes a Vine juice so potent, it transforms plants into Vines themselves!
             needs:
               - [1, Vibefying Vinefying Elixir]
@@ -378,6 +385,7 @@
       buff:
         Craft:
           - title: ':spirited_buzzwing_megabox: Megabox Breakdown'
+            conf: 41c456c2-a5a9-4e77-870f-0e88b053cca0
             explanation: Craft your Spirited Buzzwing Megaboxes with 11 hacksprit for a 16% chance to get loot or a 84% chance to transform into a Megabox of another kind.
             needs:
               - [11, hacksprit]
@@ -402,6 +410,7 @@
       buff:
         Craft:
           - title: ':jungleboard: Jungleboard Crafting'
+            conf: 3d44fea0-29f2-4c58-8b96-a9efe359efc5
             explanation: Craft a Jungleboard with even moar boosts than a Cyl Wand!
             needs:
               - [120, bressence]

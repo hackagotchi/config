@@ -69,6 +69,7 @@
       buff:
         Craft:
           - title: ':crystcyl: crystcyl!'
+            conf: 5b18370d-5604-4fdb-b303-8f8b98a720ba
             explanation: Compressing your raw cyl crystals into crystal cubes seems to be useful for further crafting.
             needs:
               - [5, Cyl Crystal]
@@ -164,6 +165,7 @@
       buff:
         Craft:
           - title: ':crystalline_buzzwing_bagling: Bagling Breakdown'
+            conf: 64d83924-8efd-415a-9920-a4f880f56b00
             explanation: >-
               Craft your Crystalline Buzzwing Baglings with a crystcyl for a 40% chance to get loot, a 36% chance to upgrade to a Boxling of another kind, 
               or a 24% chance to transform into a Bagling of another kind.
@@ -212,6 +214,7 @@
       buff:
         Craft:
           - title: ':crystalline_buzzwing_boxling: Boxling Breakdown'
+            conf: 28bb7498-c6e5-46df-8fe3-3a343da3725c
             explanation: >-
               Craft your Crystalline Buzzwing Boxlings with 3 crystcyl for an 32% chance to get loot, a 30% chance to upgrade to a Boxlet of another kind, 
               or a 38% chance to transform into a Boxling of another kind
@@ -241,6 +244,7 @@
       buff:
         Craft:
           - title: ':bread_egg:/:hacker_egg:/:cyl_egg: Egg Craft When'
+            conf: 07b66124-16bb-43e2-a492-9fbb59ec8876
             explanation: >-
               With some resources from far outside of the Cyl Dimension, 
               you can sacrifice your plant in exchange for an egg of an unpredictable variety, 
@@ -287,6 +291,7 @@
       buff:
         Craft:
           - title: ':cyllicizing_coffee_concoction: Classic Concoction'
+            conf: ee90d6f2-f879-49bd-b2a5-1abd8eec0e44
             explanation: >-
               Cook up some concoctions with supports of 6% and 3% to yield speed and size for your Coffea Cyl companions! 
               Craft with a 25% chance of success.
@@ -313,6 +318,7 @@
       buff:
         Craft:
           - title: ':crystalline_buzzwing_boxlet: Boxlet Breakdown'
+            conf: 15980b67-eac4-4589-88e7-66ab5e204dae
             explanation: >-
               Craft your Crystalline Buzzwing Boxlets with 6 crystcyl for a 24% chance to get loot, a 22% chance to upgrade to a Megabox of another kind, 
               or a 54% chance to transform into a Boxlet of another kind.
@@ -372,6 +378,7 @@
       buff:
         Craft:
           - title: ':scintillating_cyllicizing_coffee_concoction: Complex Concoction'
+            conf: 92faad28-55f2-4da8-9d57-6d2d1e0fb238
             explanation: Create a crazy coffee mixture that can change plants into Coffea Cyl!
             needs:
               - [1, Cyllicizing Coffee Concoction]
@@ -392,6 +399,7 @@
       buff:
         Craft:
           - title: ':crystalline_buzzwing_megabox: Megabox Breakdown'
+            conf: a22ac900-a65f-4bd8-ad9a-52fbb8e5d64c
             explanation: Craft your Crystalline Buzzwing Megaboxes with 11 crystcyl for a 16% chance to get loot or a 84% chance to transform into a Megabox of another kind.
             needs:
               - [11, crystcyl]
@@ -416,6 +424,7 @@
       buff:
         Craft:
           - title: ':cytrus_staff: Cytrus Staff Crafting'
+            conf: e6fea6b5-0e09-4d02-a3b0-693401e052a4
             explanation: Craft a Cytrus Staff with even moar boosts than a Cyl Wand!
             needs:
               - [120, bressence]
