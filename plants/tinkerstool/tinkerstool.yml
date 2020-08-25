@@ -2,7 +2,6 @@
 name: Tinkerstool
 conf: a2235657-d7ab-4260-9d92-d13f53de750f
 skillpoint_unlock_xps:
-  - 0
   - 4000
   - 8800
   - 18400

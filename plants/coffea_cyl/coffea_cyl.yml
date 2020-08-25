@@ -3,7 +3,6 @@ name: Coffea Cyl
 conf: c3640b32-84a0-4b16-a00a-9d521cfc7a2e
 base_yield_duration: 4320.0
 skillpoint_unlock_xps:
-  - 0
   - 120
   - 280
   - 480
