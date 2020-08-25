@@ -1,5 +1,6 @@
 ---
 - title: Baked Like a Bractus
+  start_unlocked: true
   conf: 4e9d5d55-ede3-43e9-8e5a-b2a84baf6b29
   unlocks:
     - Doughy Drought

@@ -1,5 +1,6 @@
 ---
 - title: Ivy Initiation
+  start_unlocked: true
   conf: da323a4a-0c54-4288-a885-b1ca12552d14
   unlocks: 
     - Really Got a Hold on Me

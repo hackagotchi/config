@@ -1,5 +1,6 @@
 ---
 - title: Crystal-less Chrysalis
+  start_unlocked: true
   conf: 1528421e-303d-400a-8ade-c51c2ff9b755
   unlocks:
     - Intelligent Investment

@@ -1,5 +1,6 @@
 ---
 - title: Tinkerer's Tools
+  start_unlocked: true
   conf: 6d4e42d0-d473-4f28-ac48-c568af79badc
   unlocks: 
     - Speedy Spores

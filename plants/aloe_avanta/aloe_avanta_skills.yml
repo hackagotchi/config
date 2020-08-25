@@ -1,5 +1,6 @@
 ---
 - title: In the Dust
+  start_unlocked: true
   conf: 1e59806a-dc23-4f94-83ba-20dd81f06d78
   unlocks:
     - Wading In
