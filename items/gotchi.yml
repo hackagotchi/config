@@ -40,3 +40,16 @@
         Only: [ Bractus ]
       description: &desc Having a Chefpheus increases the yield size of this Bractus 16%!
       buff: { YieldSizeMultiplier: 1.16 }
+- name: Tinkerpheus
+  conf: ec9c0c51-d3fb-4b75-90fd-a4e823647d7d
+  description: >-
+    A Hackagotchi who has a seemingly boundless imagination. Enjoys tinkering with small bits of scrap and building with 
+    tools made of stools.
+  gotchi:
+    base_happiness: 3
+  passive_plant_effects:
+    - 
+      for_plants:
+        Only: [ Tinkerstool ]
+      description: &desc Having a Tinkerpheus increases the yield size of this Tinkerstool by 10%!
+      buff: { YieldSizeMultiplier: 1.10 }
